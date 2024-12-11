@@ -1,0 +1,18 @@
+////////////////////////////////////////
+// Kiser Jhaeri (Top Floor)
+////////////////////////////////////////
+
+////////////////////////////////////////
+// Attack Forces Dialogue
+////////////////////////////////////////
+
+IF
+  AttackedBy([GOODCUTOFF],DEFAULT)
+  See([PC])
+  Allegiance(Myself,NEUTRAL)
+  Global("Attacked","LOCALS",0)
+THEN
+  RESPONSE #100
+    SetGlobal("Attacked","LOCALS",1)
+    StartDialogueNoSet([PC])
+END

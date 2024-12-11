@@ -1,0 +1,42 @@
+IF
+  Dead("SEVPAT03")  // Pooky
+  AreaType(OUTDOOR)
+  AreaType(CITY)
+  CombatCounter(0)
+  Global("b#PookyParents","GLOBAL",0)
+  OR(2)
+    GlobalLT("Chapter","GLOBAL",4)
+    GlobalGT("Chapter","GLOBAL",5)
+THEN
+  RESPONSE #100
+    IncrementGlobal("b#PookyParents","GLOBAL",1)
+    SetGlobalTimer("b#PookyParentsTimer","GLOBAL",ONE_DAY)
+END
+
+IF
+  AreaType(OUTDOOR)
+  AreaType(CITY)
+  CombatCounter(0)
+  Global("b#PookyParents","GLOBAL",1)
+  GlobalTimerExpired("b#PookyParentsTimer","GLOBAL")
+  OR(2)
+    GlobalLT("Chapter","GLOBAL",4)
+    GlobalGT("Chapter","GLOBAL",5)
+THEN
+  RESPONSE #100
+    IncrementGlobal("b#PookyParents","GLOBAL",1)
+    CreateCreatureObjectOffset("b#pdad",Player1,[75.100])  // Walter
+    CreateVisualEffectObject("SPDIMNDR","b#pkydad")
+    ActionOverride("b#pdad",FaceObject(Player1))
+    CreateCreatureObjectOffset("b#pmom",Player1,[-75.100])  // Martha
+    CreateVisualEffectObject("SPDIMNDR","b#pkymom")
+    ActionOverride("b#pmom",FaceObject(Player1))
+END
+
+IF
+  Global("b#PookyParentsTalked","GLOBAL",1)
+THEN
+  RESPONSE #100
+    IncrementGlobal("b#PookyParentsTalked","GLOBAL",1)
+    DisplayString(Player1,@117)
+END

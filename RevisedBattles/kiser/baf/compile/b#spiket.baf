@@ -1,0 +1,14 @@
+////////////////////////////////////////
+// Spike Trap
+////////////////////////////////////////
+
+IF
+  IsOverMe([PC])
+  Global("Triggered","LOCALS",0)
+THEN
+  RESPONSE #100
+    IncrementGlobal("Triggered","LOCALS",1)
+    ApplyDamage(LastTrigger,100,PIERCING)
+END
+
+// Insert instant kill summons here

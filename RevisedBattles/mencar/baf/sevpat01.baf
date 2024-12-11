@@ -1,0 +1,84 @@
+
+////////////////////////////////////////
+// Detect Invisible Enemies
+////////////////////////////////////////
+
+// See (Close By) & Can Cast
+
+IF
+  Detect([PC])
+  !See([PC])
+  Allegiance(Myself,ENEMY)
+  Allegiance(LastSeenBy(Myself),PC)
+  !Difficulty(EASIEST)
+  OR(6)
+    !See(LastSeenBy(Myself))
+    StateCheck([PC],STATE_INVISIBLE)
+    StateCheck([PC],STATE_IMPROVEDINVISIBILITY)
+  !GlobalTimerNotExpired("Cast","LOCALS")
+THEN
+  RESPONSE #100
+    DisplayStringHead(Myself,@72)
+    ReallyForceSpell(Myself,WIZARD_TRUE_SIGHT)
+END
+
+////////////////////////////////////////
+// Create & Use POTN52
+////////////////////////////////////////
+
+IF
+  HPPercentLT(Myself,76)
+  !GlobalTimerNotExpired("Cast","LOCALS")
+THEN
+  RESPONSE #100
+    SetGlobalTimer("Cast","LOCALS",6)
+    GiveItemCreate("potn52",Myself,1,0,0)
+    DisplayStringHead(Myself,46150)
+    UseItem("potn52",Myself)
+END
+
+////////////////////////////////////////
+// Barbarian Rage &/or Attack
+////////////////////////////////////////
+
+// Use Ability
+
+IF
+  See([PC])
+  Allegiance(Myself,ENEMY)
+  Allegiance(LastSeenBy(Myself),PC)
+  Range(LastSeenBy(Myself),6)
+  HaveSpell(BARBARIAN_RAGE)
+  !GlobalTimerNotExpired("Cast","LOCALS")
+THEN
+  RESPONSE #100
+    SetGlobalTimer("Cast","LOCALS",6)
+    ForceSpell(Myself,BARBARIAN_RAGE)
+END
+
+// Attack
+
+IF
+  See([PC])
+  Allegiance(Myself,ENEMY)
+  Allegiance(LastSeenBy(Myself),PC)
+THEN
+  RESPONSE #100
+    Attack(LastSeenBy(Myself))
+END
+
+////////////////////////////////////////
+// Fighting Summons
+////////////////////////////////////////
+
+// Attack Summons If No PC
+
+IF
+  !See([PC])
+  !Detect([PC])
+  Allegiance(Myself,ENEMY)
+  See([GOODCUTOFF.0.0.0.0.SUMMONED])
+THEN
+  RESPONSE #100
+    Attack(LastSeenBy(Myself))
+END

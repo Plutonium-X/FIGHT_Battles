@@ -1,0 +1,53 @@
+////////////////////////////////////////
+// Give Dialogue
+////////////////////////////////////////
+
+IF
+  Detect(Player1)
+  Global("Talked","LOCALS",0)
+THEN
+  RESPONSE #100
+    IncrementGlobal("Talked","LOCALS",1)
+    StartDialogNoSet(Player1)
+END
+
+////////////////////////////////////////
+// Go Hostile
+////////////////////////////////////////
+
+IF
+  Detect([PC])
+  !Allegiance(Myself,ENEMY)
+THEN
+  RESPONSE #100
+    Wait(2)
+    Enemy()
+END
+
+////////////////////////////////////////
+// Create & Use POTN52
+////////////////////////////////////////
+
+IF
+  HPPercentLT(Myself,76)
+  !GlobalTimerNotExpired("Cast","LOCALS")
+THEN
+  RESPONSE #100
+    SetGlobalTimer("Cast","LOCALS",6)
+    GiveItemCreate("potn52",Myself,1,0,0)
+    DisplayStringHead(Myself,46150)
+    UseItem("potn52",Myself)
+END
+
+////////////////////////////////////////
+// Archer Attack
+////////////////////////////////////////
+
+IF
+  See([PC])
+  Allegiance(Myself,ENEMY)
+  Allegiance(LastSeenBy(Myself),PC)
+THEN
+  RESPONSE #100
+    Attack(LastSeenBy(Myself))
+END

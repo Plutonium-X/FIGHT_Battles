@@ -1,0 +1,27 @@
+////////////////////////////////////////
+// Use Specials
+////////////////////////////////////////
+
+IF
+  Range(NearestEnemyOf(Myself),1)
+  Allegiance(Myself,ENEMY)
+  HaveSpell(GREATER_WHIRLWIND_ATTACK)
+  !GlobalTimerNotExpired("Cast","LOCALS")
+THEN
+  RESPONSE #100
+    SetGlobalTimer("Cast","LOCALS",6)
+    Spell(Myself,GREATER_WHIRLWIND_ATTACK)
+END
+
+////////////////////////////////////////
+// Attack Enemy/Backstab
+////////////////////////////////////////
+
+IF
+  See([PC])
+  Allegiance(Myself,ENEMY)
+  Allegiance(LastSeenBy(Myself),PC)
+THEN
+  RESPONSE #100
+    Attack(LastSeenBy(Myself))
+END

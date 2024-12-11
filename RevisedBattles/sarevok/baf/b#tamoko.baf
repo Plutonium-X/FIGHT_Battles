@@ -1,0 +1,99 @@
+////////////////////////////////////////
+// Self Destroy
+////////////////////////////////////////
+
+IF
+  Die()
+THEN
+  RESPONSE #100
+    CreateVisualEffectObject("SPFLESHS",Myself)
+    DestroySelf()
+END
+
+////////////////////////////////////////
+// Detect Invisible Enemies
+////////////////////////////////////////
+
+// Hear (Far Away)
+
+IF
+  Heard([ANYONE],111)
+THEN
+  RESPONSE #100
+    MoveToObject(NearestEnemyOf(Myself))
+END
+
+// See (Close By)
+
+IF
+  Detect([PC])
+  Allegiance(Myself,ENEMY)
+  Allegiance(LastSeenBy(Myself),PC)
+  OR(6)
+    !See(LastSeenBy(Myself))
+    StateCheck([PC],STATE_INVISIBLE)
+    StateCheck([PC],STATE_IMPROVEDINVISIBILITY)
+THEN
+  RESPONSE #100
+    DisplayStringHead(Myself,26703)
+    MoveToObject(LastSeenBy(Myself))
+END
+
+////////////////////////////////////////
+// Create & Use POTN52
+////////////////////////////////////////
+
+IF
+  HPPercentLT(Myself,76)
+  !GlobalTimerNotExpired("Cast","LOCALS")
+THEN
+  RESPONSE #100
+    SetGlobalTimer("Cast","LOCALS",6)
+    GiveItemCreate("potn52",Myself,1,0,0)
+    DisplayStringHead(Myself,46150)
+    UseItem("potn52",Myself)
+END
+
+////////////////////////////////////////
+// Kensai Kia
+////////////////////////////////////////
+
+// Use Ability
+
+IF
+  See([PC])
+  Allegiance(Myself,ENEMY)
+  Range(LastSeenBy(Myself),6)
+  HaveSpell(KENSAI_KIA)
+  !GlobalTimerNotExpired("Cast","LOCALS")
+THEN
+  RESPONSE #100
+    SetGlobalTimer("Cast","LOCALS",6)
+    ForceSpell(Myself,KENSAI_KIA)
+END
+
+// Attack
+
+IF
+  See([PC])
+  Allegiance(Myself,ENEMY)
+  Allegiance(LastSeenBy(Myself),PC)
+THEN
+  RESPONSE #100
+    Attack(LastSeenBy(Myself))
+END
+
+////////////////////////////////////////
+// Fighting Allies & Summons
+////////////////////////////////////////
+
+// Attacked By Party Member, Ally or Summons
+
+IF
+  AttackedBy([GOODCUTOFF],DEFAULT)
+  !Allegiance(Myself,ENEMY)
+THEN
+  RESPONSE #100
+    Enemy()
+    Attack(LastAttackerOf(Myself))
+END

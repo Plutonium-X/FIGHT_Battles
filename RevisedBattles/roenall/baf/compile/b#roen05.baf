@@ -1,0 +1,36 @@
+////////////////////////////////////////
+// Roenall Army
+////////////////////////////////////////
+
+IF
+  Die()
+THEN
+  RESPONSE #100
+    IncrementGlobal("b#roen","GLOBAL",1)
+END
+
+////////////////////////////////////////
+// Attack
+////////////////////////////////////////
+
+IF
+  See(NearestEnemyOf(Myself))
+THEN
+  RESPONSE #100
+    AttackReevaluate(NearestEnemyOf(Myself),30)
+END
+
+////////////////////////////////////////
+// Create & Use POTN52
+////////////////////////////////////////
+
+IF
+  HPPercentLT(Myself,76)
+  !GlobalTimerNotExpired("Cast","LOCALS")
+THEN
+  RESPONSE #100
+    SetGlobalTimer("Cast","LOCALS",6)
+    GiveItemCreate("potn52",Myself,1,0,0)
+    DisplayStringHead(Myself,46150)
+    UseItem("potn52",Myself)
+END

@@ -1,0 +1,65 @@
+////////////////////////////////////////
+// Go Hostile
+////////////////////////////////////////
+
+IF
+  Detect([PC])
+  !Allegiance(Myself,ENEMY)
+THEN
+  RESPONSE #100
+    Wait(2)
+    Enemy()
+END
+
+////////////////////////////////////////
+// Buff
+////////////////////////////////////////
+
+IF
+  See(NearestEnemyOf(Myself))
+  Allegiance(Myself,ENEMY)
+  Allegiance(LastSeenBy(Myself),PC)
+  Global("Buffed","LOCALS",0)
+THEN
+  RESPONSE #100
+    SetGlobal("Buffed","LOCALS",1)
+    DisplayString(Myself,@74)
+    ReallyForceSpell(Myself,WIZARD_SPELL_IMMUNITY_ABJURATION)
+    ReallyForceSpell(Myself,WIZARD_PROTECTION_FROM_MAGIC_WEAPONS)
+    ReallyForceSpell(Myself,WIZARD_SPELL_TRAP)
+END
+
+////////////////////////////////////////
+// Heal
+////////////////////////////////////////
+
+IF
+  HPPercentLT(Myself,51)
+  !GlobalTimerNotExpired("Cast","LOCALS")
+THEN
+  RESPONSE #100
+    SetGlobalTimer("Cast","LOCALS",6)
+    GiveItemCreate("potn52",Myself,1,0,0)
+    DisplayStringHead(Myself,46150)
+    UseItem("potn52",Myself)
+END
+
+////////////////////////////////////////
+// Mitchmc Script
+////////////////////////////////////////
+
+IF
+  See(NearestEnemyOf(Myself))
+  Allegiance(Myself,ENEMY)
+  Allegiance(LastSeenBy(Myself),PC)
+  !GlobalTimerNotExpired("Cast","LOCALS")
+THEN
+  RESPONSE #100
+    SetGlobalTimer("Cast","LOCALS",6)
+    ForceSpell(LastSeenBy(Myself),WIZARD_BREACH)
+    Wait(3)
+    DisplayString(Myself,@73)
+    ReallyForceSpell(LastSeenBy(Myself),WIZARD_FLAME_ARROW)
+    ReallyForceSpell(LastSeenBy(Myself),WIZARD_FLAME_ARROW)
+    ReallyForceSpell(LastSeenBy(Myself),WIZARD_FLAME_ARROW)
+END

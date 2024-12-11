@@ -1,0 +1,58 @@
+IF
+  Global("b#roen","GLOBAL",6)
+  Global("b#roen2","GLOBAL",0)
+THEN
+  RESPONSE #100
+    StartCutSceneMode()
+    IncrementGlobal("b#roen2","GLOBAL",1)
+    ClearAllActions()
+    DisplayStringHead("kproen01",@83)
+    ReallyForceSpell("kproen01",CLERIC_HEAL)
+    Wait(2)
+    CreateCreatureObjectEffect("b#roen02","SPDIMNDR",Myself)
+    CreateCreatureObjectEffect("b#roen02","SPDIMNDR",Myself)
+    CreateCreatureObjectEffect("b#roen04","SPDIMNDR",Myself)
+    CreateCreatureObjectEffect("b#roen04","SPDIMNDR",Myself)
+    CreateCreatureObjectEffect("b#roen05","SPDIMNDR",Myself)
+    CreateCreatureObjectEffect("b#roen05","SPDIMNDR",Myself)
+    CreateCreatureObjectEffect("b#roen05","SPDIMNDR",Myself)
+    CreateCreatureObjectEffect("b#roen06","SPDIMNDR",Myself)
+    CreateCreatureObjectEffect("b#roen06","SPDIMNDR",Myself)
+    CreateCreatureObjectEffect("b#roen06","SPDIMNDR",Myself)
+    DisplayStringHead("kproen01",@80)
+    EndCutSceneMode()
+END
+
+// army gone and kill roenall
+
+IF
+  HasItem("MINHP1",Myself)
+  Global("b#roen","GLOBAL",16)
+  Global("b#roen2","GLOBAL",1)
+THEN
+  RESPONSE #100
+    StartCutSceneMode()
+    IncrementGlobal("b#roen2","GLOBAL",1)
+    ClearAllActions()
+    DisplayStringHead("kproen01",@81)
+    Wait(2)
+    DisplayStringHead([PC],@82)
+    DestroyItem("MINHP1")
+    ReallyForceSpell("kproen01",CLERIC_HEAL)
+    EndCutSceneMode()
+END
+
+////////////////////////////////////////
+// Create & Use POTN52
+////////////////////////////////////////
+
+IF
+  HPPercentLT(Myself,76)
+  !GlobalTimerNotExpired("Cast","LOCALS")
+THEN
+  RESPONSE #100
+    SetGlobalTimer("Cast","LOCALS",6)
+    GiveItemCreate("potn52",Myself,1,0,0)
+    DisplayStringHead(Myself,46150)
+    UseItem("potn52",Myself)
+END

@@ -1,0 +1,87 @@
+////////////////////////////////////////
+// Create Helpers
+////////////////////////////////////////
+
+IF
+  See(NearestEnemyOf(Myself))
+  Global("CalledFriends","LOCALS",0)
+THEN
+  RESPONSE #100
+    StartCutSceneMode()
+    SetGlobal("CalledFriends","LOCALS",1)
+    DisplayStringHead(Myself,@10)
+    Wait(2)
+    CreateVisualEffect("spdimndr",[605.675])
+    CreateVisualEffect("spdimndr",[350.685])
+    CreateVisualEffect("spdimndr",[690.515])
+    CreateVisualEffect("spdimndr",[445.525])
+    Wait(2)
+    CreateCreature("b#tazok",[605.675],14)
+    CreateCreature("b#tamoko",[350.685],13)
+    CreateCreature("b#angelo",[690.515],15)
+    CreateCreature("b#semaj",[445.525],14)
+    Wait(1)
+    EndCutSceneMode()
+END
+
+////////////////////////////////////////
+// Helpers Die
+////////////////////////////////////////
+
+IF
+  Dead("b#angelo")
+  Global("DeadAngelo","LOCALS",0)
+THEN
+  RESPONSE #100
+    SetGlobal("DeadAngelo","LOCALS",1)
+    DisplayStringHead(Myself,@11)
+END
+
+IF
+  Dead("b#semaj")
+  Global("DeadSemaj","LOCALS",0)
+THEN
+  RESPONSE #100
+    SetGlobal("DeadSemaj","LOCALS",1)
+    DisplayStringHead(Myself,@12)
+END
+
+IF
+  Dead("b#tamoko")
+  Global("DeadTamoko","LOCALS",0)
+THEN
+  RESPONSE #100
+    SetGlobal("DeadTamoko","LOCALS",1)
+    DisplayStringHead(Myself,@13)
+END
+
+IF
+  Dead("b#tazok")
+  Global("DeadTazok","LOCALS",0)
+THEN
+  RESPONSE #100
+    SetGlobal("DeadTazok","LOCALS",1)
+    DisplayStringHead(Myself,@14)
+END
+
+////////////////////////////////////////
+// Helpers All Dead
+////////////////////////////////////////
+
+IF
+  Dead("b#angelo")
+  Dead("b#semaj")
+  Dead("b#tamoko")
+  Dead("b#tazok")
+  HasItem("MINHP1",Myself)
+THEN
+  RESPONSE #100
+    StartCutSceneMode()
+    DisplayStringHead(Myself,@15)
+    Wait(2)
+    CreateVisualEffectObject("spsarmor",Myself)
+    DestroyItem("MINHP1")
+    Wait(2)
+    EndCutSceneMode()
+    DisplayStringHead(Player1,@16)
+END

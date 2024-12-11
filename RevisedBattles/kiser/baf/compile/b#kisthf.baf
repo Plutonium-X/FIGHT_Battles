@@ -1,0 +1,102 @@
+////////////////////////////////////////
+// Thief
+////////////////////////////////////////
+
+////////////////////////////////////////
+// Detect Enemy
+////////////////////////////////////////
+
+IF
+  Heard([ANYONE],111)
+THEN
+  RESPONSE #100
+    MoveToObject(NearestEnemyOf(Myself))
+END
+
+IF
+  Detect([PC])
+  Allegiance(Myself,ENEMY)
+  !Allegiance(LastSeenBy(Myself),ENEMY)
+  OR(6)
+    !See(LastSeenBy(Myself))
+    StateCheck([PC],STATE_INVISIBLE)
+    StateCheck([PC],STATE_IMPROVEDINVISIBILITY)
+THEN
+  RESPONSE #100
+    DisplayStringHead(Myself,26703)
+    MoveToObject(LastSeenBy(Myself))
+END
+
+////////////////////////////////////////
+// Use Items
+////////////////////////////////////////
+
+IF
+  HPPercentLT(Myself,76)
+  !GlobalTimerNotExpired("Cast","LOCALS")
+THEN
+  RESPONSE #100
+    SetGlobalTimer("Cast","LOCALS",6)
+    GiveItemCreate("potn52",Myself,1,0,0)
+    DisplayStringHead(Myself,46150)
+    UseItem("potn52",Myself)
+END
+
+////////////////////////////////////////
+// Assassin Poison Weapon
+////////////////////////////////////////
+
+// Go Invisible
+
+IF
+  See([PC])
+  Allegiance(Myself,ENEMY)
+  !StateCheck(Myself,STATE_INVISIBLE)
+  !StateCheck(Myself,STATE_IMPROVEDINVISIBILITY)
+THEN
+  RESPONSE #100
+    GiveItemCreate("potn10",Myself,1,0,0)
+    DisplayStringHead(Myself,46150)
+    UseItem("potn10",Myself)
+END
+
+// Poison Weapon
+
+IF
+  See([PC])
+  Allegiance(Myself,ENEMY)
+  Range(LastSeenBy(Myself),6)
+  HaveSpell(ASSASSIN_POISON)
+  !GlobalTimerNotExpired("Cast","LOCALS")
+THEN
+  RESPONSE #100
+    SetGlobalTimer("Cast","LOCALS",6)
+    ForceSpell(Myself,ASSASSIN_POISON)
+END
+
+// Move Behind
+
+IF
+  See([PC])
+  Allegiance(Myself,ENEMY)
+  Allegiance(LastSeenBy(Myself),PC)
+  !Range(LastSeenBy(Myself),1)
+  OR(2)
+    StateCheck(Myself,STATE_INVISIBLE)
+    StateCheck(Myself,STATE_IMPROVEDINVISIBILITY)
+THEN
+  RESPONSE #100
+    MoveToObject(LastSeenBy(Myself))
+END
+
+// Attack
+
+IF
+  See([PC])
+  Allegiance(Myself,ENEMY)
+  Allegiance(LastSeenBy(Myself),PC)
+  Range(LastSeenBy(Myself),2)
+THEN
+  RESPONSE #100
+    Attack(LastSeenBy(Myself))
+END
