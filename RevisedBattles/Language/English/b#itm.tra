@@ -1,0 +1,362 @@
+////////////////////////////////////////
+// Drizzt
+////////////////////////////////////////
+
+@1001 = ~Scimitar +5, Frostbrand~
+@1002 = ~This is the magical scimitar +5, Frostbrand.  It is one of Drizzt's personal weapons.  
+
+STATISTICS:
+
+Equipped Abilities:
+  Fire Resistance: set to 100%
+
+Combat Abilities:
+  Additional +2 points of cold damage each hit
+  20% Chance each hit to slow target (no save)
+
+THAC0: +5 bonus
+Damage: 1D8 + 5
+Damage Type: slashing
+Weight: 4
+Proficiency Type: Scimitar
+Speed Factor: 2
+Type: 1-handed
+Requires: 8 Strength
+Not Usable By:
+  Cleric
+  Mage~
+
+
+
+@1003 = ~Scimitar +5, Defender~
+@1004 = ~This is the magical scimitar +5, Defender that bears the name "Twinkle."  It is one of the personal weapons of Drizzt.  Due to its magical nature, only those pure of heart can use it.
+
+STATISTICS:
+
+While Equipped:
+  +20% Resistance to piecing, missile, crushing and slashing
+  Armor Class: +2 bonus
+ 
+THAC0: +5 bonus
+Damage: 1D8 + 5
+Damage Type: slashing
+Weight: 4
+Proficiency Type: Scimitar
+Speed Factor: 2
+Type: 1-handed
+Requires: 8 Strength
+Not Usable By:
+  Evil or Neutral Alignment
+  Cleric
+  Mage~
+
+
+
+@1005 = ~Tansheron's Short Bow +3~
+@1006 = ~Tansheron's Short Bow +3
+The thin, frayed string of this bow appears unusable, but when it is drawn a solid but invisible arrow becomes tangible.  The lich Tansheron gave this bow to his Watcher, the guardian of his keep who stood atop a tower with neither entrance nor exit.  When anyone approached, down would fall a never-ending rain of phantom arrows until they were dead or fled.  How this bow was wrested from the Watcher's hand is not known, but would probably make a great tavern story.
+
+Catti-Brie has been the only person able to unleash this weapon's potential which would tear mage protections apart and knock the target backwards.
+
+Note: avoid equipping normal arrows on your character, else the bow will fire these instead of the phantom arrows.
+
+STATISTICS:
+
+Special Abilities:
+  This powerful bow requires no ammunition
+
+Combat Abilities:
+  100% Chance opponent is knocked back
+  Dispels magic whenever the arrows strike an opponent
+
+THACO: +3 bonus
+Damage: 2D4 + 3
+Damage Type: missile (piercing)
+Weight: 2
+Speed Factor: 3
+Proficiency Type: Short Bow
+Type: 2-handed
+Usable By:
+  Catti-Brie~
+
+////////////////////////////////////////
+// Firkraag
+////////////////////////////////////////
+
+@1011 = ~Virtue's Defiance +4~
+@1012 = ~Bastard Sword +4: Virtue's Defiance
+
+Created from pure evil instead of the good it was meant to be, only the heartless can dare to touch Virtue's Defiance. How did such a sword pull its way into Faerun? Before the death of a powerful Demon Lord, this weapon was created. The Demon Lord killed many innocent creatures, including nymphs, elves, svirfneblin, and silver dragon children. The shaft of this strange weapon was made from silver dragon eggs and elven blood. The flawless blade was created from the charred bones of nymphs and svirfneblin gnomes. The great Demon Lord finished this weapon with pure evil in mind, and marked it for power against all good. The Demon Lord ended up killing itself to create this sword's partner weapon-- the flail dubbed Immolation of the Sacred.
+
+STATISTICS:
+
+Equipped Abilities:
+  Permanent Protection from Good
+  Cause Serious Wounds: Once per day
+  Cause Critical Wounds: Once per day
+  Harm: Once per day
+
+Combat Abilities: 
+  25% Chance to Panic target for 12 seconds
+  15% Chance to cast Unholy Blight on target
+
+THACO:  +4 bonus
+Damage:  2D4 + 4
+Damage type:  slashing
+Weight: 5
+Speed Factor: 2
+Proficiency Type: Bastard Sword
+Type:  1-handed
+Requires: 18/00 Strength
+Only Usable By:
+ Evil Characters
+ Fighters
+ Fallen Paladin
+ Fallen Ranger~
+
+
+
+@1013 = ~Immolation of the Sacred +4~
+@1014 = ~Flail +4: Immolation of the Sacred
+
+Monsters throughout the lands have fought hard to get their hands upon this powerful flail. Its power is next to few weapons of its kind when it comes to power. The dragon, Firkraag, was last seen wielding such a weapon, and was killed by the <CHARNAME>, the person Firkraag aimed to kill, simply because of Gorion being <CHARNAME>'s foster father. This powerful flail was created from the heart of a powerful Demon Lord, whom sacrificed himself to prevent a more powerful version to be created. The Demon Lord's blood was spread upon the handle to prevent having anyone use it for good. Only the most vile creatures can use this weapon, because of its hellish creation.
+
+STATISTICS:
+
+Equipped Abilities:
+  25% fire resistance
+
+Combat Abilities: 
+  25% Chance to cast Insect Plague on target
+  15% Chance to drain 1 level from target
+  3% Chance to fully heal wielder
+
+THACO:  +4 bonus
+Damage:  1d8 + 4, +1d5 fire damage
+Damage type:  crushing
+Weight: 8
+Speed Factor: 2
+Proficiency Type: Flail/Morningstar
+Type:  1-handed
+Requires: 18/00 Strength
+Only Usable By:
+ Evil Characters
+ Fighters
+ Fallen Paladin
+ Fallen Ranger~
+
+////////////////////////////////////////
+// Temple Sewers Party
+////////////////////////////////////////
+
+@1021 = ~Robe of Enduring~
+@1022 = ~Monk Robe: Robe of Enduring
+During the early years of this century, Aka'rima Tzu, a famous Monk of the Broken Ones, fought a colossal battle with an angry mother ice-dragon, Ingarjuk. Although his hardened physical and spiritual training allowed him to survive longer than any other mortal would have, this robe gave him the last bit of strength needed to slay the infernal beast.
+
+STATISTICS:
+
+Equipped Abilities:
+AC: +2 bonus
+Regenerates 1 hit point every 6 seconds
++15% Resistance to all Crushing, Piercing and Slashing attacks
+Weight: 3
+Usable By:
+  Monk~
+
+////////////////////////////////////////
+// Wraith Sarevok
+////////////////////////////////////////
+
+@1031 = ~Resistance Shield Amulet~
+@1032 = ~Resistance Shield Amulet
+
+This strange piece of metal and gold before you is what seems to be a much more powerful variation of the Shield Amulet. Common sense tells you to activate it in the same way as the lesser Shield Amulet. Upon searching this piece of jewelry, you are given the sudden realization of what it does when activated... it bears the wearer with a powerful Resistance Shield.
+
+STATISTICS:
+
+Uses (1 Charge): Resistance Shield
+ Range: 0
+ Area of effect: Self
+ Armor Class: Base set to 0
+ Special: Bonus 25% resistance to physical damage
+ Duration: 2 rounds~
+
+
+
+@1033 = ~Arch-Mage Battle Robe~
+@1034 = ~Arch-Mage Battle Robe
+
+Wizards across the land simply haven't the proper protection to get into any deadly battles. At least, that was true before the creation of the Arch-Mage Battle Robe. Soaked in the blood of many monsters, this robe has never seen the light of the surface. Created by an unknown arch-mage, it is obvious that it was trapped in a strange plane for longer than you could possibly imagine. When worn, it does what little thought possible... give the Robe of Vecna some much-needed competition. Good protection is hard to come by for wizards.
+
+STATISTICS:
+
+Equipped Abilities:
+Armor Class: +3 bonus
+THAC0: +3 bonus
+Hit Points: +10 bonus
+Improves casting speed by 2
+Bonus 5% resistance to physical damage
+Weight: 3
+Usable By:
+  Mage (single, dual, & multi-class)~
+
+
+
+@1035 = ~Eagle's Eye~
+@1036 = ~Short Bow +5: Eagle's Eye
+
+An orcish swashbuckler once killed a few harmless eagles in an attempt to create the perfect bow. He wrestled them and succeeded in the murder of the peaceful birds. With his knowledge of forgery, the mysterious orc used skulls for the shaft and feathers for the string. A few eyes were attached to the shaft, giving unbeleivable power. To the mythical forger's surprise, the eyes were actually spherical beasts when seperated from an eagle... and gave the ability to create special arrows. The anonymous thief died when word came out of the bow, but no one could figure out its awkward design. It was soon burnt and disintegrated, in an attempt to kill its odd structure. Somehow, its form stayed for centuries and a half-god named <CHARNAME> found it in a very hard to reach plane... Hell. Only one question remains unanswered: Did it's creator somehow taint it?
+
+STATISTICS:
+
+Combat Abilities:
+Number of Attacks: +2 bonus
+Range: x2 bonus
+
+Special Abilities:
+Creates 5 Eagle's Feather Arrows per day
+
+THAC0: +5 bonus
+Damage: +3 bonus
+Weight: 2
+Speed Factor: 4
+Proficiency Type: Shortbow
+Type: 2-handed
+Requires: 6 Strength
+Usable By:
+  Archer
+  Thief (single, dual, & multi-class)~
+
+
+
+@1037 = ~Eagle's Feather Arrow~
+@1038 = ~Eagle's Feather Arrow
+This magical arrow was created using Eagle's Eye.  The arrow will only last for twenty four hours.
+
+STATISTICS:
+
+Combat Abilities:
+Each arrow stuns target with each hit (no save)
+5% Chance to kill target with each hit (no save)
+
+THACO: +5 bonus
+Damage: 1D6
+Damage Type:  missile (piercing)
+Weight: 0
+Launcher:  Bow
+Usable By:
+  Archer
+  Thief (single, dual, & multi-class)~
+
+
+
+@1039 = ~Hell's Fury~
+@1040 = ~Two Handed Sword +4: Hell's Fury
+
+Giants from across the realms have been creating daggers for themselves. Only one has ever escaped any giant's hands. Hell's Fury was that dagger. After being first found, many creatures tried to find it, until <CHARNAME> found it in the most vile place know to both man and giant alike... Hell.
+
+STATISTICS:
+
+Combat Abilities
+Each hit does one of the following:
+1 - Cast Miscast Magic on target (80% chance of failure)
+2 - Additional 15 fire damage to target
+3 - Additional 15 slashing damage to target
+4 - Maze the target
+
+THAC0: +4 bonus
+Damage: 1D10 + 4
+Damage Type: slashing
+Weight: 10
+Speed Factor: 5
+Proficiency Type: Two Handed Sword
+Type: 2-handed
+Requires: 14 Strength
+Usable By:
+  Barbarian
+  Fighter (single, dual, & multi-class)~
+
+////////////////////////////////////////
+// Knights of Dark Renown
+////////////////////////////////////////
+
+@1051 = ~Samildanach's Note~
+@1052 = ~Note from Samildanach
+"<CHARNAME>, if you a wish to know what occured today, I suggest you meet me in the Copper Coronet before the next sunset.
+
+Be warned though: should press this matter against my liking, you WILL suffer serious injury. Decide with great caution and certainty."
+
+Samildanach, Lord of the Gabala.~
+
+
+
+@1053 = ~Tainted Sin~
+@1054 = ~Bastard Sword +4: Tainted Sin
+
+Once belonging to the Knight of Dark Renown known as Lord Samildanach, this mythical sword was originally retrieved by an adventurer known as Mannanan. Mannanan had to find his allies, whom were cursed by Vampyrism. Without any success, all he found was a sword, the Tainted Sin. The sword left Mannanan's possession, and his whereabouts are no longer known. Perhaps the weapon got the best of him.
+
+STATISTICS:
+
+Combat Abilities:
+1% Chance of casting a Solar Eclipse on the wielder. This will instantly turn the wielder to stone permanently, unless the effects are dispelled
+2% Chance of instantly killing target
+5% Chance of inflicting a mortal wound (additional 50 points of damage)
+8% Chance of draining two levels from target
+10% Chance that the wielder will go berserk on each hit (18 seconds)
+Each successful hit does an additional 1 point of bleeding damage per round for 3 rounds
+Each successful hit steals 2 hit points from the target and transfers them to the wielder
+Each hit will have one of the following effects on the target. A successful Save vs. Spells (-2) will negate the effects:
+  1 - Blindness
+  2 - Panic
+  3 - Slow
+  4 - Confusion
+
+THAC0: +4 bonus
+Damage: 2D4 + 4
+Damage Type: slashing
+Weight: 6
+Speed Factor: 5
+Proficiency Type: Bastard Sword
+Type: 1-handed
+Requires: 15 Strength, 12 Dexterity
+Not Usable By:
+  Cleric
+  Druid
+  Mage
+  Thief~
+
+////////////////////////////////////////
+// Master Brain
+////////////////////////////////////////
+
+@1061 = ~Amulet of Mind Protection~
+@1062 = ~Amulet of Mind Protection
+
+<CHARNAME> and <PRO_HISHER> companions were recently captured by Mind Flayers, when adventuring in the Underdark. Managing to escape, they fought their battles, including the Illithid's Elder Brain. This awkward piece of rope seems to be made of chunks of the Master Brain, and intestines. Without much thought to what this could be used for, it seems rather circular. It appears to go around the neck, like any amulet, and protects against the unholy power Illithids hold...
+
+STATISTICS:
+
+Immunity to all intelligent draining attacks
+Immunity to charm and domination~
+
+@1063 = ~Aegis-Fang +3~
+@1064 = ~Aegis-Fang
+
+This weapon was made specifically for Wulfgar by Bruenor Battlehammer, and the strongest of its enchantments only functions while in the young warrior's hands.  Anyone else wields Aegis-Fang as a War Hammer +3.
+
+STATISTICS:
+
+THAC0: +3 bonus
+Damage: 2D4 + 3
+Damage type: crushing
+Weight: 3
+Speed Factor: 1
+Proficiency Type: War Hammer
+Type: 1-handed
+Requires: 18 strength
+Not Usable By:
+ Druid
+ Mage 
+ Thief
+ Monk
+ Beast Master~

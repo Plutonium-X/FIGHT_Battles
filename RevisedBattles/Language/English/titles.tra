@@ -1,0 +1,72 @@
+////////////////////////////////////////
+// Modifications
+////////////////////////////////////////
+
+@7001 = ~Improved Battles - "erebusant's Patching Version" v6~
+
+////////////////////////////////////////
+// Improved Components
+////////////////////////////////////////
+
+@7101 = ~Improved Drizzt~
+@7102 = ~Improved Mencar Pebblecrusher~
+@7103 = ~Improved Mad Cleric~
+@7104 = ~Improved House Jae'llat~
+@7105 = ~Improved Lord Roenall~
+@7106 = ~Improved Master Brain~
+@7107 = ~Improved Wraith Sarevok~
+@7108 = ~Improved Cohrvale, Bregg & Alamas~
+@7109 = ~Improved Firkraag~
+@7110 = ~Improved Fire Giants (requires ToB)~
+@7111 = ~Improved Shade Lord~
+@7112 = ~Improved Trademeet Crypt~
+@7113 = ~Improved Dungeon~
+@7114 = ~Much Improved Temple Sewers Party~
+@7115 = ~Improved Kiser Jhaeri (requires ToB)~
+@7116 = ~Improved Falahar~
+@7117 = ~Improved Drow Pit Fights~
+@7118 = ~Improved Chromatic Demon~
+@7119 = ~Improved Firkraag NEJ2v691 Compatibility Patch~
+@7120 = ~Improved Firkraag FR_ROV Compatibility Patch~
+@7121 = ~Improved Firkraag Romantic Encounters Compatibility Patch~
+@7122 = ~Improved~
+@7123 = ~Improved1~
+
+
+////////////////////////////////////////
+// New Components
+////////////////////////////////////////
+
+@7201 = ~Knights of Dark Renown~
+
+////////////////////////////////////////
+// Kits
+////////////////////////////////////////
+
+@7301 = ~Arcane Avenger Kit~
+@7302 = ~Blademaster Kit~
+@7303 = ~Demon Knight Kit~
+@7304 = ~Bastard Kit~
+
+////////////////////////////////////////
+// Fixes
+////////////////////////////////////////
+
+@7401 = ~Bug Fixes (SoA)~
+@7402 = ~Bug Fixes (ToB)~
+@7403 = ~Nythrun's Broken CRE/ITM/SPL Patcher~
+
+////////////////////////////////////////
+// Errors/Messages
+////////////////////////////////////////
+
+@7501 = ~This component requires Throne of Bhaal. Please install ToB first.~
+@7502 = ~This component will only be installed if Throne of Bhaal is installed.~
+@7503 = ~Installing Throne of Bhaal components.~
+
+/////////////////////////////////////////////////////
+// Effects Patching
+////////////////////////////////////////////////////
+
+@7601 = ~Modify .CRE Proficiencies, Abilities & Effects. This component MUST be installed.~
+@7602 = ~Modifying .CRE proficiency, ability, and effects system~

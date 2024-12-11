@@ -1,0 +1,72 @@
+////////////////////////////////////////
+// Lug's Plea
+////////////////////////////////////////
+
+@101 = ~Per favore aiutami, <PRO_SIRMAAM>!~
+  @102 = ~Di che si tratta bambino?~
+  @103 = ~Fuori dalla mia vista bambino. Levati di torno!~
+    @104 = ~Per favore! Stanno venendo per me! Ti prego di aiutarmi!~
+      @105 = ~Chi sta venendo? C'è qualcuno che ti segue?~
+        @106 = ~No, é troppo tardi. Sono qui!~
+
+////////////////////////////////////////
+// Samildanach's Warning
+////////////////////////////////////////
+
+@201 = ~Cittadino, faresti bene a far finta di non aver visto nulla!~
+  @202 = ~Molto bene. Non voglio causare problemi.~
+    @203 = ~Una saggia scelta. Mi fa piacere vedere che sotto la tua spaventosa apparenza hai delle capacità intellettuali. Buona giornata, <PRO_SIRMAAM>, e a mai più rivederci.~
+  @204 = ~Come osi! Hai ucciso un bambino innocente, e mi domandi di ignorare tutto. Mai!~
+    @205 = ~Devo insistere ancora una volta affinché riconsideri il fatto. Pensaci attentamente, se ci tieni alla tua pelle.~
+      @206 = ~Bene. In questo momento un'altra morte sarebbe indubbiamente infruttifera.~
+      @207 = ~No! Prima che cali il sole si sentirà l'odore del tuo sangue, orribile demonio!~
+        @208 = ~Molto bene, ma non dire che non sei stato avvisato.~
+        @209 = ~Prendi, e segui attentamente le istruzioni prima che la prossima alba non sia spuntata e che il tramonto sia iniziato.~
+        @210 = ~Addio. Ci rivedremo, a patto che tu abbia il coraggio di rincontrarmi.~
+
+////////////////////////////////////////
+// Journal Entries
+////////////////////////////////////////
+
+@301 = ~La Sfida di Lord Samildanach
+Oggi è successo qualcosa di strano. Sono stato avvicinato da un bambino, che mi ha pregato di aiutarlo. Prima che potessi reagire è stato abbattuto da tre stranieri - a quanto pare per divertimento.
+
+Il capo, uno spadaccino egoista dalla natura oscura che si chiama Samildanach, mi ha rimproverato di tenere la bocca chiusa. Mi sono rifiutato categoricamente e mi é stata data una nota, che mi diceva di incontrarli al Diadema di Rame entro un giorno.
+
+Per la mia dignità e per vendicare la morte del bambino, devo andare!~
+
+@302 = ~La Sfida di Samildanach
+Dopo una tenace battaglia, la morte di Lug é stata vendicata con l'assassinio del mostro conosciuto col nome di Samildanach. Possa il bambino riposare in pace.~
+
+////////////////////////////////////////
+// Came To Pit Fight
+////////////////////////////////////////
+
+@401 = ~Ahh, salve. Vedo che non sei il tipo di persona che fa minacce a vuoto. Ne sono lieto, mostri del potenziale - non importa quanto limitato possa essere.~
+  @402 = ~Le tue minacce sono senza senso, cane! Ti chiedo perché hai ucciso questo bambino!~
+    @403 = ~Molto bene, penso che tu meriti di saperlo dopo tutto. L'ho ucciso per divertimento. Ma tanto non ha molta importanza.~
+    @404 = ~Tuttavia, é una situazione tra noi. Sei ancora disposto a sfidarmi, o il tuo intelletto ha finalmente avuto la meglio?~
+      @405 = ~Sebbene disapprovi fortemente le tue azioni, ti permetterò di vivere.~
+      @406 = ~Tanto vero quanto la purezza del mio cuore e la forza della mia mano, e tale rimane la natura della mia risposta.~
+        @407 = ~Come desideri, sciocco villano. Hai deciso tu stesso la tua sorte.~
+        @408 = ~Aspetta! Ho una cosa più urgente da fare. Scusami un momento per favore.~
+
+////////////////////////////////////////
+// After Pit Fight
+////////////////////////////////////////
+
+@501 = ~Mi scuso per la mia improvvisa partenza. Dove eravamo rimasti? Ahh, si, la nostra sfida. Molto bene, sono pronto adesso.~
+@502 = ~Sei ancora stupidamente deciso ad eseguire questo tuo compito?~
+  @503 = ~No. Dopo averci pensato attentamente, ho deciso che sia meglio che di te se ne occupino le autorità. Non perderò il mio tempo a sporcarmi le mani con te.~
+  @504 = ~I miei nobili e fidati compagni mi spronano a continuare ed insieme ti sconfiggeremo.~
+    @505 = ~I tuoi compagni ti sono troppo devoti - e sciocchi. Ti seguiranno nella tua morte. Andiamo in un posto più appartato, dove non saremo disturbati.~
+  @506 = ~Si. Come difendo tutto ciò che é buono e sacro, é mio dovere difendere la virtù e l'onore dove sono stati violati.~
+    @507 = ~Molto bene. Andiamo in un posto più isolato dove potremmo continuare a combattere indisturbati.~
+
+////////////////////////////////////////
+// Fight In New Area
+////////////////////////////////////////
+
+@601 = ~Bene, siamo qui. Ricordati bene questo posto, perché sarà l'ultimo che vedrai!~
+@602 = ~Ahh, vedo che é arrivata la mia cavalleria. Sebbene potrei schiacciarti con una sola mano, ho deciso di portare i miei compagni affinché siano testimoni della tua totale umiliazione.~
+@603 = ~Senti l'ira malvagia di Samildanach, Signore Cavaliere de Vyre!~

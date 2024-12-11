@@ -1,0 +1,72 @@
+////////////////////////////////////////
+// Modifications
+////////////////////////////////////////
+
+@7001 = ~Battaglie Migliorate - "The Patching Version" v6~
+
+////////////////////////////////////////
+// Improved Components
+////////////////////////////////////////
+
+@7101 = ~Migliorato Drizzt~
+@7102 = ~Migliorato Mencar Pebblecrusher~
+@7103 = ~Migliorato il Chierico Pazzo~
+@7104 = ~Migliorata la Casata Jae'llat~
+@7105 = ~Migliorato Lord Roenall~
+@7106 = ~Migliorato il Cervello Maestro~
+@7107 = ~Migliorato lo Spettro(Wraith)di Sarevok~
+@7108 = ~Migliorati Cohrvale, Bregg ed Alamas~
+@7109 = ~Migliorato Firkraag~
+@7110 = ~Migliorati i Giganti del Fuoco (richiede ToB)~
+@7111 = ~Migliorato il Signore delle Ombre~
+@7112 = ~Migliorata la Cripta di Trademeet~
+@7113 = ~Dungeon Migliorato~
+@7114 = ~Di molto migliorato il Gruppo delle Fogne del Quartiere del Tempio~
+@7115 = ~Migliorato Kiser Jhaeri (richiede ToB)~
+@7116 = ~Migliorato Falahar~
+@7117 = ~Migliorati i Combattimenti nell'Arena dei Drow~
+@7118 = ~Migliorato il Demone Cromatico~
+@7119 = ~Migliorato Firkraag NEJ2v691 Compatibility Patch~
+@7120 = ~Migliorato Firkraag FR_ROV Compatibility Patch~
+@7121 = ~Migliorato Firkraag Romantic Encounters Compatibility Patch~
+@7122 = ~Migliorato~
+@7123 = ~Migliorato1~
+
+
+////////////////////////////////////////
+// New Components
+////////////////////////////////////////
+
+@7201 = ~Cavalieri dalla Fama Oscura~
+
+////////////////////////////////////////
+// Kits
+////////////////////////////////////////
+
+@7301 = ~Kit del Vendicatore Arcano~
+@7302 = ~Kit del Maestro d'Armi~
+@7303 = ~Kit del Cavaliere Demoniaco~
+@7304 = ~Kit del Bastardo~
+
+////////////////////////////////////////
+// Fixes
+////////////////////////////////////////
+
+@7401 = ~Correzioni di Bug (SoA)~
+@7402 = ~Correzioni di Bug (ToB)~
+@7403 = ~Patch per Nythrun's Broken CRE/ITM/SPL~
+
+////////////////////////////////////////
+// Errors/Messages
+////////////////////////////////////////
+
+@7501 = ~Questo componente richiede Throne of Bhaal. Si prega di installare ToB prima.~
+@7502 = ~Questo componente sarà installato solamente se é installato Throne of Bhaal.~
+@7503 = ~Si stanno installando i componenti di Throne of Bhaal.~
+
+/////////////////////////////////////////////////////
+// Effects Patching
+////////////////////////////////////////////////////
+
+@7601 = ~Modifica .CRE Capacità, Abilità ed Effetti. Questo componente DEVE essere installato.~
+@7602 = ~Modifica .CRE capacità, abilità, e sistemi d'effetto~

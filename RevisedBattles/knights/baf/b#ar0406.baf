@@ -1,0 +1,114 @@
+////////////////////////////////////////
+// Copper Coronet
+////////////////////////////////////////
+
+// Create Samildanach
+
+IF
+  InMyArea(Player1)
+  GlobalTimerNotExpired("b#SamilChallengeTimer","GLOBAL")
+  Global("b#SamilWarned","GLOBAL",1)
+  Global("b#CreateSamilGroup2","GLOBAL",0)
+THEN
+  RESPONSE #100
+    SetGlobal("b#CreateSamilGroup2","GLOBAL",1)
+    CreateCreature("b#knit01",[1460.1900],2)
+    Continue()
+END
+
+// Place PC In Pit
+
+IF
+  Global("b#SamilChallenged","GLOBAL",1)
+  Global("b#SamilAttackedSlaves","GLOBAL",0)
+  Global("b#SamilKilledSlaves","GLOBAL",0)
+THEN
+  RESPONSE #100
+    StartCutSceneMode()
+    SetGlobal("b#SamilAttackedSlaves","GLOBAL",1)
+    FadeToColor([20.0],0)
+    Wait(1)
+    ActionOverride(Player1,JumpToPoint([587.1918]))
+    ActionOverride(Player1,Face(8))
+    ActionOverride("b#knit01",JumpToPoint([732.1777]))
+    ActionOverride("b#knit01",Face(4))
+    CreateCreature("b#knitjd",[591.1632],0)
+    MoveViewPoint([597.1770],INSTANT)
+    FadeFromColor([20.0],0)
+    Wait(1)
+    ActionOverride("b#knitjd",DisplayStringHead(Myself,@67))
+    Wait(5)
+    ActionOverride("b#knitjd",DisplayStringHead(Myself,@68))
+    Wait(5)
+    ActionOverride("b#knitjd",DisplayStringHead(Myself,@69))
+    Wait(5)
+    ActionOverride("b#knitjd",ReallyForceSpell(Myself,DRYAD_TELEPORT))
+    Wait(5)
+    CreateVisualEffect("spdimndr",[446.1773])
+    CreateVisualEffect("spdimndr",[456.1763])
+    CreateVisualEffect("spdimndr",[436.1783])
+    Wait(2)
+    CreateCreature("b#knits1",[446.1773],12)
+    CreateCreature("b#knits2",[456.1763],12)
+    CreateCreature("b#knits3",[436.1783],12)
+    Wait(2)
+    ActionOverride("b#knits1",Attack("b#knit01"))
+    ActionOverride("b#knits2",Attack("b#knit01"))
+    ActionOverride("b#knits3",Attack("b#knit01"))
+    ActionOverride("b#knit01",Attack("b#knits1"))
+    ActionOverride("b#knit01",Attack("b#knits2"))
+    ActionOverride("b#knit01",Attack("b#knits3"))
+    Wait(7)
+    EndCutSceneMode()
+    Continue()
+END
+
+// Remove PC From Pit
+
+IF
+  Dead("b#knits1")
+  Dead("b#knits2")
+  Dead("b#knits3")
+  Global("b#SamilKilledSlaves","GLOBAL",0)
+THEN
+  RESPONSE #100
+    StartCutSceneMode()
+    SetGlobal("b#SamilKilledSlaves","GLOBAL",1)
+    FadeToColor([20.0],0)
+    Wait(1)
+    ActionOverride(Player1,JumpToPoint([875.1555]))
+    ActionOverride(Player1,Face(6))
+    ActionOverride("b#knit01",JumpToPoint([825.1505]))
+    ActionOverride("b#knit01",Face(15))
+    MoveViewPoint([850.1530],INSTANT)
+    FadeFromColor([20.0],0)
+    Wait(1)
+    EndCutSceneMode()
+    Continue()
+END
+
+// Move PC To New Area
+
+IF
+  InMyArea(Player1)
+  Global("b#SamilMove","GLOBAL",1)
+  Global("b#SamilNewArea","GLOBAL",0)
+THEN
+  RESPONSE #100
+    StartCutSceneMode()
+    SetGlobal("b#SamilNewArea","GLOBAL",1)
+    FadeToColor([20.0],0)
+    Wait(3)
+    ActionOverride(Player1,LeaveAreaLUA("B#AREA01","",[430.350],14))
+    ActionOverride(Player2,LeaveAreaLUA("B#AREA01","",[380.300],14))
+    ActionOverride(Player3,LeaveAreaLUA("B#AREA01","",[330.350],14))
+    ActionOverride(Player4,LeaveAreaLUA("B#AREA01","",[430.250],14))
+    ActionOverride(Player5,LeaveAreaLUA("B#AREA01","",[280.400],14))
+    ActionOverride(Player6,LeaveAreaLUA("B#AREA01","",[480.200],14))
+    ActionOverride("b#knit01",ReallyForceSpell(Myself,DRYAD_TELEPORT))
+    MoveViewPoint([480.400],INSTANT)
+    FadeFromColor([20.0],0)
+    Wait(1)
+    EndCutSceneMode()
+    Continue()
+END

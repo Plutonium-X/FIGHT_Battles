@@ -1,0 +1,126 @@
+////////////////////////////////////////
+// Cantaray (Assassin)
+////////////////////////////////////////
+
+////////////////////////////////////////
+// Go Hostile
+////////////////////////////////////////
+
+IF
+  Allegiance("b#knit01",ENEMY)
+  !Allegiance(Myself,ENEMY)
+THEN
+  RESPONSE #100
+    Enemy()
+END
+
+////////////////////////////////////////
+// Detect Enemy
+////////////////////////////////////////
+
+IF
+  Heard([ANYONE],111)
+THEN
+  RESPONSE #100
+END
+
+IF
+  Detect([PC])
+  Allegiance(Myself,ENEMY)
+  Allegiance(LastSeenBy(Myself),PC)
+  OR(6)
+    !See(LastSeenBy(Myself))
+    StateCheck([PC],STATE_INVISIBLE)
+    StateCheck([PC],STATE_IMPROVEDINVISIBILITY)
+THEN
+  RESPONSE #100
+END
+
+////////////////////////////////////////
+// Use Potions
+////////////////////////////////////////
+
+// Extra Healing
+
+IF
+  HPPercentLT(Myself,76)
+  Allegiance(Myself,ENEMY)
+  !GlobalTimerNotExpired("Cast","LOCALS")
+THEN
+  RESPONSE #100
+    SetGlobalTimer("Cast","LOCALS",6)
+    GiveItemCreate("potn52",Myself,1,0,0)
+    DisplayStringHead(Myself,46150)
+    UseItem("potn52",Myself)
+END
+
+// Frost Giant Strength
+
+IF
+  CheckStatLT(Myself,24,STR)
+  Allegiance(Myself,ENEMY)
+  !GlobalTimerNotExpired("Cast","LOCALS")
+THEN
+  RESPONSE #100
+    SetGlobalTimer("Cast","LOCALS",6)
+    GiveItemCreate("potn07",Myself,1,0,0)
+    DisplayStringHead(Myself,46150)
+    UseItem("potn07",Myself)
+END
+
+////////////////////////////////////////
+// Assassin Poison Weapon & Backstab
+////////////////////////////////////////
+
+// Go Invisible
+
+IF
+  See(NearestEnemyOf(Myself))
+  !StateCheck(Myself,STATE_INVISIBLE)
+  !StateCheck(Myself,STATE_IMPROVEDINVISIBILITY)
+THEN
+  RESPONSE #100
+    GiveItemCreate("potn10",Myself,1,0,0)
+    UseItem("potn10",Myself)
+END
+
+// Move Behind
+
+IF
+  See([PC])
+  Allegiance(Myself,ENEMY)
+  Allegiance(LastSeenBy(Myself),PC)
+  !Range(LastSeenBy(Myself),2)
+  OR(2)
+    StateCheck(Myself,STATE_INVISIBLE)
+    StateCheck(Myself,STATE_IMPROVEDINVISIBILITY)
+THEN
+  RESPONSE #100
+    MoveToObject(LastSeenBy(Myself))
+END
+
+// Poison Weapon
+
+IF
+  See([PC])
+  Allegiance(Myself,ENEMY)
+  Allegiance(LastSeenBy(Myself),PC)
+  Range(LastSeenBy(Myself),6)
+  HaveSpell(ASSASSIN_POISON)
+  !GlobalTimerNotExpired("Cast","LOCALS")
+THEN
+  RESPONSE #100
+    SetGlobalTimer("Cast","LOCALS",6)
+    ForceSpell(Myself,ASSASSIN_POISON)
+END
+
+// Attack
+
+IF
+  See([PC])
+  Allegiance(Myself,ENEMY)
+  Allegiance(LastSeenBy(Myself),PC)
+THEN
+  RESPONSE #100
+    Attack(LastSeenBy(Myself))
+END

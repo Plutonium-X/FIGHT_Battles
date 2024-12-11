@@ -1,0 +1,125 @@
+@4001	= ~vengeur des arcanes~
+@4002	= ~Vengeur des Arcanes~
+@4003	= ~VENGEUR DES ARCANES : Bien que la simple mention de leur nom inspire la peur au coeur de n'importe quel jeteur de sort, beaucoup de Tueurs de Magiciens cherchent à améliorer leurs talents pourtant déjà abondants. Ceci nécessite un entrainement physique et spirituel intense, mais le résultat est un être d'un pouvoir brut insurpassable : le Vengeur des Arcanes.
+
+Capables de traverser un seuil magique sans une égratignure, les Vengeurs des Arcanes ont étendu leurs pouvoirs d'immunité à tous les sorts potentiellement menaçants - de Projectile Magique à Flèche Enflammée ; de Nuage Mortel à Flétrissure Abominable ; même le terrifiant Arrêt du Temps.
+
+Avantages :
+ - Gagne un bonus de +5 au TAC0 et aux dégâts contre les Mages et les Sorciers
+ - Gagne un bonus de +5 aux jets de sauvegarde contre les Sorts
+ - Vision Ethérée, une fois par jour tous les dix niveaux : toutes les créatures invisibles redeviennent visible toutes les 6 secondes, pendant 60 secondes.
+ - Force Chatoyante, une fois par jour tous les dix niveaux : tous les sorts offensifs lancés sur le Vengeur des Arcanes durant les 30 prochaines secondes sont automatiquement déviés
+ - 9ème niveau : Immunité à tous les sorts d'Immobilisation, de Charme et de Confusion.
+ - 15ème niveau : Le Vengeur des Arcanes gagne 4% de Résistance Magique par niveau (c'est à dire 60% au niveau 15)
+ - 17ème niveau : Stase Temporelle, une fois par jour. Le porteur est immunisé à Arrêt du Temps pendant 30 secondes.
+ 
+Inconvénients :
+ - Ne peut atteindre la Grande Maîtrise que dans les armes utilisables par les mages
+ - Ne peut se multi-classer qu'en Mage (nécessite 18 en intelligence).
+ - Doit être d'alignement neutre
+ - Seuls les Humains, les Elfes et les Gnomes peuvent devenir Vengeurs des Arcanes.~
+ 
+@4004	= ~Force Chatoyante~
+@4005	= ~Stase Temporelle~
+@4006	= ~Vision Ethérée~
+
+@4011	= ~maître d'armes~
+@4012	= ~Maître d'Armes~
+@4013	= ~MAITRE D'ARMES : Ce sont des hommes et des femmes qui parcourent le monde connu et étudient sous différents maîtres afin de perfectionner leurs capacités de combat. Bien qu'ils puissent se consacrer à d'autres domaines, ils ont tendance à se concentrer sur le combat à l'épée. Ils ne combattent qu'en armure légère et utilisent leur vitesse et leur précision incroyable pour décimer leurs ennemis.
+
+Avantages :
+ - Bonus de -1 à la Classe d'Armure et de -1 à la Classe d'Armure contre les armes tranchantes tous les 4 niveaux
+ - +2 au Mouvement
+ - Bonus de +1 au toucher, aux dégâts et au facteur de vitesse tous les 5 niveaux
+ - Peut utiliser "Danse de l'épée" une fois par jour tous les 4 niveaux : cette capacité dure 10 secondes, améliore le TAC0 et la CA de 3 points, et offre une attaque supplémentaire
+ - Peut utiliser "Kai" une fois par jour tous les 5 niveaux : cette capacité dure 10 secondes et toutes les attaques font le maximum de dégâts
+ 
+Inconvénients :
+ - Ne peut porter d'armures supérieures à la besantine
+ - Ne peut se spécialiser dans des armes autres que les épées
+ - Ne peut gagner de point dans le style "Epée et Bouclier"
+ - Ne peut se jumeler ou se multi-classer~
+ 
+@4014	= ~Danse de l'Epée~
+
+@4021	= ~chevalier démon~
+@4022	= ~Chevalier Démon~
+@4023	= ~CHEVALIER DEMON : Ce sont des Humains qui ont été consummés par la souillure du sang Démoniaque et sont devenus difformes sous la corruption, rendant leurs actes et leurs pouvoirs semblables à ceux d'un démon. Lorsqu'un Chevalier Démon gagne de l'expérience, il gagne bien des capacités spécifiques aux démons.
+
+Une grande résistance au feu et à la magie ainsi que la détermination du plan où il se trouve en sont quelques exemples.
+
+Avantages :
+ - Immunité à la Peur
+ - Immunité à l'Immobilisation
+ - 40% de résistance au feu
+ - 12ème niveau : Immunité à Labyrinthe
+ - 15ème niveau : peut convoquer un démon pour l'aider au combat une fois par jour
+ - 21ème niveau : Immunité à Emprisonnement
+ - Gagne 2% de Résistance magique par niveau jusqu'au niveau 20
+ - Peut lancer Peur Démoniaque une fois par jour tous les 4 niveaux : tous les ennemis dans la zone d'effet de ce sort doivent réussir un jet de sauvegarde contre les sorts ou fuir de terreur
+ - Peut lancer Vision Intérieure une fois par jour tous les 4 niveaux : quand ce sort est lancé, une zone d'environ 20 mètres de diamètre autour du lanceur est affectée. Une fois par round pendant 1 tour, tous les sorts d'illusions hostiles dans la zone seront dissipés.
+ - Peut lancer Bouclier de Feu une fois par jour tous les 8 niveaux
+ - Peut obtenir Aura de Flamme Mortelle comme capacité de haut niveau
+ 
+Inconvénients :
+ - Ne peut se spécialiser en armes autres que les épées à 2 mains, épées bâtardes, épées longues et hallebardes
+ - Doit avoir un alignement Chaotique Mauvais
+ - Ne peut devenir compétent en style "Epée et Bouclier"
+ - Ne peut se jumeler
+ - Doit être humain
+ - Sagesse et Charisme doivent être inférieurs à 8
+ - Ne peut utiliser d'arme à distance~
+
+@4024	= ~Peur Démoniaque~
+@4025	= ~Allié Abyssal~
+@4026	= ~Vision Intérieure~
+
+@4031	= ~bâtard~
+@4032	= ~Bâtard~
+@4033	= ~BATARD : Cruel, rusé, malhonnête - ce sont les éléments au coeur de la survie sauvage des Bâtards. Rejetés à cause de leur héritage, ils sont forcés de vivre une vie rude, se tournant vers le crime comme seul moyen de survie. Habiles à l'épée bâtarde et avec les petites lames, ce sont des mercenaires silencieux et efficaces qui tuent rarement une victime sans la torturer d'abord. Ils possèdent aussi de grandes capacités magiques - le pouvoir de convoquer les Sept Péchés Capitaux.
+
+Avantages :
+- Le Bâtard est immunisé aux attaques sournoises
+- Avarice, une fois par jour aux niveaux 9 et 18 : crée une arme magique du choix du bâtard pendant 15 secondes.
+- Envie, une fois par jour aux niveaux 17 et 34 : le Bâtard peut augmenter ses dégâts, le nombre de ses attaques ou son mouvement pendant 15 secondes.
+- Gourmandise, une fois par jour aux niveaux 5 et 10 : le Bâtard peut gagner temporairement 30 points de vie pendant 15 secondes.
+- Luxure, une fois par jour aux niveaux 13 : le Bâtard peut convoquer Sarah la Sadique pour l'aider au combat. La durée est de 5 minutes.
+- Paresse, une fois par jour aux niveaux 11 et 22 : le Bâtard gagne une immunité temporaire à tous les dégats magiques, y compris élémentaires, pendant 15 secondes. Cependant, son mouvement est divisé par deux, et son nombre d'attaque réduit.
+- Orgueil, une fois par jour aux niveaux 15 et 30 : toutes les créatures qui regardent le Bâtard doivent réussir un jet de sauvegarde contre les sorts (à -2) ou mourir. Les créatures qui réussissent leur jet de sauvegarde souffrent cependant d'une cécité temporaire.
+- Colère, une fois par jour aux niveaux 7 et 14 : la force et la constitution du Bâtard augmentent de 4 points, mais sa dextérité, son intelligence et sa sagesse sont diminués de 2 (pendant 15 secondes).
+- Peut acquérir "Luxure Majeure" comme capacité de haut niveau.
+
+Inconvénients :
+- Ne peut obtenir la maîtrise qu'en épée bâtarde, épée courte, dague et arbalète
+- Doit être Chaotique Neutre ou Chaotique Mauvais
+- Score de Charisme limité à 10
+- Seuls les Humains, les Nains et les Demi-Orcs peuvent devenir Bâtards
+- Tous les 5 niveaux, il y a 10% de chance que le bâtard perde un point de sagesse ou de charisme.~
+
+@4034	= ~Avarice~
+@4035	= ~Envie~
+@4036	= ~Gourmandise~
+@4037	= ~Luxure~
+@4038	= ~Paresse~
+@4039	= ~Orgueil~
+@4040	= ~Colère~
+
+@4041	= ~x2 dégâts~
+@4042	= ~x2 attaques~
+@4043	= ~x2 mouvements~
+
+@4044	= ~Sarah la sadique~
+@4045	= ~Sarah la psychotique~
+
+@4046	= ~Luxure Majeure~
+@4047	= ~Luxure Majeure
+(Conjuration/Convocation)
+Niveau : Quête
+Portée : 25 mètres
+Durée : 5 minutes
+Temps d'incantation : 1
+Zone d'effet : spéciale
+Jet de Sauvegarde : Aucun
+
+Ce sort convoque Sarah la Psychotique pour aider le lanceur au combat. C'est une fière guerrière, et elle manie une épée mortelle.~
+

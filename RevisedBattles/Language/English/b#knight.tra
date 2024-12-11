@@ -1,0 +1,72 @@
+////////////////////////////////////////
+// Lug's Plea
+////////////////////////////////////////
+
+@101 = ~Please help me, <PRO_SIRMAAM>!~
+  @102 = ~What is the matter child?~
+  @103 = ~Get out of my sights kid. Scram!~
+    @104 = ~Please! They are coming for me! I beg you to help me!~
+      @105 = ~Who is coming? Who is after you?~
+        @106 = ~No, it is too late. They are here!~
+
+////////////////////////////////////////
+// Samildanach's Warning
+////////////////////////////////////////
+
+@201 = ~Citizen, you would be well advised to pretend that you did not see anything!~
+  @202 = ~Very well. I do not want to cause any further trouble.~
+    @203 = ~A wise choice. I am glad to see that your hideous appearance belies your intellectual capacity. Good day, <PRO_SIRMAAM>, for we will not meet again.~
+  @204 = ~How dare you! You kill an innocent child, and then demand that I ignore it. Never!~
+    @205 = ~I shall ask you once more to reconsider. Think carefully, for your life hangs in a delicate balance.~
+      @206 = ~Fine. Another death at this time would undoubtedly be fruitless.~
+      @207 = ~No! You shall taste blood before the next sunset, you vile fiend!~
+        @208 = ~Very well, although do not say that you were not given fair warning.~
+        @209 = ~Take this, and follow the instructions carefully before the next sunrise and sunset have dawned.~
+        @210 = ~Farewell. We shall meet again, provided you have the courage to attend.~
+
+////////////////////////////////////////
+// Journal Entries
+////////////////////////////////////////
+
+@301 = ~Lord Samildanach's Challenge
+A somewhat strange this happened today. I was approached by a small boy, who pleaded for my help. Before I could react, he was cut down by three strangers - apparently for enjoyment.
+
+The leader, a somewhat egotistical dark-natured swordsman named Samildanach, chided me to keep my mouth shut. I refused profusely and was given a note, telling me to meet them in the Copper Coronet within a day.
+
+For the sake of my dignity, and to avenge the child's death, I must go!~
+
+@302 = ~Samildanach's Challenge
+After an extremely tough battle, Lug's death was avenged with the murder of the monster known as Samildanach. May the boy rest in peace.~
+
+////////////////////////////////////////
+// Came To Pit Fight
+////////////////////////////////////////
+
+@401 = ~Ahh, hello. I see you are not the sort to make hollow threats. I am grad, for it shows potential - however limited it may be.~
+  @402 = ~Your threats are meaningless, dog! I demand to know why you killed that boy!~
+    @403 = ~Very well, I suppose you deserve to know at least that much. I killed him for sport. But that is of no consequence.~
+    @404 = ~What is however, is the situation between us. Are you still prepared to challenge me, or has your intellect finally beaten you?~
+      @405 = ~Although I strongly disapprove of your actions, I will allow you your life.~
+      @406 = ~As true as the purity of my heart, and the strength of my hand, so too remains the nature of my answer.~
+        @407 = ~As you wish, foolish peasant. You have decided your own fate.~
+        @408 = ~Wait! I have a more pressing matter to attend. Please excuse me for a moment.~
+
+////////////////////////////////////////
+// After Pit Fight
+////////////////////////////////////////
+
+@501 = ~I apologize for my abrupt departure. Where were we? Ahh, yes, our challenge. Very well, I am ready for you now.~
+@502 = ~You are still foolishly set in your task I take it?~
+  @503 = ~No. After careful thought, I have decided it better that the authorities deal with you. I shall not dirty my hands or waste my time.~
+  @504 = ~My noble and trustworthy companions urge me to continue, and together we shall overcome you.~
+    @505 = ~Your companions are blindly loyal - and foolish. They will share in your death. Let us go somewhere more secluded, where we will not be disturbed.~
+  @506 = ~Yes. As I defender of all that is good and holy, it is my duty to defend virtue and honour where they have been desecrated.~
+    @507 = ~Very well. Let us proceed to a more remote location where the battle may continue undisturbed.~
+
+////////////////////////////////////////
+// Fight In New Area
+////////////////////////////////////////
+
+@601 = ~Well, we are here. Remember this place well, for it is the last one you will see!~
+@602 = ~Ahh, I see my cavalry has arrived. Although I could crush you single-handedly, I decided to bring my companions to witness your utter humiliation.~
+@603 = ~Feel the unholy wrath of Samildanach, Lord Knight of the Vyre!~

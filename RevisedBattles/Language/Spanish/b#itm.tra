@@ -1,0 +1,362 @@
+////////////////////////////////////////
+// Drizzt
+////////////////////////////////////////
+
+@1001 = ~Cimitarra +5, Marcahelada~
+@1002 = ~Esta es la cimitarra mágica +5, Marcahelada. Es una de las armas personales de Drizzt.  
+
+ESTADISTICAS:
+
+Habilidades por equipado:
+  Resistencia al fuego: fijada en 100%
+
+Habilidades de combate:
+  2 puntos de daño de frío adicionales por golpe
+  20% de probabilidades en cada golpe de ralentizar al objetivo (sin salvación)
+
+THAC0: Bonificador +5
+Daño: 1d8+5
+Tipo de daño: Cortante
+Peso: 4
+Talento marcial: Cimitarra
+Factor de velocidad: 2
+Clase: 1 mano
+Requiere: 8 Fuerza
+No lo puede usar:
+  Clérigo
+  Mago~
+
+
+
+@1003 = ~Cimitarra +5, Defensora~
+@1004 = ~Esta es la cimitarra mágica +5, Defensora que lleva el nombre "Centella." Es una de las armas personales de Drizzt. Debido a su naturaleza mágica, solo aquellos puros de corazón pueden usarla.
+
+ESTADISTICAS:
+
+Mientras está equipada:
+  +20% de resistencia al daño perforante, contundente, cortante y por misil
+  Clase de Armadura: Bonificador +2
+ 
+THAC0: Bonificador +5
+Daño: 1d8+5
+Tipo de daño: Cortante
+Peso: 4
+Talento marcial: Cimitarra
+Factor de velocidad: 2
+Clase: 1 mano
+Requiere: 8 Fuerza
+No lo puede usar:
+  Alineamiento neutrales o malignos
+  Clérigo
+  Mago~
+
+
+
+@1005 = ~Arco corto de Tansheron +3~
+@1006 = ~Arco corto de Tansheron +3
+La delgada y deshilachada cuerda de este arco parece inutilizable, pero cuando es jalada una flecha invisible pero sólida se vuelve tangible. El liche Tansheron le dio este arco a su Observador, el guardián de su fortaleza, quien se mantenía siempre de pie en una torre sin entrada ni salida. Cuando alguien se aproximaba, le caería una lluvia de flechas que nunca acababa hasta que estuviera muerto a se fuera. Como este arco fue arrebatado de la mano del Observador no se sabe, pero probablemente haría una gran historia de caverna.
+
+Catti-Brie ha sido la única persona capaz de desencadenar el potencial de este arma, que desgarra las protecciones de los magos y hace retroceder a los objetivos.
+
+Nota: Evita equipar a tu personaje con flechas normales, porque el arco las arrojará en vez de a las flechas fantasma.
+
+ESTADISTICAS:
+
+Habilidades especiales:
+  Este poderoso arco no requiere munición
+
+Habilidades de combate:
+  100% de probabilidades de que el objetivo retroceda
+  Disipa magia siempre que las flechas golpean a un oponente
+
+THAC0: Bonificador +3
+Daño: 2d4+3
+Tipo de daño: misil (perforante)
+Peso: 2
+Factor de velocidad: 3
+Talento marcial: Arco corto
+Clase: 2 manos
+Solo lo puede usar:
+  Catti-Brie~
+
+////////////////////////////////////////
+// Firkraag
+////////////////////////////////////////
+
+@1011 = ~Desafío de la Virtud +4~
+@1012 = ~Espada bastarda +4: Desafío de la Virtud
+
+Creado del mal puro en lugar del bien al que estaba destinado, solo los despiadados pueden atreverse a tocar el Desafío de la Virtud. ¿Como hizo tal espada para abrirse camino en Faerun? Antes de la muerte de un poderoso Lord Demonio, esta arma fue creada. El Lord Demonio mató muchas criaturas inocentes, incluyendo ninfas, elfos, svirfneblines, y dragones plateados jóvenes. El asta de esta extraña arma fue hecha de huevos de dragones plateados y sangre élfica. La hoja perfecta fue creada de huesos calcinados de ninfas y gnomos svirfneblin. El gran Lord Demonio terminó esta arma con pura maldad, y la marcó con poder contra todo lo bueno. El Lord Demonio terminó matándose a si mismo para crear el arma asociada a esta espada: el mayal conocido como Inmolación de los Santos.
+
+ESTADISTICAS:
+
+Habilidades por equipado:
+  Protección permanente contra el Bien
+  Causar heridas serias: una vez al día
+  Causar heridas críticas: una vez al día
+  Dañar: una vez al día
+
+Habilidades de combate: 
+  25% de probabilidades de atemorizar al objetivo por 12 segundos
+  15% de probabilidades de lanzar Daño impío sobre el objetivo
+
+THAC0:  Bonificador +4
+Daño:  2d4+4
+Tipo de daño: Cortante
+Peso: 5
+Factor de velocidad: 2
+Talento marcial: Espada bastarda
+Clase: 1 mano
+Requiere: 18/00 Fuerza
+Solo lo puede usar:
+ Personajes malignos
+ Guerreros
+ Paladines caídos
+ Exploradores caídos~
+
+
+
+@1013 = ~Inmolación de los Santos +4~
+@1014 = ~Mayal +4: Inmolación de los Santos
+
+Los monstruos de todas las tierras han peleado duro para poner sus manos sobre este poderoso mayal. Su poder es similar al de pocas armas de su clase cuando llega al poder. El dragón, Firkraag, fue el último al que se le vio portando esta arma, y fue matado por <CHARNAME>, la persona que Firkraag aspiraba a matar, simplemente porque era el hijo adoptivo de Gorion. Este poderoso mayal fue creado del corazón de un poderoso Lord Demonio, quien se sacrificó para impedir que fuera creada una versión más poderosa. La sangre del Lord Demonio fue derramada sobre la empuñadura para impedir que la use cualquier persona buena. Solo las criaturas más viles pueden usar esta arma, a causa de su creación infernal.
+
+ESTADISTICAS:
+
+Habilidades por equipado:
+  25% de resistencia al fuego
+
+Habilidades de combate: 
+  25% de probabilidades de lanzar Plaga de insectos en el objetivo
+  15% de probabilidades de drenar 1 nivel al objetivo
+  3% de probabilidades de sanar completamente al portador
+
+THAC0:  Bonificador +4
+Daño:  1d8+4, +1d5 por daño de fuego
+Tipo de daño: Contundente
+Peso: 8
+Factor de velocidad: 2
+Talento marcial: Mayal/Lucero del Alba
+Clase:  1 mano
+Requerimientos: 18/00 Fuerza
+Solo lo puede usar:
+ Personajes malignos
+ Guerreros
+ Paladines caídos
+ Exploradores caídos~
+
+////////////////////////////////////////
+// Temple Sewers Party
+////////////////////////////////////////
+
+@1021 = ~Túnica de resistencia~
+@1022 = ~Túnica de Monje: Túnica de resistencia
+Durante los primeros años de esta centuria, Aka'rima Tzu, un famoso monje de los Quebrados, tuvo una batalla colosal con una madre dragón de hielo enojada, Ingarjuk. Aunque su duro entrenamiento físico y espiritual le permitieron sobrevivir más de lo que lo habría hecho cualquier otro mortal, esta túnica le dio la última brizna de fuerza que necesitaba para matar a la bestia infernal.
+
+ESTADISTICAS:
+
+Habilidades por equipado:
+CA: Bonificador +2
+Regenera 1 punto de vida cada 6 segundos
++15% de resistencia a todos los ataques contundentes, perforantes y cortantes
+Peso: 3
+Solo lo puede usar:
+  Monje~
+
+////////////////////////////////////////
+// Wraith Sarevok
+////////////////////////////////////////
+
+@1031 = ~Amuleto escudo de Resistencia~
+@1032 = ~Amuleto escudo de Resistencia
+
+Esta extraña pieza de metal y oro ante ti es lo que parece ser una variación mucho más poderosa del Amuleto Escudo. El sentido común te dice que se activa de la misma forma que el Amuleto Escudo Menor. Luego de examinar esta pieza de joyería, te das cuenta de repente de lo que hace cuando lo activas... cubre al portador con un poderoso Escudo de Resistencia.
+
+ESTADISTICAS:
+
+Usos (1 carga): Escudo de resistencia
+ Alcance: 0
+ Area de efecto: uno mismo
+ Clase de armadura: fija la base en 0
+ Especial: 25% de resistencia extra al daño físico
+ Duración: 2 asaltos~
+
+
+
+@1033 = ~Túnica de archimago de batalla~
+@1034 = ~Túnica de archimago de batalla
+
+Los magos del mundo simplemente no tienen la protección apropiada para entrar en mortíferas batallas. Al menos, eso era cierto antes de la creación de la Túnica de Archimago de Batalla. Remojada en la sangre de varios monstruos, esta túnica nunca ha visto la luz de la superficie. Creada por un archimago desconocido, es evidente que estaba atrapada en un extraño plano más allá de lo que puedes imaginar. Cuando la usas, hace lo que pocos pensarían que es posible... le da a la Capa de Vecna algo de su muy necesitada competencia. Buena protección es difícil de conseguir para los magos.
+
+ESTADISTICAS:
+
+Habilidades por equipado:
+Clase de armadura: Bonificador +3
+THAC0: Bonificador +3
+Puntos de vida: Bonificador +10
+Mejora la velocidad de lanzamiento de conjuros en 2
+Bonificador de 5% al daño físico
+Peso: 3
+Solo lo puede usar:
+  Mago (simple, dual o multiclase)~
+
+
+
+@1035 = ~Ojo de águila~
+@1036 = ~Arco corto +5: Ojo de águila
+
+Un matón orco una vez matón a unas pocas águilas inofensivas en un intento de crear el arco perfecto. Él forcejeó y tuvo éxito en el asesinato de las pacíficas aves. Con su conocimiento, el misterioso orco utilizó sus cráneos para el asta y las plumas para la cuerda. Unos pocos ojos fueron adjuntados al asta, dándole un increíble poder. Para la sorpresa del mítico forjador, los ojos eran bestias esféricas una vez separadas del águila... y daban la habilidad de crear flechas especiales. El ladrón anónimo murió cuando una voz salió del arco, pero nadie pudo entender cual era su torpe designio. Pronto fue quemado y desintegrado, en un intento de eliminar su extraña estructura. De algún modo, su forma permaneció por siglos y un semidiós llamado <CHARNAME> lo encontró en un plano muy difícil de alcanzar... el Infierno. Solo queda una pregunta sin responder: ¿Lo mancilló su creador de algún modo?
+
+ESTADISTICAS:
+
+Habilidades de combate:
+Número de ataques: Bonificador +2
+Alcance: Bonificador x2
+
+Habilidades especiales:
+Crea 5 flechas de Pluma de águila por día
+
+THAC0: Bonificador +5
+Daño: Bonificador +3
+Peso: 2
+Factor de velocidad: 4
+Talento marcial: Arco corto
+Clase: 2 manos
+Requiere: 6 Fuerza
+Solo lo puede usar:
+  Arquero
+  Ladrón  (simple, dual o multiclase)~
+
+
+
+@1037 = ~Flecha de Plumas de águila~
+@1038 = ~Flecha de Plumas de águila
+Esta flecha mágica fue creada usando el Ojo de águila. Durará solamente por veinticuatro horas.
+
+ESTADISTICAS:
+
+Habilidades de combate:
+Cada flecha atonta al objetivo con cada golpe (sin salvación)
+5% de matar al objetivo con cada golpe (sin salvación)
+
+THAC0: Bonificador +5
+Daño: 1d6
+Tipo de daño: misil (perforante)
+Peso: 0
+Lanzador: Arco
+Solo lo puede usar:
+  Arquero
+  Ladrón (simple, dual o multiclase)~
+
+
+
+@1039 = ~Furia del Infierno~
+@1040 = ~Espada de dos puños +4: Furia del Infierno
+
+Los gigantes de los Reinos han estado creando dagas para su propio uso. Solo una ha escapado de las manos de algún gigante. Furia del Infierno es esa daga. Luego de ser encontrada al principio, muchas criaturas intentaron encontrarla, hasta que <CHARNAME> la encontró en el lugar más vil conocido tanto por hombres como por gigantes... el Infierno.
+
+ESTADISTICAS:
+
+Habilidades de combate:
+Cada golpe hace algo de lo siguiente:
+1 - Lanza Magia fallida en el objetivo (80% de probabilidad de fallar el conjuro)
+2 - 15 puntos de daño de fuego adicionales al objetivo
+3 - 15 puntos de daño cortante adicionales al objetivo
+4 - Lanza Laberinto sobre el objetivo
+
+THAC0: Bonificador +4
+Daño: 1d10+4
+Tipo de daño: Cortante
+Peso: 10
+Factor de velocidad: 5
+Talento marcial: Espada de dos puños
+Clase: 2 manos
+Requiere: 14 Fuerza
+Solo lo puede usar:
+  Bárbaro
+  Guerrero (Simple, dual o multiclase)~
+
+////////////////////////////////////////
+// Knights of Dark Renown
+////////////////////////////////////////
+
+@1051 = ~Nota de Samildanach~
+@1052 = ~Nota de Samildanach
+"<CHARNAME>, si queréis saber lo que ha ocurrido hoy, os sugiero que nos veamos en la Corona de Cobre luego de la siguiente puesta de sol.
+
+Sin embargo os lo advierto: SUFRIREIS serias heridas. Decidid con gran cuidado y certidumbre."
+
+Samildanach, Lord de Gabala.~
+
+
+
+@1053 = ~Pecado mancillado~
+@1054 = ~Espada Bastarda +4: Pecado mancillado
+
+Una vez perteneciente al Caballero de Renombre Oscuro conocido como Lord Samildanach, esta espada mítica fue recuperada originalmente por un aventurero conocido como Mannanan. Mannanan tenía que encontrar a sus aliados, que habían sido malditos con el vampirismo. Sin éxito, todo lo que encontró fue una espada, el Pecado mancillado. La espada dejó la posesión de Mannanan, y su paradero ya no es conocido. Quizás el arma tiene lo mejor de él.
+
+ESTADISTICAS:
+
+Habilidades de combate:
+1% de probabilidades de lanzar Eclipse Solar en el lanzador. Esto convertirá al portador en piedra permanentemente a menos que los efectos sean disipados
+2% de probabilidades de matar al objetivo instantáneamente
+5% de probabilidades de infligir una herida mortal (50 puntos de daño adicionales)
+8% de probabilidades de drenar dos niveles al objetivo
+10% de probabilidades de que el portador se vuelva furioso con cada golpe (18 segundos)
+Cada golpe exitoso hace 1 punto de daño de desangramiento por 3 asaltos
+Cada golpe exitoso roba 2 puntos de vida del objetivo y los pasa al portador
+Cada golpe tendrá uno de los siguientes efectos en el objetivo. Una tirada de salvación exitosa contra conjuros (-2) negará los efectos:
+  1 - Ceguera
+  2 - Pánico
+  3 - Lentitud
+  4 - Confusión
+
+THAC0: Bonificador +4
+Daño: 2d4+4
+Tipo de daño: Cortante
+Peso: 6
+Factor de velocidad: 5
+Talento marcial: Espada bastarda
+Clase: 1 mano
+Requiere: 15 Fuerza, 12 Destreza
+No lo puede usar:
+  Clérigo
+  Druida
+  Mago
+  Ladrón~
+
+////////////////////////////////////////
+// Master Brain
+////////////////////////////////////////
+
+@1061 = ~Amuleto de protección mental~
+@1062 = ~Amuleto de protección mental
+
+<CHARNAME> y sus compañeros fueron capturados por los Azotamentes, cuando se aventuraron en la Infraoscuridad. Intentando escapar, pelaron sus batallas, incluyendo contra el Cerebro Anciano de los Ilícidos. Este torpe pedazo de cuerda parece estar hecho de trozos del Cerebro Maestro, e intestinos. Sin pensar mucho acerca de en qué podría ser útil, se ve muy particular. Parece ir alrededor del cuello, como cualquier amuleto, y protege contra el poder maldito que tienen los Ilícidos...
+
+ESTADISTICAS:
+
+Inmunidad a todos los ataques que drenan inteligencia
+Inmunidad a encantamiento y dominación~
+
+@1063 = ~Colmillo Egido +3~
+@1064 = ~Colmillo Egido
+
+Esta arma fue hecha específicamente para Wulfgar por Bruenor Martillodeguerra, y el más poderoso de sus encantamientos solo funciona mientras esté en manos del joven guerrero. Cualquier otro que lleve el Colmillo Egido lo hará como un Martillo de guerra +3.
+
+ESTADISTICAS:
+
+THAC0: Bonificador +3
+Daño: 2d4+3
+Tipo de daño: Aplastamiento
+Peso: 3
+Factor de velocidad: 1
+Talento marcial: Martillo de guerra
+Clase: 1 mano
+Requiere: 18 Fuerza
+No lo puede usar:
+ Druida
+ Mago 
+ Ladrón
+ Monje
+ Señor de las Bestias~

@@ -1,0 +1,152 @@
+////////////////////////////////////////
+// Wraith Sarevok
+////////////////////////////////////////
+
+@10 = ~A moi, mes fidèles !~
+@11 = ~Angelo ! Noooon !~
+@12 = ~Semaj ! Noooon !~
+@13 = ~Tamoko ! Noooon !~
+@14 = ~Tazok ! Noooon !~
+@15 = ~Non ! Regarde ce que tu as fait ! MEURS !~
+@16 = ~Maintenant que ses larbins sont défaits, Sarevok est vulnérable à vos attaques.~
+
+////////////////////////////////////////
+// Master Brain
+////////////////////////////////////////
+
+@20 = ~Utilisant son immense pouvoir télépathique, le Géancéphale se guérit complètement.~
+@21 = ~Dans une tentative désespérée, le Géancéphale déclenche tout son pouvoir psychique contre vous.~
+
+////////////////////////////////////////
+// Drizzt
+////////////////////////////////////////
+
+@30 = ~Nous ne tomberons pas, que Malchor me vienne en aide !~
+@31 = ~Un rejeton de Bhaal, tu ne nous vaincras jamais !~
+
+////////////////////////////////////////
+// House Jae'llat
+////////////////////////////////////////
+
+@40 = ~Lolth, donne-moi la force de détruire ces surfaciens !~
+@41 = ~Je vais t'aider, mon frère !~
+
+////////////////////////////////////////
+// Firkraag
+////////////////////////////////////////
+
+@50 = ~Vous avez réussi à m'irriter !~
+@51 = ~Je ne serai pas vaincu si facilement !~
+@57 = ~Encore ! Mais cette fois sera différente.~
+@58 = ~Venez à moi, mes serviteurs ailés !~
+
+@52 = ~Maintenant, comprenez-vous ce que signifie appartenir à l'une des races les plus anciennes de Féérune ?~
+@53 = ~Il est temps de périr, misérable <PRO_RACE> !~
+
+@54 = ~Vous m'impressionnez, mortels, mais l'heure est venue de mourir !~
+@55 = ~Fais de ton mieux, je t'ai déjà battu auparavant !~
+@56 = ~Tu pensais que c'était mon véritable pouvoir, MORTEL ?!~
+
+////////////////////////////////////////
+// Knights of Dark Renown
+////////////////////////////////////////
+
+@60 = ~Te voilà mon garçon !~
+@61 = ~S'il vous plaaaaît, laissez-moi tranquille !~
+@62 = ~Absurde. Bodarch !~
+@63 = ~Oui M'ssire ?~
+@64 = ~Tuez l'enfant.~
+@65 = ~S'il vous plaît. Nooon !~
+@66 = ~Avec plaisir, M'ssire !~
+
+@67 = ~Et maintenant, le moment que nous attendions tous !~
+@68 = ~Lord Samildanach contre les Esclaves d'Akkibar !~
+@69 = ~Que les jeux commencent !~
+
+////////////////////////////////////////
+// General
+////////////////////////////////////////
+
+@70 = ~Changé en arme normale~
+@71 = ~Changé en arme magique~
+@72 = ~Approchez, approchez, qui que vous soyez !~
+@73 = ~Déclencheur de Sort~
+@74 = ~Chaîne de Contingence~
+@75 = ~Ne laissez pas d'autres se battre pour vous !~
+
+////////////////////////////////////////
+// Roenall
+////////////////////////////////////////
+
+@80 = ~Je ne peux être vaincu en présence de mon armée !~
+@81 = ~Non, ceci ne peut être... mon armée, vaincue...~
+@82 = ~Maintenant que son armée est défaite, Roenall est vulnérable.~
+@83 = ~Pensez-vous que j'en ai fini avec vous ?!~
+
+////////////////////////////////////////
+// Mad Cleric - The Redeemer
+////////////////////////////////////////
+
+@90 = ~Meurs, méprisable chien !~
+@144 = ~Halte là, infidèles !~
+@145 = ~Ahhh, des boules en feu !! Et puis quoi encore ?!~
+@146 = ~Je vous demande pardon ? Qui est-ce que vous traitez d'”infidèles” ?~
+@147 = ~Vous devez nous confondre avec quelqu’un d’autre.~
+@148 = ~La disparition soudaine de mon frère me pèse grandement sur le coeur. Je n'ai été que récemment informé de son décès. Il semblerait qu’une bande de trouble-fêtes n’aient pas trouvé ses opinions religieuses à leur goût, et aient ainsi décidé de massacrer le pauvre fou, sans raison aucune. Je sais de source sûre que le groupe en question se trouve être le vôtre.~
+@149 = ~Non, ce n’était pas nous. Maintenant allez voir ailleurs si j’y suis !~
+@150 = ~Ouaip ! Cet espèce de rat d’égoût était d’avis que quiconque ne vénérait pas Cyric, par choix ou par obligation, devait mourir. Désolé pour votre perte, l'ami, mais nous n'avions pas d'autre choix que d’abréger ses souffrances.~
+@151 = ~Tu mens !!! Cyric peut encore sentir la puanteur de son sang sur tes mains !!! Préparez-vous. Vous allez vite vous apercevoir que je suis un adversaire autrement plus redoutable ! Pour Cyric !! Et pour mon frère…~
+@152 = ~C’est ce qu’on va voir. J’espère sincèrement que vous êtes meilleur que lui ! C’est à peine si votre semblant de frère nous a fait suer une goutte.~
+@153 = ~Vous paierez pour ce vil assassinat. MOUREZ !!~
+@154 = ~Qu’il en soit ainsi. Approchez si vous l’osez !~
+
+////////////////////////////////////////
+// Mencar Pebblecrusher - Pooky
+////////////////////////////////////////
+
+@100 = ~VOUS LA ! ESPECE DE SAUVAGES, BARBARES, PATHETIQUES...~
+@101 = ~Allons, allons Walter, sois gentil. Le docteur a dit que tu dois arrêter de t'exciter, ou tu vas avoir une autre attaque.~
+@102 = ~Oui, chérie. Je ne sais ce qui m'a pris. Vous là-bas, le chef du groupe. Pourrais-je avoir un moment de votre temps précieux ?~
+@103 = ~Mais bien sûr, Sire Wyverne. Y a-t-il quelque chose que je puisse faire pour vous ?~
+@104 = ~Il y a de cela deux jours, Martha et moi avons appris une terrible tragédie. Pooky, notre seul fils, a été tué par un groupe de sauvages vicieux. AURIEZ-VOUS LE MOINDRE RAPPORT AVEC CECI ?!~
+@105 = ~Walter !~
+@106 = ~Pardonne-moi, chérie, mais je suis plutôt tendu. Alors dites-moi, mon bon Seigneur, savez-vous ce qui est arrivé à notre pauvre Pooky ?~ ~Pardonne-moi, chérie, mais je suis plutôt tendu. Alors dites-moi, ma Dame, savez-vous ce qui est arrivé à notre pauvre Pooky ?~
+@107 = ~En fait, je l'ai tué dans l'Auberge des Septs Vaux. Je suis terriblement désolé pour votre perte.~
+@108 = ~(tristement) Dites-moi, <SIRMAAM>, était-il par hasard avec quelqu'un ?~
+@109 = ~Oui, il l'était. Parmi ses compagnons se trouvait un nain puant le mal, nommé Mencar, un voleur insignifiant connu sous le nom de Risling, un sorcier couard appelé Amon...~
+@110 = ~(avec colère) Putain ! Je savais que ce sorcier qui se mêle de tout ce qui ne le regarde pas allait se faire tuer. Je lui ai dit de ne pas s'en approcher, mais a-t-il écouté son vieux père ? Mais non, il avait TOUJOURS raison !~
+@111 = ~Vous avez fait aussi bien que vous le pouviez, Walter. Maintenant, pourrions-nous en revenir à la raison de notre visite ?~
+@112 = ~Ah oui, le sujet de la vengeance. Venger le meurtre de notre Pooky bien-aimé. Bien que nous vous remercions d'avoir tué ce brigand d'Amon, nous devons cependant mettre fin à votre misérable existence. Agir autrement serait manquer de respect envers Pooky.~
+@113 = ~S'il vous plaît, prenez le temps de vous préparer, afin que nous ne supportions pas la honte d'une victoire vide de sens.~
+@114 = ~DEGAINEZ VOS ARMES ! REDUISEZ LEURS OS EN POUSSIERE ! LAISSEZ LES LOUPS... (regarde Martha, qui semble furieuse). *Gloups* Désolé, ma chère.~
+@115 = ~Vous dormirez par terre ce soir ! Attaquez !~
+@116 = ~Qu'il en soit ainsi !~
+@117 = ~Alors qu'ils s'élèvent dans les airs et commencent à tourner en rond, l'appréhension vous envahit, car ils sont hors de portée de vos armes de mêlée. Puis elle se transforme en peur, et votre sang commence à déferler dans vos veines.~
+
+////////////////////////////////////////
+// Falahar
+////////////////////////////////////////
+
+@120 = ~Salut, enfant de Bhaal. Heureux de te rencontrer.~
+@121 = ~Euh... Qui es-tu ?~
+@122 = ~Je suis Falahar. Je vous attendais pour faire une apparition.~
+@123 = ~D'accooord... Pourquoi ?~
+@124 = ~Quoi ? Ne me crois-tu pas ? Quant au pourquoi, c’est pour mettre un terme à ta misérable existence, voilà pourquoi !~
+@125 = ~Je crois...~
+@126 = ~Il ne nous croit pas ! Draccy, tu connais l'histoire, n'est-ce pas ?~
+@127 = ~Ouais ! Tu es un Enfant de Bhaal. Tu as passé ton enfance à trainer dans les guêtres de Gorion, en t’attirant des ennuis dont tu es toujours sorti indemne... jusqu'à récemment, où tu as passé plusieurs mois à réparer les dégâts causés par un autre membre de ta famille qui était aussi sur notre liste. Sarevok. Dernièrement, tu avais l'air d’avoir disparu de la surface de Féerune, d’une manière ou d’une autre, mais il y a eu des rumeurs à propos d’événements qu’on ne pouvait attribuer qu’à ta petite équipe disparate.~ ~Ouais ! Tu es une Enfant de Bhaal. Tu as passé ton enfance à trainer dans les guêtres de Gorion, en t’attirant des ennuis dont tu es toujours sortie indemne... jusqu'à récemment, où tu as passé plusieurs mois à réparer les dégâts causés par un autre membre de ta famille qui était aussi sur notre liste. Sarevok. Dernièrement, tu avais l'air d’avoir disparu de la surface de Féerune, d’une manière ou d’une autre, mais il y a eu des rumeurs à propos d’événements qu’on ne pouvait attribuer qu’à ta petite équipe disparate.~
+@128 = ~Avez-vous déjà vaincu cet ennuyeux adorateur de Cyric ?~
+@129 = ~Peut-être... pourquoi ?~
+@130 = ~Je me posais juste la question.~
+@131 = ~Je suis le magicien !~
+@132 = ~Taisez-vous, tous les deux ! Testons simplement les capacités de cet individu.~
+@133 = ~D’accord, ça va ! Y’a pas le feu au lac !~
+
+////////////////////////////////////////
+// Chromatic Demon
+////////////////////////////////////////
+
+@140 = ~Sentez la chaleur de mes flammes fulgurantes !~
+@141 = ~Sentez la force de mes rafales de vent !~
+@142 = ~Sentez le froid de mon givre mordant !~
+@143 = ~Sentez la douleur de mon sable grinçant !~

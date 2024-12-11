@@ -1,0 +1,152 @@
+////////////////////////////////////////
+// Wraith Sarevok
+////////////////////////////////////////
+
+@10 = ~To me, my faithful ones!~
+@11 = ~Angelo! Noooo!~
+@12 = ~Semaj! Noooo!~
+@13 = ~Tamoko! Noooo!~
+@14 = ~Tazok! Noooo!~
+@15 = ~No! Look what you've done! DIE!~
+@16 = ~With his minions defeated, Sarevok is vulnerable to your attacks~
+
+////////////////////////////////////////
+// Master Brain
+////////////////////////////////////////
+
+@20 = ~Using it's immense telepathic power, the Elder Brain fully recovers itself.~
+@21 = ~In a frantic attempt the Elder Brain lashes out at you with it's full psychic power.~
+
+////////////////////////////////////////
+// Drizzt
+////////////////////////////////////////
+
+@30 = ~We will not fall, Malchor help me!~
+@31 = ~A bhaalspawn, you will never prevail!~
+
+////////////////////////////////////////
+// House Jae'llat
+////////////////////////////////////////
+
+@40 = ~Lolth, grant me the strength to destroy these surfacers!~
+@41 = ~I will help you my brother!~
+
+////////////////////////////////////////
+// Firkraag
+////////////////////////////////////////
+
+@50 = ~Now you've gone and irritated me!~
+@51 = ~I will not be defeated so easily!~
+@57 = ~Again!, but this time it is different.~
+@58 = ~Come to me, my winged minions!~
+
+@52 = ~Now do you see what I meant with being one of Faerun's ancient species?~
+@53 = ~Time to perish, puny <PRO_RACE>!~
+
+@54 = ~You impress me mortal, but now it is time to die!~
+@55 = ~Do your worst, I have beaten you before!~
+@56 = ~You think that was my true power, MANLING?!~
+
+////////////////////////////////////////
+// Knights of Dark Renown
+////////////////////////////////////////
+
+@60 = ~There you are boy!~
+@61 = ~Leave me alone, pleeease!~
+@62 = ~Nonsense. Bodarch!~
+@63 = ~Yes, m'lord?~
+@64 = ~Kill the child.~
+@65 = ~Please. Nooo!~
+@66 = ~With pleasure, m'lord!~
+
+@67 = ~And now, the moment you've all been waiting for!~
+@68 = ~Lord Samildanach versus the Slaves of Akkibar!~
+@69 = ~Let the games begin!~
+
+////////////////////////////////////////
+// General
+////////////////////////////////////////
+
+@70 = ~Switched to non-magical weapon~
+@71 = ~Switched to magical weapon~
+@72 = ~Come out, come out, wherever you are!~
+@73 = ~Spell Trigger~
+@74 = ~Chain Contingency~
+@75 = ~Don't let others fight for you!~
+
+////////////////////////////////////////
+// Roenall
+////////////////////////////////////////
+
+@80 = ~I cannot be defeated in the presence of my army!~
+@81 = ~No, this cannot be... my army, gone...~
+@82 = ~With his army defeated, Roenall is vulnerable.~
+@83 = ~Do you think that I am done with you?!~
+
+////////////////////////////////////////
+// Mad Cleric - The Redeemer
+////////////////////////////////////////
+
+@90 = ~Die you unworthy curs!~
+@144 = ~Hold Infidels!!~
+@145 = ~Ahhh, Balls of Fire!! What now!?!~
+@146 = ~Excuse me!? Who are you calling "Infidel"?~
+@147 = ~Certainly you have mistaken us for somebody else.~
+@148 = ~The sudden death of my brother weighs greatly upon me. I was informed recently of his passing. Apparently some band of trouble makers found his choice of religion not to their taste, and decided to slaughter the poor, mad man with nary an excuse. I have it upon good authority, that the band happens to be yours.~
+@149 = ~Nope, it wasn't us. Now bugger off!~
+@150 = ~Yep! That rat-bastard was of the belief that any who did not worship Cyric, either by their choice or not should perish. Sorry for your loss chum, but we had no choice but to put him out of our misery.~
+@151 = ~You lie!!! Cyric can still smell the stench of his blood on your hands!! Prepare yourselves. You'll find me a far more difficult opponent! For Cyric!! And my brother,,,~
+@152 = ~We shall see. I certainly hope you are better than he! Your sad excuse of a brother hardly made us break a sweat!~
+@153 = ~Pay the price then for his foul murder. DIE!!~
+@154 = ~So be it. Bring it on!~
+
+////////////////////////////////////////
+// Mencar Pebblecrusher - Pooky
+////////////////////////////////////////
+
+@100 = ~YOU THERE! YOU SAVAGE, BARBARIC, PATHETIC EXCUSE...~
+@101 = ~Now, now Walter, be nice. The doctor said you must stop over-stressing yourself or you will have another attack.~
+@102 = ~Yes, dear. I don't know what possessed me. You there, the group leader. Could I have a moment of your valuable time?~
+@103 = ~But of course, Sir Wyvern. Is there anything I can help you with?~
+@104 = ~Two days ago my wife Martha and I received news of a terrible tragedy. Our only son Pooky, our pride and joy, was killed by a group of vicious savages. WOULD YOU HAPPEN TO HAVE ANYTHING TO DO WITH IT?!~
+@105 = ~Walter!~
+@106 = ~Pardon me, dear, but I am rather stressed. So tell me, good <LADYLORD>, do you know what happened to our poor Pooky?~
+@107 = ~Actually, I slew him in the Den of the Seven Vales. I am terribly sorry for your loss.~
+@108 = ~(sadly) Tell me, <SIRMAAM>, was he perchance with anyone?~
+@109 = ~Yes, he was. Amongst his companions were a vile-smelling dwarf named Mencar, a petty thief known as Risling, a cowardly sorcerer called Amon...~
+@110 = ~(angrily) Damn it! I knew that meddling sorcerer would get him killed. I told him to stay away, but does he listen to his old man? But nooo, he ALWAYS knew better!~
+@111 = ~You did as much as you could Walter. Now, could we please return to the reason of our visit?~
+@112 = ~Ay yes, the subject of vengeance. Avenging the murder of our beloved Pooky! Although we praise you for killing that scoundrel Amon, we must however end your miserable existence. It would be disrespectful to Pooky if we did not.~
+@113 = ~Please feel free to defend yourselves, lest we be shamed into a hollow victory.~
+@114 = ~RAISE YOUR WEAPONS! GRIND THEIR BONES TO ASHES! LET THE WOLVES... (looks at Martha, who is furious). *Gulp* Sorry, dear.~
+@115 = ~You're sleeping on the couch tonight! Attack!~
+@116 = ~So be it!~
+@117 = ~As they leap into the air and start to fly around, you become filled with dread, and they are well out of the range of all your melee weapons. The dread turns to fear, and your blood begins to surge threw your veins.~
+
+////////////////////////////////////////
+// Falahar
+////////////////////////////////////////
+
+@120 = ~Hello, Bhaalchild. It is nice to meet you.~
+@121 = ~Um... who are you?~
+@122 = ~I am Falahar. I've been waiting for you to make an appearance.~
+@123 = ~Okaaaay...Why?~
+@124 = ~What? You don't believe me? As for why, it's to put an end to your miserable existance, that's why!~
+@125 = ~I bel-~
+@126 = ~He doesn't believe us! Draccy, you know the story, don't you?~
+@127 = ~Yeah! You were born a poor Bhaalspawn. You spent your youth running around pulling at the robes of Gorion, causing whatever havoc you could get away with until more recently when you spent several months mopping up the leavings of that other of your kind that was on our list. Sarevok. Most recently you've somewhat dropped off the face of Faerun, but there are certain goings on that I assume can only be attributable to you and your motley crew.~
+@128 = ~Did you beat that annoying Cyric worshipper yet?~
+@129 = ~Perhaps... why?~
+@130 = ~Just wondering.~
+@131 = ~I'm the wizard!~
+@132 = ~Shut up you two! Let's just test this simpleton's abilities.~
+@133 = ~Okay, fine. Don't get your knickers in a twist!~
+
+////////////////////////////////////////
+// Chromatic Demon
+////////////////////////////////////////
+
+@140 = ~Feel the heat of my searing flame!~
+@141 = ~Feel the force of my gusting wind!~
+@142 = ~Feel the cold of my biting frost!~
+@143 = ~Feel the sting of my grating sand!~

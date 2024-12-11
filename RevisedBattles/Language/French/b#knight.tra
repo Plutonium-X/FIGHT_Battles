@@ -1,0 +1,58 @@
+@101	= ~Aidez-moi s'il vous plaît, <PRO_SIRMAAM> !~
+@102	= ~Quel est ton problème, mon enfant ?~
+@103	= ~Fiche le camp, petit. Cours !~
+@104	= ~S'il vous plaît ! Ils viennent pour moi ! Je vous supplie de m'aider !~
+@105	= ~Qui vient ? Qui est après toi ?~
+@106	= ~Non, il est trop tard. Ils sont là.~
+
+
+
+@201	= ~Citoyens, vous seriez avisés de prétendre n'avoir rien vu !~
+@202	= ~Très bien. Je ne veux pas causer de problèmes supplémentaires.~
+@203	= ~Un choix judicieux. Je suis heureux de voir que votre apparence hideuse dissimule vos capacités intellectuelles. Bonne journée, <SIR_MAAM>, car nous ne nous reverrons pas.~
+@204	= ~Comment osez-vous ? Vous tuez un enfant innocent, puis exigez que je l'ignore. Jamais !~
+@205	= ~Je dois vous demandez de reconsidérer ceci. Réfléchissez attentivement, car vos vies ne tiennent qu'à un fil.~
+@206	= ~Très bien ! Une nouvelle mort serait sans aucun doute inutile.~
+@207	= ~Non ! Tu goûteras le sang avant le prochain coucher de soleil, vile créature !~
+@208	= ~Très bien, mais ne dites pas que vous n'avez pas été prévenu.~ ~Très bien, mais ne dites pas que vous n'avez pas été prévenue.~
+@209	= ~Prenez ceci, et suivez attentivement les instructions avant que le soleil ne se soit levé puis recouché.~
+@210	= ~Adieu. Nous devrions nous rencontrer de nouveau, si vous en avez le courage.~
+
+
+
+@301	= ~Le défi de Samildanach
+Quelque chose d'étrange est arrivé aujourd'hui. J'ai été approché par un petit garçon qui me demandait de l'aide. Avant que je ne puisse réagir, il fut coupé en deux par trois étrangers -- apparemment pour s'amuser.
+
+Leur chef, un épéiste sombre et égocentrique nommé Samildanach, m'a enjoint de me taire. J'ai refusé et reçu un mot, dans lequel il me donnait rendez-vous à la Couronne de Cuivre pour un combat dans l'arène dans la journée.
+
+Je dois y aller, pour ma dignité et pour venger l'enfant.~
+@302	= ~Le défi de Samildanach
+Après un combat extrèmement rude, l'assassinat de Lug a été vengé par la mort du monstre connu sous le nom de Samildanach. Puisse ce garçon reposer en paix.~
+
+
+
+@401	= ~Ah, bonjour. Je vois que vous n'êtes pas de l'engeance qui profère des menaces vides. J'en suis heureux, car cela montre du potentiel -- aussi limité soit-il.~
+@402	= ~Vos menaces n'ont aucun sens pour moi, chien ! J'exige de savoir pourquoi vous avez tué ce garçon !~
+@403	= ~Très bien, je suppose que vous méritez au moins de savoir ceci. Je l'ai tué pour le sport. Mais cela est sans conséquence.~
+@404	= ~Ce qui l'est, par contre, est notre situation. Etes-vous toujours prêt à me défier, ou votre intelligence vous est-elle revenue ?~ ~Ce qui l'est, par contre, est notre situation. Etes-vous toujours prête à me défier, ou votre intelligence vous est-elle revenue ?~
+@405	= ~Bien que je désapprouve profondément vos actions, je vous accorde la vie.~
+@406	= ~Aussi vraie que la pureté de mon coeur et la force de ma main, telle reste la nature de ma réponse.~
+@407	= ~Comme vous le désirez, paysan stupide. Attendez !~ ~Comme vous le désirez, courtaude stupide. Attendez !~
+@408	= ~J'ai un problème plus pressant à résoudre. Excusez-moi pour le moment.~
+
+
+
+@501	= ~Je m'excuse pour mon brusque départ. Où en étions-nous ? Ahh, oui, notre défi. Très bien, je suis maintenant à votre disposition.~
+@502	= ~Vous êtes encore stupidement attaché à votre tâche, j'imagine ?~ ~Vous êtes encore stupidement attachée à votre tâche, j'imagine ?~
+@503	= ~Non, après y avoir beaucoup réfléchi, j'ai décidé qu'il valait mieux que les autorités s'occupent de vous. Je ne salirai pas mes mains ni ne perdrai mon temps.~
+@504	= ~Mes nobles compagnons de confiance me pressent de continuer, et ensemble nous vous surpasserons.~
+@505	= ~Vos compagnons sont aveuglément loyaux - et stupides. Ils partageront votre mort. Allons dans un endroit plus retiré, où nous ne serons pas dérangés.~
+@506	= ~Oui, en tant que défenseur de tout ce qui est bon et saint, il est de mon devoir de défendre la vertu et l'honneur là où ils ont été bafoués.~
+@507	= ~Très bien. Rendons-nous dans un lieu plus éloigné, où le combat pourra continuer sans être interrompu.~
+
+
+
+@601	= ~Bien, nous y sommes. Rappelez-vous bien de cet endroit, car c'est le dernier que vous verrez.~
+@602	= ~Ah, je vois que ma cavalerie est arrivée. Bien que je puisse vous écraser seul, j'ai décidé de ramener mes compagnons pour qu'ils assistent à votre humiliation.~
+@603	= ~Goûtez à la fureur infernale de Samildanach, Seigneur Chevalier de Vyre.~
+

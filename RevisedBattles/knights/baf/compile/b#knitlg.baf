@@ -1,0 +1,15 @@
+////////////////////////////////////////
+// Lug
+////////////////////////////////////////
+
+// Approach
+
+IF
+  OR(2)
+    See([PC])
+    Detect([PC])
+  NumTimesTalkedTo(0)
+THEN
+  RESPONSE #100
+    Dialog(LastSeenBy(Myself))
+END

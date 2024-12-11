@@ -1,0 +1,140 @@
+////////////////////////////////////////
+// Arcane Avenger
+////////////////////////////////////////
+
+@4001 = ~arcane avenger~ 
+@4002 = ~Arcane Avenger~
+@4003 = ~ARCANE AVENGER: Although the mere mention of their name strikes fear into the very core of an arcane spellcaster, many Wizardslayers seek to improve upon their already-abundant talents. This requires immense physical and spiritual training, but the result is a being of unsurpassed raw power: the Arcane Avenger.
+
+Able to cross a magical threshold without a scratch, Arcane Avengers can harness the power of immunity to all potentially-threatening spells - from Magic Missiles to Flame Arrow; Cloudkill to Horrid Wilting; even the dreaded Time Stop.
+
+Advantages:
+- Gains a +5 bonus to THAC0 and Damage vs. Mages and Sorcerers.
+- Gains a +5 bonus to Saving Throws vs. Spells.
+- Ethereal Vision, once per day for every 10 levels. All invisible creatures are made visible every six seconds, for a duration of 60 seconds.
+- Shimmering Force, once per day for every 10 levels. All offensive spells cast at the Arcane Avenger in the next 30 seconds will automatically be deflected.
+- 9th level: Immunity to all Hold, Charm and Confusion spells.
+- 15th level: The Arcane Avenger gains 4% magic resistance per level (i.e. 60% at 15th level).
+- 17th level: Temporal Stasis, once per day. The Arcane Avenger is immune to Time Stop for the duration (30 seconds).
+
+Disadvantages:
+- May only obtain grand mastery in ordinary mage weapon types.
+- Can only dual-class to a Mage (requires 18 Intelligence).
+- Must be of a Neutral alignment.
+- Only Humans, Elves and Gnomes may become Arcane Avengers.~
+
+@4004 = ~Shimmering Force~
+@4005 = ~Temporal Stasis~
+@4006 = ~Ethereal Vision~
+
+////////////////////////////////////////
+// Blademaster
+////////////////////////////////////////
+
+@4011 = ~blademaster~ 
+@4012 = ~Blademaster~
+@4013 = ~BLADEMASTER: Men and women that travel the known world and study under various masters to perfect their fighting skills. While they may delve into other areas, they tend to focus on swordsmanship. They only fight in light armor and use their incredible speed and accuracy to decimate their foes.
+
+Advantages:
+- Bonus -1 to AC and -1 AC to slashing every 4 levels
+- A Blademaster starts off moving at +2 move
+- Bonus +1 to hit, damage and attack speed for every 5 levels
+- May use 'Sword Dance' ability one time per day for every 4 levels (starts at 1st level with one use): this ability lasts 10 seconds and improves THAC0 and AC by three points and grants an extra attack.
+- May use 'Kai' ability one time per day for every 5 levels (starts at 1st level with one use): this ability lasts 10 seconds and makes all attacks do maximum damage.
+
+Disadvantages:
+- May not wear armor greater than studded leather
+- May not specialize in weapons other than swords
+- May not become proficient in the 'Sword and Shield' style
+- May not dual-class~
+
+@4014 = ~Sword Dance~
+
+////////////////////////////////////////
+// Demon Knight
+////////////////////////////////////////
+
+@4021 = ~demon knight~ 
+@4022 = ~Demon Knight~
+@4023 = ~DEMON KNIGHT: Humans which have been consumed by the taint of Demonic blood and are twisted into corruption, making their actions and powers resemble those of a Demon. As a Demon Knight gains experince he or she gains many abilities that other demons have.
+
+A few examples are great resistance towards fire and magic as well as being able to determine which plane he is in.
+
+Advantages:
+- Immune to fear and morale failure
+- Immune to hold
+- 40% resistance to fire
+- 12th level: Becomes immune to Maze
+- 15th level: Can summon a demon to aid in battle once per day
+- 21st level: Becomes immune to Imprisonment
+- Gains two points of magic resistance per level from level 1 to 20 (i.e. 40% at lv.20)
+- Can cast Demonic Fear one time per day for every 4 levels (starts at 1st level with one use): All enemies within the area of effect when this spell is cast must save vs. spells or flee in terror
+- Can cast Inner Sight one time per day for every 4 levels: When this spell is cast, an area roughly 70 feet in radius around the caster will be effected.  Instantly and once each round for 1 turn after this spell is cast, all hostile illusion/phantasm spells in the area of effect will be dispelled.
+- Can cast Fire Shield Red one time per day for every 8 levels (starts at 1st level with one use)
+- Can get Aura of Flaming Death as a high level ability
+
+Disadvantages:
+- May not specialize in weapons other than Two-Handed Swords, Bastard Swords, Long Swords and Halberds
+- Must have a Chaotic Evil alignment
+- May not become proficient in the 'Sword and Shield' style
+- May not dual-class
+- Must be Human
+- Maximum wisdom and charisma scores of 8
+- Cannot use ranged weapons~
+
+@4024 = ~Demonic Fear~
+@4025 = ~Abyssal Ally~
+@4026 = ~Inner Sight~
+
+////////////////////////////////////////
+// Bastard
+////////////////////////////////////////
+
+@4031 = ~bastard~
+@4032 = ~Bastard~
+@4033 = ~BASTARD: Cruel, cunning, conniving - these are the core elements to the Bastard's savage survival. Rejected because of their heritage, they are forced to live a harsh life, turning towards crime as a means of survival. Skilled with the bastard sword and small blades, they are silent, efficient mercenary's who seldom kill a victim without torturing them first. They also possess great magical abilities - the power to summon call upon the Seven Deadly Sins.
+
+Advantages:
+- The Bastard is immune to backstabbing.
+- Avarice, once per day at levels 9 and 18. Creates a magical weapon of the Bastard's choice for 15 seconds.
+- Envy, once per day at levels 17 and 34. The Bastard can increase his damage, number of attacks, or movement rate for the duration (15 seconds).
+- Gluttony, once per day at levels 5 and 10. The Bastard temporarily gains 30 hit points for the duration (15 seconds).
+- Lust, once per day at level 13. The Bastard may summons Sadistic Sarah to aid him in battle. The duration is 5 minutes.
+- Sloth, once per day at levels 11 and 22. The Bastards gains a temporary immunity to all magical damage, including elemental, for the duration (15 seconds). However, the Bastard's movement is halved, and his number of attacks reduced.
+- Vanity, once per day at levels 15 and 30. All creatures that look at the Bastard must Save vs. Spell (-2) or die. Creatures that make a save still suffer a temporary blindness.
+- Wrath, once per day at levels 7 and 14. The Bastard's strength and constitution are increased by 4 points, but his dexterity, intelligence and wisdom scores are decreased by 2 points (for 15 seconds).
+- May obtain the "Greater Lust" High Level Ability.
+
+Disadvantages:
+- May only obtain mastery in Bastards Swords, Short Swords, Daggers and Crossbows.
+- Must be of Chaotic Neutral or Chaotic Evil alignment.
+- Maximum charisma score of 10.
+- Only Humans, Dwarves and Half-Orcs may become Bastards.
+- Every 5 levels there is a random 10% chance that the Bastard loses one point of Wisdom or Charisma.~
+
+@4034 = ~Avarice~
+@4035 = ~Envy~
+@4036 = ~Gluttony~
+@4037 = ~Lust~
+@4038 = ~Sloth~
+@4039 = ~Vanity~
+@4040 = ~Wrath~
+
+@4041 = ~x2 Damage~
+@4042 = ~x2 Attacks~
+@4043 = ~x2 Movement~
+
+@4044 = ~Sadistic Sarah~
+@4045 = ~Psychotic Sarah~
+
+@4046 = ~Greater Lust~
+@4047 = ~Greater Lust
+(Conjuration/Summoning)
+Level: Quest
+Range: 25 yards
+Duration: 5 minutes
+Casting Time: 1
+Area of Effect: Special
+Saving Throw: None
+
+This spell summons forth Psychotic Sarah to aid the caster in combat. She is a fierce warrior, and wields a deadly sword.~

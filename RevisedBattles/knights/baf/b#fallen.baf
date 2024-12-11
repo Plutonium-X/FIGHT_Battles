@@ -1,0 +1,35 @@
+////////////////////////////////////////
+// Becoming Fallen
+////////////////////////////////////////
+
+// Paladin
+
+IF
+  Class(Player1,PALADIN_ALL)
+  !FallenPaladin(Player1)
+  OR(2)
+    Global("b#SamilWarned","GLOBAL",2)
+    Global("b#SamilChellenged","GLOBAL",2)
+    Global("b#SamilMove","GLOBAL",2)
+  Global("b#LostHood","GLOBAL",0)
+THEN
+  RESPONSE #100
+    SetGlobal("b#LostHood","GLOBAL",0)
+    RemovePaladinHood()
+END
+
+// Ranger
+
+IF
+  Class(Player1,RANGER_ALL)
+  !FallenPaladin(Player1)
+  OR(2)
+    Global("b#SamilWarned","GLOBAL",2)
+    Global("b#SamilChellenged","GLOBAL",2)
+    Global("b#SamilMove","GLOBAL",2)
+  Global("b#LostHood","GLOBAL",0)
+THEN
+  RESPONSE #100
+    SetGlobal("b#LostHood","GLOBAL",0)
+    RemoveRangerHood()
+END

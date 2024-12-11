@@ -1,0 +1,106 @@
+////////////////////////////////////////
+// Initial Spawning
+////////////////////////////////////////
+
+// Lug Appears At Level 15
+
+IF
+  CheckStatGT(Player1,14,LEVEL)
+  AreaType(OUTDOOR)
+  AreaType(CITY)
+  CombatCounter(0)
+  OR(2)
+    GlobalLT("Chapter","GLOBAL",4)
+    GlobalGT("Chapter","GLOBAL",5)
+  Global("b#CreateLug","GLOBAL",0)
+THEN
+  RESPONSE #100
+    SetGlobal("b#CreateLug","GLOBAL",1)
+    CreateCreatureObjectOffset("b#knitlg",Player1,[0.-100])
+END
+
+// Remove PC's Cloak of Mirroring
+
+IF
+  HasItemEquiped("clck26",Player1)
+  Global("b#DestroyedCloak","GLOBAL",0)
+  Global("b#TalkedLug","GLOBAL",1)
+  Global("b#CreateSamilGroup1","GLOBAL",0)
+THEN
+  RESPONSE #100
+    SetGlobal("b#DestroyedCloak","GLOBAL",1)
+    ActionOverride(Player1,DestroyItem("clck26"))
+END
+
+// Knights Appear
+
+IF
+  Global("b#TalkedLug","GLOBAL",1)
+  Global("b#CreateSamilGroup1","GLOBAL",0)
+THEN
+  RESPONSE #100
+    StartCutSceneMode()
+    SetGlobal("b#CreateSamilGroup1","GLOBAL",1)
+    MoveViewObject(Player1,STANDARD)
+    Wait(3)
+    CreateCreatureObjectOffSet("b#knit01",Player1,[0.-75])
+    ActionOverride("b#knit01",Face(0))
+    CreateCreatureObjectOffSet("b#knit04",Player1,[-100.-100])
+    ActionOverride("b#knit04",Face(14))
+    CreateCreatureObjectOffSet("b#knit07",Player1,[100.-100])
+    ActionOverride("b#knit07",Face(2))
+    CreateVisualEffectObject("spdimndr","b#knit01")
+    CreateVisualEffectObject("spdimndr","b#knit04")
+    CreateVisualEffectObject("spdimndr","b#knit07")
+    Wait(5)
+    ActionOverride("b#knit01",DisplayStringHead(Myself,@60))
+    Wait(5)
+    ActionOverride("b#knitlg",DisplayStringHead(Myself,@61))
+    Wait(5)
+    ActionOverride("b#knit01",DisplayStringHead(Myself,@62))
+    Wait(5)
+    ActionOverride("b#knit04",DisplayStringHead(Myself,@63))
+    Wait(5)
+    ActionOverride("b#knit01",DisplayStringHead(Myself,@64))
+    Wait(5)
+    ActionOverride("b#knitlg",DisplayStringHead(Myself,@65))
+    Wait(5)
+    ActionOverride("b#knit04",DisplayStringHead(Myself,@66))
+    Wait(5)
+    ActionOverride("b#knit04",Attack("b#knitlg"))
+    Wait(5)
+    EndCutSceneMode()
+    SetGlobal("b#SamilKilledLug","GLOBAL",1)
+END
+
+// Give Back Cloak of Mirroring
+
+IF
+  !HasItem("clck26",Player1)
+  Global("b#DestroyedCloak","GLOBAL",1)
+  Global("b#SamilKilledLug","GLOBAL",1)
+  Global("b#LeaveSamilGroup1","GLOBAL",0)
+THEN
+  RESPONSE #100
+    IncrementGlobal("b#DestroyedCloak","GLOBAL",1)
+    GiveItemCreate("clck26",Player1,0,0,0)
+    ActionOverride(Player1,EquipItem("clck26"))
+END
+
+// Knights Leave
+
+IF
+  Global("b#SamilWarned","GLOBAL",1)
+  Global("b#LeaveSamilGroup1","GLOBAL",0)
+THEN
+  RESPONSE #100
+    StartCutSceneMode()
+    SetGlobal("b#LeaveSamilGroup1","GLOBAL",1)
+    MoveViewObject(Player1,STANDARD)
+    Wait(3)
+    ActionOverride("b#knit01",ReallyForceSpell(Myself,DRYAD_TELEPORT))
+    ActionOverride("b#knit04",ReallyForceSpell(Myself,DRYAD_TELEPORT))
+    ActionOverride("b#knit07",ReallyForceSpell(Myself,DRYAD_TELEPORT))
+    Wait(5)
+    EndCutSceneMode()
+END

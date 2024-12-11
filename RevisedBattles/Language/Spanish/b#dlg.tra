@@ -1,0 +1,152 @@
+////////////////////////////////////////
+// Wraith Sarevok
+////////////////////////////////////////
+
+@10 = ~¡A mí, mis fieles sirvientes!~
+@11 = ~¡Angelo! ¡Noooo!~
+@12 = ~¡Semaj! ¡Noooo!~
+@13 = ~¡Tamoko! ¡Noooo!~
+@14 = ~¡Tazok! ¡Noooo!~
+@15 = ~¡No! ¡Mirad lo que habéis hecho! ¡MORID!~
+@16 = ~Con sus subordinados derrotados, Sarevok es vulnerable a vuestros ataques~
+
+////////////////////////////////////////
+// Master Brain
+////////////////////////////////////////
+
+@20 = ~Usando su inmenso poder telepático, el Cerebro anciano se recupera por completo.~
+@21 = ~En un intento desesperado, el Cerebro anciano os azota con todo su poder psíquico.~
+
+////////////////////////////////////////
+// Drizzt
+////////////////////////////////////////
+
+@30 = ~No fallaremos, ¡Malchor ayúdame!~
+@31 = ~Un hijo de Bhaal, ¡nunca prevaleceréis!~ ~Una hija de Bhaal, ¡nunca prevaleceréis!~
+
+////////////////////////////////////////
+// House Jae'llat
+////////////////////////////////////////
+
+@40 = ~¡Lolth, concédeme la fuerza para destruir a los de la superficie!~
+@41 = ~¡Os ayudaré hermano!~
+
+////////////////////////////////////////
+// Firkraag
+////////////////////////////////////////
+
+@50 = ~¡Ahora lo habéis hecho y me habéis irritado!~
+@51 = ~¡No seré derrotado tan facilmente!~
+@57 = ~¡Otra vez!, pero ahora es diferente.~
+@58 = ~¡Venid, mis sirvientes alados!~
+
+@52 = ~¿Ahora veis qué quería decir con ser una de las especies antiguas de Faerun?~
+@53 = ~¡Hora de perecer, insignificante <PRO_RACE>!~
+
+@54 = ~Me impresionáis mortal, ¡pero ahora es el momento de morir!~
+@55 = ~¡Haced lo que queráis, ya os he derrotado antes!~
+@56 = ~¡¿Vos creéis que era mi verdadero poder, MANLING?!~
+
+////////////////////////////////////////
+// Knights of Dark Renown
+////////////////////////////////////////
+
+@60 = ~¡Ahí estáis chico!~
+@61 = ~¡Dejadme a solas, por faaavor!~
+@62 = ~Tonterías. ¡Bodarch!~
+@63 = ~¿Si, mi señor?~
+@64 = ~Matad al chico.~
+@65 = ~Por favor. ¡Nooo!~
+@66 = ~¡Será un placer, mi señor!~
+
+@67 = ~¡Y ahora, el momento que todos habéis esperado!~
+@68 = ~¡Lord Samildanach contra los Esclavos de Akkibar!~
+@69 = ~¡Que empiece el juego!~
+
+////////////////////////////////////////
+// General
+////////////////////////////////////////
+
+@70 = ~Cambiado a arma no mágica~
+@71 = ~Cambiado a arma mágica~
+@72 = ~¡Salid, salid, quienquiera que seáis!~
+@73 = ~Secuenciador de conjuros~
+@74 = ~Contingencia en cadena~
+@75 = ~¡No dejéis que los otros luchen por vos!~
+
+////////////////////////////////////////
+// Roenall
+////////////////////////////////////////
+
+@80 = ~¡No puedo ser derrotado en presencia de mi ejército!~
+@81 = ~No, esto no puede ser... mi ejército, derrotado...~
+@82 = ~Con su ejército derrotado, Roenall es vulnerable.~
+@83 = ~¡¿Creéis que he acabado con vos?!~
+
+////////////////////////////////////////
+// Mad Cleric - The Redeemer
+////////////////////////////////////////
+
+@90 = ~¡Morid perros indignos!~
+@144 = ~¡¡Alto Infieles!!~
+@145 = ~¡¡Ahhh, Bolas de fuego!! ¡¿¡Y ahora qué!?!~
+@146 = ~¿¡Perdonad!? ¿A quién estáis llamando "Infiel"?~
+@147 = ~Desde luego nos habéis tomado por otra persona.~
+@148 = ~La muerte repentina de mi hermano pesa en mis espaldas. Recientemente fui informado de su paso. Aparentemente alguna banda de alborotadores no encontraron a gusto su elección de religión, y decidieron matarlo al pobre, un hombre loco con una excusa nula. Sé de buena tinta que la banda resulta ser vuestra.~
+@149 = ~No, no fuimos nosotros. ¡Ahora, iros a la mierda!~
+@150 = ~¡Si! Esa rata bastarda era de los que creen que cualquiera que no adore a Cyric, aunque sea por su elección, no debería perecer. Siento la pérdida de vuestro amigo, pero no tuvimos más elección que apartarlo de su miseria.~
+@151 = ~¡¡¡Mentís!!! ¡¡Cyric todavía puede oler el hedor de su sangre en vuestras manos!! Preparaos. ¡Encontraréis que soy un oponente mucho más difícil! ¡¡Por Cyric!! Y mi hermano,,,~
+@152 = ~Ya veremos. ¡Desde luego espero que seáis mejor que él! ¡Vuestra triste excusa de un hermano a penas nos ha hecho empezar a sudar!~
+@153 = ~Entonces pagad el precio por su alma, asesinos. ¡¡MORID!!~
+@154 = ~Que así sea. ¡Vamos!~
+
+////////////////////////////////////////
+// Mencar Pebblecrusher - Pooky
+////////////////////////////////////////
+
+@100 = ~¡VOS ALLI! SALVAJE, BARBARO, PATETICA EXCUSA...~
+@101 = ~Ya, tranquilo Walter, sed bueno. El doctor dijo que debéis dejar de estresaros o tendréis otro ataque.~
+@102 = ~Si, cielo. No sé que me ha poseído. Ey, vos, el líder del grupo. ¿Podría tener un momento de vuestro valioso tiempo?~
+@103 = ~Pero, por supuesto, Sir Wyvern. ¿Hay algo en lo que os pueda ayudar?~
+@104 = ~Hace dos días, mi esposa Martha y yo recibimos noticias de una tragedia terrible. Nuestro único hijo Pooky, nuestro orgullo y gloria, fue matado por un grupo de viciosos feroces. ¡¿POR CASUALIDAD TENEIS ALGO QUE VER EN ELLO?!~
+@105 = ~¡Walter!~
+@106 = ~Perdóname, cielo, pero estoy bastante estresado. Entonces, decidme, buen señor, ¿sabéis que ha sucedido a nuestro pobre Pooky?~ ~Perdóname, cielo, pero estoy bastante estresado. Entonces, decidme, buena dama, ¿sabéis que ha sucedido a nuestro pobre Pooky?~
+@107 = ~En realidad lo maté en la Guarida de los Siete Valles. Siento muchísimo vuestra pérdida.~
+@108 = ~(tristemente) Decidme, <SIRMAAM>, ¿es probable que estuviera con alguien?~
+@109 = ~Si, estaba. Junto a sus compañeros estaban un enano que hacía un olor apestoso, llamado Mencar, una bonita ladrona conocida como Risling, un brujo cobarde llamado Amon...~
+@110 = ~(Enfadado) ¡Maldición! Sabía que este brujo se entrometería y conseguiría que lo mataran. Le dije que se alejara, pero, ¿escuchó a este viejo hombre? Pero nooo, ¡el SIEMPRE sabía más!~
+@111 = ~Hicisteis todo lo que pudisteis Walter. Ahora, ¿podemos por favor regresar al motivo de nuestra visita?~
+@112 = ~Ay si, el tema de la venganza. ¡Vengar el asesinato de nuestro amado Pooky! Aunque rezaremos para que matéis al canalla de Amon, debemos, sin embargo, terminar con vuestra miserable existencia. Sería irrespetuoso para Pooky si no lo hiciéramos.~
+@113 = ~Por favor, sentiros libre de defenderos, para que no seamos deshonrados con una victoria vacía.~
+@114 = ~¡DESENVAINAD VUESTRAS ARMAS! ¡CONVERTID SUS HUESOS EN CENIZAS! DEJAD QUE LOS LOBOS... (mira a Martha, que está furiosa). *Glups* Lo siento, cielo.~
+@115 = ~¡Esta noche vais a dormir en el sofá! ¡Atacad!~
+@116 = ~¡Que así sea!~
+@117 = ~Mientras brincan por el aires y empiezan a volar por los alrededores, os llenáis de pavor, y ellos están fuera de alcance de todas vuestras armas de combate cuerpo a cuerpo. El pavor se convierte en temor, y vuestra sangre empieza a chorrear por vuestras venas.~
+
+////////////////////////////////////////
+// Falahar
+////////////////////////////////////////
+
+@120 = ~Hola, hijo de Bhaal. Encantado de conoceros.~
+@121 = ~Um... ¿Quién sois vos?~
+@122 = ~Soy Falahar. Os he estado esperando para presentarme.~
+@123 = ~Vaaaale... ¿Porqué?~
+@124 = ~¿Qué? ¿No me creéis? Y para el porqué, es para poner un fin a vuestra miserable existencia, ¡eso es porqué!~
+@125 = ~Yo cre-~
+@126 = ~¡No nos cree! ¿Draccy, sabéis la historia, verdad?~
+@127 = ~¡Si! Nacisteis siendo un pobre engendro de Bhaal. Gastasteis vuestra juventud correteando bajo la túnica de Gorion, causando cualquier caos que pudierais cometer hasta recientemente, cuando pasasteis varios meses limpiando la mierda de otros como vos que estaban en nuestra lista. Sarevok. Más recientemente de alguna forma os habéis dejado ver por Faerun, pero hay ciertos tejemanejes que supongo solo pueden ser atribuidos a vos y a vuestro variado grupo.~
+@128 = ~¿Aún no habéis derrotado a ese molesto devoto de Cyric?~
+@129 = ~Quizás... ¿porqué?~
+@130 = ~Solo lo preguntaba.~
+@131 = ~¡Yo soy el mago!~
+@132 = ~¡Callad los dos! Vamos a probar solamente las habilidades de este inocentón.~
+@133 = ~Vale, bien. ¡No os pongáis nervioso!~
+
+////////////////////////////////////////
+// Chromatic Demon
+////////////////////////////////////////
+
+@140 = ~¡Sentid el calor de mi llama abrasadora!~
+@141 = ~¡Sentid la fuerza de mi ráfaga de viento!~
+@142 = ~¡Sentid el frío de mi escarcha cortante!~
+@143 = ~¡Sentid el escozor de mi arena irritante!~

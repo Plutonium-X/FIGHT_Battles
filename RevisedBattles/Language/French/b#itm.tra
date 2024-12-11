@@ -1,0 +1,348 @@
+////////////////////////////////////////
+// Drizzt
+////////////////////////////////////////
+
+@1001	= ~Cimeterre +5, Marque Glacée~
+@1002	= ~C'est Marque Glacée, un cimeterre +5. Il fait partie de l'arsenal personnel de Drizzt.
+
+PARAMETRES :
+
+Capacité d'équipement :
+ Résistance au Feu : 100%
+ 
+Capacités de Combat :
+ 2 points de dégâts de froid supplémentaires à chaque coup
+ 20% de Chance de ralentir la cible à chaque coup (pas de jet de sauvegarde)
+ 
+TAC0 : +5
+Dégâts : 1D8 +5
+Type de dégâts : tranchant
+Poids : 4
+Type de compétence : Cimeterre/Wakizashi/Ninja-To
+Facteur de vitesse : 2
+Type : arme à 1 main
+Force nécessaire : 8
+Non Utilisable par :
+ Clerc
+ Mage~
+
+@1003	= ~Cimeterre +5, Gardien~
+@1004	= ~Scintillant est un cimeterre gardien +5. C'est également l'une des armes de Drizzt. En raison de sa nature, seuls ceux qui ont le cœur pur peuvent le manier.
+
+PARAMETRES :
+
+Capacités d'équipement :
+ +20% de Résistance aux armes tranchantes, contondantes, perforantes et aux projectiles
+ +2 à la Classe d'Armure
+
+TAC0 : +5
+Dégâts : 1D8 +5
+Type de dégâts : tranchant 
+Poids : 4 
+Facteur de vitesse : 2 
+Compétence : grande épée 
+Type : arme à 1main 
+Non utilisable par :  
+ Personnages d'alignement neutre ou mauvais 
+ Mage 
+ Clerc~
+
+@1005	= ~Arc court de Tansheron +3~
+@1006	= ~Arc court de Tansheron +3
+La corde fine et effilochée de cet arc semble inutilisable, mais quand il la tire, l'archer sent apparaître entre ses doigts une flèche invisible mais solide. La liche Tansheron offrit cet arc à son guetteur, un gardien de son château qui se tenait dans un endroit inaccessible au sommet d'une tour. Dès que quelqu'un approchait, il recevait une pluie interminable de flèches fantômes jusqu'à ce qu'il soit mort ou en fuite. On ne sait pas comment cet arc a été pris au guetteur, mais ça ferait probablement une bonne histoire de taverne.
+
+Catti-Brie a été la seule personne capable de déchaîner le potentiel de cette arme, qui peut déchirer les protections des mages et renverser sa cible.
+
+Note : évitez d'équiper votre personnage avec des flèches normales, sinon l'arc les tirera à la place des flèches fantômes.
+
+PARAMETRES :
+
+Capacité d'équipement : cet arc n'a pas besoin de flèches
+
+Capacités de Combat :
+ 100% de chances de pousser l'adversaire
+ Dissipation de la magie quand un flèche touche un adversaire
+
+TAC0 : +3
+Dégâts: 2D4 +3
+Type de dégâts : projectiles (perforant)
+Poids : 2
+Facteur de vitesse : 3
+Type de compétence : arc court
+Type : arme à 2 mains
+Force nécessaire : 6
+Utilisable par :
+ Catti-Brie~
+
+////////////////////////////////////////
+// Firkraag
+////////////////////////////////////////
+
+@1011	= ~Défi de la Vertu +4~
+@1012	= ~Epée Bâtarde +4 : Défi de la Vertu
+
+Seuls les sans-coeurs peuvent oser toucher Défi de la Vertu, créé par le mal pur. Comment une telle épée est-elle parvenue à Féerune ? Cette arme fut créée avant la mort d'un puissant Seigneur Démon. Celui-ci a tué de nombreuses créatures innocentes, parmi lesquelles des nymphes, des elfes, des svirfneblins et des enfants dragons d'argent. La garde de cette étrange épée est faite d'oeufs de dragon et de sang elfe. La lame sans défaut fut créée à partir d'os broyés de nymphes et de svirfneblins. Le grand Seigneur Démon termina cette épée avec l'esprit du mal pur, et la marqua de son pouvoir pour la rendre plus puissante contre le bien. Il finit par se tuer en créant l'arme partenaire de cette épée-- le fléau Immolation du Sacré.
+
+PARAMETRES :
+
+Capacités d'équipement : 
+ Protection contre le bien (permanent)
+ Blessures Graves 1 fois par jour
+ Blessures Critiques 1 fois par jour
+ Mise à Mal 1 fois par jour
+
+Capacités de Combat :
+ 25% de chance de Paniquer la cible pendant 12 secondes
+ 15% de chance de lancer Flétrissure Infernale sur la cible
+
+TAC0 : +4
+Dégâts : 2D4 +4
+Type de dégâts : tranchant
+Poids : 5
+Facteur de vitesse : 2
+Type de compétence : épée bâtarde
+Type : arme à 1 main
+Force nécessaire : 18/00
+Utilisable par :
+ Personnages Mauvais
+ Guerrier
+ Paladin Déchu
+ Rôdeur Déchu~
+ 
+@1013	= ~Immolation du Sacré +4~
+@1014	= ~Fléau +4 : Immolation du Sacré
+
+Des monstres ont combattu longuement dans toutes les contrées pour mettre la main sur ce puissant fléau. Peu d'armes de ce type ont un tel pouvoir. Firkraag le Dragon fut le dernier qu'on vit manier une telle arme, et il fut tué par <CHARNAME>, la personne que Firkraag voulait tuer parce que Gorion était son père adoptif. Ce puissant fléau fut créé grâce au coeur d'un puissant Seigneur Démon, qui s'est sacrifié pour empêcher qu'une version plus puissante en soit créé. Le sang du Seigneur Démon s'est répandu sur le manche pour empêcher quiconque de l'utiliser pour faire le bien. Seules les plus viles des créatures peuvent utiliser cette arme, en raison de son origine infernale.
+
+PARAMETRES :
+
+Capacité d'équipement : 
+ 25% de Résistance au Feu
+
+Capacités de Combat:
+ 25% de chance de lancer Fléau d'Insecte sur la cible
+ 15% de chance de drainer 1 niveau de la cible
+ 3% de chance de guérir complètement le porteur
+
+TAC0 : +4
+Dégâts : 1D8 +4, +1D5 points de dégâts de feu
+Type de dégâts : contondant
+Poids : 8
+Facteur de vitesse : 2
+Type de compétence : Fléau/Etoile du Matin
+Type : arme à 1 main
+Force nécessaire : 18/00
+Utilisable par :
+ Personnages Mauvais
+ Guerrier
+ Paladin Déchu
+ Rôdeur Déchu~
+
+////////////////////////////////////////
+// Temple Sewers Party
+////////////////////////////////////////
+
+@1021	= ~Robe de Moine : Robe d'Endurance~
+@1022	= ~Robe de Moine : Robe d'Endurance
+
+Durant les premières années de ce siècle, Aka'rima Tzu, un fameux Moine des Brisés, affronta lors d'une bataille colossale une furieuse mère Dragon des Glaces, Ingarjuk. Bien que son entrainement physique et mental lui ait permis de survivre plus longtemps que ne l'aurait fait aucun autre mortel, c'est cette robe qui lui a donné les dernières forces nécessaires pour vaincre la bête infernale.
+
+PARAMETRES :
+
+Capacités d'Equipement :
+ +2 à la Classe d'Armure
+ Régénération de 1 point de vie par round
+ +15% de Résistances aux attaques contondantes, perforantes et tranchantes
+
+Poids : 3
+Utilisable par :
+ Moine~
+
+////////////////////////////////////////
+// Wraith Sarevok
+////////////////////////////////////////
+
+@1031	= ~Amulette Bouclier de Résistance~
+@1032	= ~Amulette Bouclier de Résistance
+
+Cet étrange morceau de métal et d'or semble être une variante plus puissante de l'Amulette Bouclier. Le bon sens vous dit qu'on peut l'activer de la même manière qu'une amulette bouclier plus classique. En examinant ce joyau, vous comprenez soudain ce qu'il fait lorsqu'il est activé... il protège le porteur avec un puissant Bouclier de Résistance.
+
+PARAMETRES :
+
+Utilisation (1 charge) : Bouclier de Résistance
+ Portée : 0
+ Zone d'effet : Lanceur
+ Classe d'Armure : placée à 0
+ Spécial : +25% de résistance aux dégâts physiques
+ Durée : 2 rounds~
+ 
+@1033	= ~Robe de Bataille d'Archimage~
+@1034	= ~Robe de Bataille d'Archimage
+
+Les magiciens qui voyagent n'ont pas de protection suffisante pour se lancer dans des batailles mortelles. Du moins, c'était vrai avant la création de la Robe de Bataille de l'Archimage. Trempée dans le sang de nombreux monstres, cette robe n'a jamais vu la lumière de la surface. Créée par un archimage inconnu, il est évident qu'elle a été emprisonnée dans un étrange plan bien plus longtemps qu'on ne peut l'imaginer. Lorsqu'elle est portée, elle fait ce dont peu auraient cru possible... donner un concurrent sérieux à la Robe de Vecna. Une bonne protection est difficile à trouver pour les magiciens.
+
+PARAMETRES :
+
+Capacités d'équipement :
+ +3 à la Classe d'Armure
+ +3 au TAC0
+ +10 Points de Vie
+ Diminue le temps d'incantation de 2
+ +5% de Résistance aux dégâts physiques
+
+Poids : 3
+Utilisable par :
+ Mage~
+
+@1035	= ~Oeil d'Aigle~
+@1036	= ~Arc Court +5 : Oeil d'Aigle
+
+Un bretteur orque a tué un jour un certain nombre d'aigles sans défense dans une tentative pour créer l'arc parfait. Il les a affronté et a réussi à assassiner ces animaux pacifiques. Avec sa connaissance de la forge, ce mystérieux orque utilisa les crânes pour la hampe et des plumes pour les cordes. Quelques yeux furent attachés à la hampe, donnant un pouvoir incroyable. A la surprise du forgeron mythique, les yeux étaient en fait des bêtes sphériques lorsqu'ils étaient séparés d'un aigle... et donnaient la capacité de créer des flèches spéciales. Le voleur anonyme mourut lorsque des rumeurs apparurent à propos de l'arc, mais personne n'a pu deviner comment il avait été conçu. Il fut bientôt brûlé et désintégré, dans une tentative pour le détruire. D'une façon ou d'une autre, il a disparu pendant des siècles et un demi-dieu du nom de <CHARNAME> l'a trouvé dans un plan particulièrement difficile à atteindre... L'Enfer. Seul une question demeure sans réponse : son créateur l'a-t-il souillé ?
+
+PARAMETRES :
+
+Capacités de combat :
+ +2 attaques
+ Portée doublée
+ 
+Capacité Spéciale :
+ Crée 5 Flèches de Plume d'Aigle par jour
+
+TAC0 : +5
+Dégâts : +3
+Poids : 2
+Facteur de vitesse : 4
+Type de compétence : arc court
+Type : arme à 2 mains
+Force nécessaire : 6
+Utilisable par :
+ Archer
+ Voleur~
+
+@1037	= ~Flèche de Plume d'Aigle~
+@1038	= ~Flèche de Plume d'Aigle
+
+Cette flèche magique fut créée en utilisant Oeil d'Aigle. Elle ne durera que vingt-quatre heures.
+
+PARAMETRES :
+
+Capacités de Combat :
+ Etourdissement de la cible (pas de jet de sauvegarde)
+ 5% de tuer la cible (pas de jet de sauvegarde)
+ 
+TAC0: +5
+Dégâts : 1D6
+Type de dégâts : projectiles (perforant)
+Poids : 0
+Arme de Jet : Arc
+Utilisable par :
+ Archer
+ Voleur~
+ 
+@1039	= ~Fureur de l'Enfer~
+@1040	= ~Epée à Deux Mains +4 : Fureur de l'Enfer
+
+Certains Géants des Royaumes ont créé des dagues. Une seule a jamais échappé des mains d'un géant. Fureur de l'Enfer est cette dague. Une fois qu'elle a été trouvée, de nombreuses créatures ont tenté de l'obtenir, jusqu'à ce que <CHARNAME> la découvre dans l'endroit le plus maléfique connu des hommes et des géants... l'Enfer.
+
+PARAMETRES :
+
+Capacités de Combat : chaque coup a l'un des effets suivants:
+ 1 - Lancer Fourvoiement Magique sur la cible (80% de chance d'échec)
+ 2 - 15 points de dégâts de feu contre la cible
+ 3 - 15 points de dégâts tranchants contre la cible
+ 4 - Labyrinthe pendant 12 seconde sur la cible
+
+TAC0 : +4
+Dégâts : 1D10 +4
+Type de dégâts : tranchant
+Poids : 10
+Facteur de vitesse : 5
+Type de compétence : épée à 2 mains
+Type : arme à 2 mains
+Force nécessaire : 14
+Utilisable par :
+ Barbare
+ Guerrier~
+
+////////////////////////////////////////
+// Knights of Dark Renown
+////////////////////////////////////////
+
+@1051	= ~Note de Samildanach~
+@1052	= ~Note de Samildanach
+"<CHARNAME>, si vous voulez comprendre ce qui s'est passé aujourd'hui, je vous suggère de me rencontrer à la Couronne de Cuivre avant le prochain coucher de soleil.
+
+Soyez cependant prévenu : devriez-vous persister à vous occuper de ce problème contre ma volonté que vous en seriez fort marri. Prenez votre décision après mûre réflexion."
+
+Samildanach, Seigneur des Gabala.~
+
+@1053	= ~Souillure du Péché~
+@1054	= ~Epée Bâtarde +4 : Souillure du Péché
+
+Ayant jadis appartenue au Chevalier de Sombre Renom connu sous le nom de Seigneur Samildanach, cette épée mythique fut à l'origine enlevée à un aventurier appelé Mannanan. Mannanan a dû chercher ses alliés, qui étaient sous l'emprise du vampirisme. Il ne connut aucune succès, et il ne trouva que cette épée, la Souillure du Péché. L'épée resta en possession de Mannanan, et ses errements ne furent point connus. L'arme acquit peut-être le meilleur de lui.
+
+PARAMETRES :
+
+Capacités de combat :
+ 1% de chance de lancer une Eclipse Solaire sur le porteur. Ceci transformera le porteur en pierre de façon permanente, à moins que les effets ne soient dissipés
+ 2% de chance de tuer instantanément la cible
+ 5% de chance d'infliger une blessure mortelle (50 points de dégâts supplémentaires)
+ 8% de chance de drainer deux niveaux supplémentaires
+ 10% de chance que le porteur devienne berserk à chaque coup (pendant 3 rounds)
+ Chaque coup réussi cause 1 point de dégâts d'hémorragie supplémentaires par round pendant 3 rounds
+ Chaque coup réussi transfère deux points de vie de la cible au porteur
+ Chaque coup réussi aura l'un des effets suivants sur la cible. Un jet de sauvegarde contre les sorts réussi (à -2) annulera l'effet :
+  1 - Cécité
+  2 - Panique
+  3 - Lenteur
+  4 - Confusion
+
+TAC0 : +4
+Dégâts : 2D4 +4
+Type de dégâts : tranchant
+Poids : 6
+Facteur de vitesse : 5
+Type de compétence : épée bâtarde
+Type : arme à 1 main
+Nécessite : 15 en Force, 12 en Dextérité
+Inutilisable par :
+ Clerc
+ Druide
+ Mage
+ Voleur~
+
+////////////////////////////////////////
+// Master Brain
+////////////////////////////////////////
+
+@1061	= ~Amulette de Protection de l'Esprit~
+@1062	= ~Amulette de Protection de l'Esprit
+
+<CHARNAME> et ses compagnons ont été récemment capturés par des Flagelleurs Mentaux en s'aventurant en Ombreterre. Pour parvenir à sortir, ils ont dû combattre le Géancéphale Illithid. Ce morceau de corde semble fait de morceaux du Géancéphale et d'intestins. Il semble aller autour du coup, comme une amulette, et protéger contre les maléfiques pouvoirs psychiques des Illithids...
+
+PARAMETRES :
+
+Immunité à toutes les attaques de drain d'intelligence
+Immunité au charme et à la domination~
+
+@1063 = ~Croc d’Aegis +3~
+@1064 = ~Croc d’Aegis
+
+Cette arme a été spécifiquement confectionnée pour Wulfgar par son ami Bruenor Marteaudeguerre, aussi son principal enchantement n'est-il actif qu’entre les mains du jeune guerrier. N’importe qui d’autre maniant Croc d’Aegis utilise ce dernier comme un marteau de guerre +3.
+
+PARAMETRES :
+
+TAC0 : +3
+Dégâts : 2D4 +3
+Type de dégâts : contondant
+Poids : 3
+Facteur de vitesse : 1
+Type de compétence : marteau de guerre
+Type : arme à 1 main
+Force nécessaire : 18
+Inutilisable par :
+ Druide
+ Mage 
+ Voleur
+ Moine
+ Belluaire~

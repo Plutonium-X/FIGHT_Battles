@@ -1,0 +1,335 @@
+@1001 = ~Krummsäbel +5, "Eisiger Tod"~ 
+@1002 = ~Das ist der magische Krummsäbel "Eisiger Tod". Er ist eine der persönlichen Waffen von Drizzt.
+
+EIGENSCHAFTEN:
+
+Ausgestattete Fähigkeiten:
+ Feuerwiderstand: 100%
+
+Kampffähigkeiten:
+ Zusätzlich +2 Punkte Kälteschaden bei jedem Treffer
+ Chance von 20 % bei jedem Treffer, das Ziel zu verlangsamen (kein Rettungswurf)
+
+ETW0-Bonus: -3
+Schaden: 1W8 +3
+Schadensart: aufschlitzen
+Gewicht: 4
+Initiativefaktor: 2
+Mindeststärke: 8
+Fertigkeit: Krummsäbel/Wakizashi/Ninja-To
+Typ: 1-händig
+
+Kann nicht verwendet werden von:
+ Klerikern
+ Magiern~
+@1003 = ~Krummsäbel +5, Verteidiger~ 
+@1004 = ~Das ist der magische Krummsäbel "Funkeln". Er ist eine der persönlichen Waffen von Drizzt. Aufgrund seiner magischen Natur kann er nur von jenen eingesetzt werden, die ein reines Herz haben.
+
+EIGENSCHAFTEN:
+
+Solange man damit ausgerüstet ist:
+ 20% Widerstand gegen durchbohren, Fernkampfwaffen, zertümmern und aufschlitzen
+ Rüstungsklasse: +2 Bonus
+ 
+ETW0-Bonus: +5
+Schaden: 1W8 + 5
+Schadensart: aufschlitzen
+Gewicht: 4
+Fertigkeit: Krummsäbel/Wakizashi/Ninja-To
+Initiativefaktor: 2
+Typ: 1-händig
+Mindeststärke: 8
+
+Kann nicht verwendet werden von:
+ Klerikern
+ Magiern
+ bösen/neutralen Wesen
+~
+@1005 = ~Tansherons Kurzbogen +3~ 
+@1006 = ~Tansherons Kurzbogen +3
+
+Die dünne, ausgefranste Sehne des Bogens wirkt so, als ob sie nutzlos wäre, doch wenn man sie spannt, merkt man plötzlich, dass ein unsichtbarer Pfeil auf der Sehne liegt. Der Leichnam Tansheron rüstete mit diesem Bogen seinen Wächter aus, der seine Festung von der Spitze eines Turmes aus bewachte, zu dem es keinen Eingang gab. Wenn sich jemand der Festung näherte, deckte sie der Wächter mit einem endlosen Hagel aus Phantompfeilen ein, bis die Eindringlinge flohen oder tot waren. Wie es gelang, dem Wächter diesen Bogen zu entreißen, ist nicht bekannt. Es wäre aber sicher eine prächtige Geschichte, die in so mancher Schänke begeisterte Zuhörer finden würde.
+
+Catti-Brie war die einzige Person, die in der Lage ist, das Potential dieser Waffe zu entfesseln, die den Magie-Schutz zu zerstören und das Tiel zurückschleudernn würde.
+
+Anmerkung: Wenn man den Bogen verwendet, sollte man keine Pfeile benutzen, denn dann werden diese und nicht die Phantompfeile des Bogens verschossen.
+
+
+EIGENSCHAFTEN:
+
+Besondere Fähigkeiten:
+ Diese mächtige Waffe benötigt keine Munition
+
+Kampffähigkeiten:
+ 100%-ige Chance, den Gegner zurückzuschleudern
+ Beseitigt Magie wann immer die Pfeile einen Gegner treffen
+
+ETW0-Bonus: +3
+Schaden: 2W4 + 3
+Schadensart: Geschosswaffen (durchbohren)
+Gewicht: 2
+Initiativefaktor: 3
+Fertigkeit: Kurzbogen
+Typ: 2-händig
+
+Kann nur verwendet werden von:
+ Catti-Brie~
+@1011 = ~Missachtung der Tugend +4~
+@1012 = ~Bastardschwert +4: Missachtung der Tugend +4
+
+Geschaffen aus dem reinen Bösen anstatt dem Guten, aus dem es hätte sein sollen, können es nur die Herzlosen wagen, die Missachtung der Tugend zu berühren. Wie konnte solch ein Schwert seinen Weg nach Faerun finden? Vor dem Tod eines starken Dämonenfürsten wurde diese Waffe geschaffen. Der Dämonenfürst tötete viele unschuldige Wesen, einschließlich Nymphen, Elfen, Svirfneblin und Silberdrachen-Kindern. Der Schaft dieser fremden Waffe wurde aus Silberdrachen-Eiern und Elfenblut gemacht. Die fehlerfreie Klinge wurde aus den verkohlten Knochen von Nymphen und Svirfneblin Zwergen gefertigt. Der große Dämonenfürst stellte diese Waffe mit dem reinen Bösen im Sinn fertig, und kennzeichnete sie für die Macht gegen alles Gute. Der Dämonenfürst tötete sich letztendlich selbst, um die Partnerwaffe dieses Schwertes zu erschaffen - den synchronisierten Flegel der Opferung der Heiligen.
+
+EIGENSCHAFTEN:
+
+Ausgestattete Fähigkeiten:
+  Dauerhafter Schutz vor Gutem
+  Schwere Wunden verursachen: einmal am Tag
+  Kritische Wunden verursachen: einmal am Tag
+  Leid: einmal am Tag
+
+Kampffähigkeiten: 
+  Chance von 25 %, dass das Ziel für 12 Sekunden in Panik gerät
+  Chance von 15 %, Unheiliges Verderben auf as Ziel zu wirken
+
+ETW0: +4 Bonus
+Schaden: W4 + 4
+Schadensart: aufschlitzen
+Gewicht: 5
+Geschwindigkeitsfaktor: 2
+Fertigkeit:  Bastardschwert
+Typ: 1-händig
+Mindeststärke: 18/00
+
+Kann nur verwendet werden von:
+ Schlechten Charakteren
+ Kämpfern
+ Gefallenen Paladinen
+ Gefallenen Waldläufern~ 
+@1013 = ~Flegel der Opferung der Heiligen +4~
+@1014 = ~Flegel +4: Opferung der Heiligen
+
+Ungeheuer in allen Ländern haben hart darum gekämpft, diesen starken Flegel in die Hände zu bekommen. Seine Macht kommt wenigen Waffen seiner Art gleich, wenn er an die Macht kommt. Der Drache Firkraag war der letzte, der beim Ausüben solch einer Waffe gesehen wurde und wurde von <CHARNAME> getötet, der Person, die zu töten Firkraag zum Ziel hatte, einfach weil Gorion <CHARNAME>s Pflegevater war. Dieser starke Flegel wurde aus dem Herzen eines starken Dämonenfürsten geschaffen, der sich opferte, um  zu verhindern, dass eine stärkere Version geschaffen werden könnte. Das Blut des Dämonenfürsten wurde auf den Griff verspritzt, um zu verhindern, dass irgendjemand ihn für etwas Gutes verwenden kann. Nur die abscheulichsten Wesen können diese Waffe aufgrund seiner höllischen Entwicklung verwenden.
+
+EIGENSCHAFTEN:
+
+Ausgestattete Fähigkeiten:
+  Feuerwiderstand von 25 %
+
+Kampffähigkeiten: 
+  Chance von 25 %, Insektenplage auf das Ziel zu wirken
+  Chance von 15 %, 1 Stufe vom Ziel abzuziehen
+  Chance von 3 %, den Träger völlig zu heilen
+
+ETW0: +4 Bonus
+Schaden: 1W8 + 4 zünden +1W5 Feuerschaden
+Schadensart: Zertrümmern
+Gewicht: 8
+Geschwindigkeitsfaktor: 2
+Fertigkeit:  Flegel/Morgenstern
+Typ: 1-händig
+Mindeststärke: 18/00
+
+Kann nur verwendet werden von:
+ Bösen Charakteren
+ Kämpfen
+ Gefallenen Paladinen
+ Gefallenen Ranger Waldläufern~ 
+@1021 = ~Robe der Beständigkeit~
+@1022 = ~Mönchsrobe: Robe der Beständigkeit
+
+Während der frühen Jahre dieses Jahrhunderts kämpfte Aka'rima Tzu, ein berühmter Mönch der Gebrochenen, in einer gewaltigen Schlacht mit einem bösen Mutter-Eisdrachen, Ingarjuk. Obwohl seine abgehärtete körperliche und geistige Ausbildung ihm erlaubte, länger zu überleben, als jeder andere Sterbliche überleben würde, gab ihm diese Robe das letzte bißchen Kraft, das er benötigte, um das höllische Biest zu töten.
+
+EIGENSCHAFTEN:
+
+Ausgestattete Fähigkeiten:
+Rüstungsklasse: +2 Bonus
+Regeneriert 1 Trefferpunkt alle 6 Sekunden 
++15 % Widerstand gegen Zertrümmern, Durchbohren und Aufschlitzen
+Gewicht: 3
+
+Kann verwendet werden von:
+  Mönchen~
+@1031 = ~Abwehrschild-Amulett~ 
+@1032 = ~Abwehrschild-Amulett
+
+Dieses eigenartige Stück aus Metall und Gold vor Euch scheint eine viel stärkere Abwandlung des Schild-Amulettes zu sein. Der gesunde Menschenverstand sagt Euch, es auf die gleiche Weise wie das kleinere Schild-Amulett zu aktivieren. Während Ihr dieses Schmuckstück untersucht, erkennt Ihr plötzlich, was es tut, wenn es aktiviert ist... es stützt den Träger mit einem starken Abwehrschild.
+
+EIGENSCHAFTEN:
+
+Verwendung (1 Ladung): Abwehrschild
+ Reichweite: 0
+ Wirkungsbereich: Selbst
+ Rüstungsklasse: 0
+ Speziell: Bonu s25 % Widerstand gegen physischen Schaden
+ Dauer: 2 Runden~
+@1033 = ~Kampfrobe des Erzmagiers~ 
+@1034 = ~Kampfrobe des Erzmagiers
+
+Zauberer im ganzen Land haben einfach nicht den richtigen Schutz, um in tödliche Kämpfe zu geraten. Zumindest war das vor der Entwicklung der Kampfrobe des Erzmagiers wahr. Durchtränkt mit dem Blut von vielen Ungeheuern hat diese Robe das Licht der Oberfläche nie gesehen. Hergestellt von einem unbekannten Erzmagier ist es offensichtlich, dass sie in einer fremden Ebene länger gefangen war, als Ihr Euch vielleicht vorstellen könnt. Wenn sie getragen wird, macht sie, was wenig für möglich gehalten haben... sie macht der Robe von Vecna die dringend benötigte Konkurrenz. Guter Schutz ist schwer für Zauberer zu bekommen.
+
+EIGENSCHAFTEN:
+
+Rüstungsklassebonus: +3
+ETW0: +3 Bonus
+Trefferpunktebonus: +10
+Verbessert die Geschwindigkeit beim Wirken von Zaubern um 2
+Bonuswiderstand: 5 % gegen physischen Schaden
+Gewicht: 3
+
+Kann nur verwendet werden von:
+  Magiern (ein-, zwei- und mehrklassig)~
+@1035 = ~Adlerauge~
+@1036 = ~Kurzbogen +5: Adlerauge
+
+Ein orkischer Säbelrassler tötete einmal einige harmlose Adler bei dem Versuch, den vollkommenen Bogen zu erschaffen. Er rang sie nieder und war bei der Tötung der friedlichen Vögel erfolgreich. Mit seinen Kenntnissen der Nachahmung verwendete der mysteriöse Ork Schädel für den Schaft und Federn für die Bogenschnur. Einige Augen wurden an den Schaft angefügt und verliehen ihm unglaubliche Macht. Zur Überraschung des mythischen Schmieds waren die Augen wirklich kugelförmige Biester, als sie von einem Adler getrennt wurden... und verliehen die Fähigkeit, spezielle Pfeile zu erschaffen. Der anonyme Dieb starb, als sich der Bogen herumsprach, aber keiner konnte seine schwierige Bauweise herausfinden. Er wurde bald verbrannt und aufgelöst bei einem Versuch, seine sonderbare Struktur zu zerstören. Irgendwie blieb seine Form seit Jahrhunderten erhalten, und ein Halbgott namens <CHARNAME> fand ihn in einer sehr schwer zu erreichenden Ebene... der Hölle. Nur eine Frage bleibt unbeantwortet: hat sein Schöpfer ihn irgendwie besudelt?
+
+EIGENSCHAFTEN:
+
+Kampffähigkeiten:
+Zahl der Angriffe: +2 Bonus
+Reichweite: +2-Bonus
+Erzeugt 5 Adlerfeder-Pfeile pro Tag
+
+ETW0: +5 Bonus
+Schaden: +3 Bonus
+Gewicht: 2
+Geschwindigkeitsfaktor: 4
+Fertigkeit:  Kürzbogen
+Typ: 2-händig
+Mindeststärke: 6
+
+Kann verwendet werden von:
+  Bogenschützen
+  Dieben (ein-, zwei-, und mehrklassig)~
+@1037 = ~Adlerfeder-Pfeil~ 
+@1038 = ~Adlerfeder-Pfeil
+
+Dieser magische Pfeil wurde geschaffen unter Verwendung eines Adlerauges. Der Pfeil wird nur vierundzwanzig Stunden lang halten.
+
+EIGENSCHAFTEN:
+
+Kampffähigkeiten:
+Jeder Pfeil betäubt sein Ziel mit jedem Treffer (kein Rettungswurf)
+Chance von 5 %, das Ziel mit jedem Treffer zu töten (kein Rettungswurf)
+
+ETW0: +5 Bonus
+Schaden: 1W6
+Schadensart: Fernkampfwaffe (Durchbohren)
+Gewicht: 0
+Schusswaffe: Bogen
+
+Kann verwendet werden von:
+  Bogenschützen
+  Dieben (ein-, zwei-, und mehrklassig)~
+@1039 = ~Höllenwut~ 
+@1040 = ~Zweihändiges Schwert +4: Höllenwut
+
+Riesen von jenseits der Reiche haben Dolche für sich selbst geschaffen. Nur einer ist jemals den Händen jedes Riesen entkommen. Höllenwut war dieser Dolch. Nachdem er das erste Mal gefunden wurde, versuchten viele Wesen, ihn zu finden, bis <CHARNAME> ihn am abscheulichsten Platz fand, den sowohl Menschen als auch Riesen kennen... der Hölle.
+
+EIGENSCHAFTEN:
+
+Kampffähigkeiten
+Jeder Treffer bewirkt eines der folgenden:
+1 - wirkt Magie fehlwirken auf das Ziel (Chance von 80 % des Misserfolgs)
+2 - zusätzliche 15 Feuerschaden bei dem Ziel
+3 - zusätzliche 15 Schaden durch Aufschlitzen bei dem Ziel
+4 - Irrgarten
+
+ETW0: +4 Bonus
+Schaden: 1W10 + 4
+Schadensart: aufschlitzen
+Gewicht: 10
+Geschwindigkeitsfaktor: 5
+Fertigkeit:  Zweihändiges Schwert
+Typ: 2-händig
+Mindeststärke: 1
+
+Kann verwendet werden von:
+  Barbaren
+  Kämpfern  (ein-, zwei-, und mehrklassig)~ 
+@1051 = ~Samildanachs Notiz~
+@1052 = ~Samildanachs Notiz
+
+"<CHARNAME>, wenn Ihr wissen wollt, was heute geschah, schlage ich vor, dass Ihr mich vor dem nächsten Sonnenuntergang in der Kupferkrone trefft.
+
+Seid jedoch gewarnt: sollte diese Sache gegen meinen Geschmack drängen, WERDET Ihr ernste Verletzung erleiden. Entscheidet Euch mit großer Vorsicht und Gewißheit."
+
+Samildanach, Herr des Gabala.~ 
+@1053 = ~Verdorbene Sünde~
+@1054 = ~Bastard-Schwert +4: Verdorbene Sünde
+
+Einst dem Ritter des Dunklen Ruhms, bekannt als Lord Samildanach, gehörend, wurde dieses mythische Schwert ursprünglich von einem als Mannanan bekannten Abenteurer aufgespürt. Mannanan musste seine Verbündeten finden, die durch Vampirismus verflucht waren. Ohne jeden Erfolg bleibend war alles, was er fand, ein Schwert, die Verdorbene Sünde. Das Schwert verlor sich aus dem Besitz von Mannanan, und sein Verbleib ist nicht länger bekannt. Vielleicht ist die Waffe am besten weggekommen.
+
+EIGENSCHAFTEN:
+
+Kampffähigkeiten:
+Chance von 1 %, eine Sonneneklipse auf dem Träger zu wirken. Das lässt den Träger dauerhaft zu Stein erstarren, solange die Wirkung nicht entzaubert wird.
+Chance von 2 %, das Ziel sofort zu töten (zusätzliche 50 Schadenspunkte) 
+Chance von 8 %, zwei Stufen vom Ziel abzuziehen.
+Chance von 10 %, dass der Träger bei jedem Treffer rasend wird (für 18 Sekunden)
+Jeder erfolgreiche Treffer verursacht drei Runden lang einen zusätzlichen Schadenspunkt pro Runde durch verbluten.
+Jeder erfolgreiche Treffer stiehlt dem Ziel 2 Trefferpunkte und überträgt sie dem Träger.
+Jeder Treffer hat eine der folgenden Wirkungen auf das Ziel. Ein erfolgreicher Rettungswurf gegen Zauber (-2) wird die Wirkungen aufheben:
+  1 - Blindheit
+  2 - Panik
+  3 - Verlangsamen
+  4 - Verwirrung
+
+ETW0: +4 Bonus
+Schaden: 2W4 + 4
+Schadensart: aufschlitzen
+Gewicht: 6
+Geschwindigkeitsfaktor: 5
+Fertigkeit:  Bastardschwert
+Typ: 1-händig
+Geschicklichkeit: 12
+
+Kann nicht verwendet werden von::
+  Klerikern
+  Druiden
+  Miern
+  Dieben~
+@1061 = ~Amulett des Gedankenschutzes~
+@1062 = ~Amulett des Gedankenschutzes
+
+<CHARNAME> und <PRO_HISHER>e Begleiter wurden kürzlich während ihrer Abenteuer im Unterreich von Gedankenschindern festgenommen. Als sie es schafften, zu flüchten, kämpften sie ihre Schlachten einschließlich gegen das Ältestenhirn der Illithiden. Dieses unbeholfene Stück Seil scheint aus Klumpen des Ältestenhirns und Eingeweiden gemacht zu sein. Ohne weitere Überlegung, wozu es verwendet werden könnte, scheint es ziemlich kreisförmig zu sein. Es scheint wie jedes Amulett um den Hals zu passen und schützt gegen die unheilige Macht der Illithiden...
+
+EIGENSCHAFTEN:
+
+Immunität gegen alle Intelligenz verzehrende Angriffe
+Immunität gegen Zauber und Überlegenheit~
+@1063 = ~Aegis-Fang +3~
+@1064 = ~Aegis-Fang
+
+Diese Waffe wurde von Bruenor Schlachtenhammer speziell für Wulfgar angefertigt. Daher funktionieren die stärksten Zauber, die auf der Waffe liegen, auch nur, wenn sie von dem jungen Krieger geschwungen wird. Jeder andere kämpft mit Aegis-Fang wie mit einem normalen Kriegshammer +3.
+
+
+
+EIGENSCHAFTEN:
+
+
+
+
+ETW0-Bonus: +3
+
+Schaden: 2W4 +3
+Schadensart: zertrümmern
+Gewicht: 3
+
+Initiativefaktor: 1
+
+Fertigkeit: Kriegshammer
+
+Typ: 1-händig
+
+
+Mindeststärke: 18
+
+Kann nicht verwendet werden von:
+
+ Druiden
+ 
+ Magiern
+
+ Dieben
+ Mönchen~

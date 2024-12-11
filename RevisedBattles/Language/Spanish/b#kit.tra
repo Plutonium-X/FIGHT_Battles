@@ -1,0 +1,140 @@
+////////////////////////////////////////
+// Arcane Avenger
+////////////////////////////////////////
+
+@4001 = ~vengador arcano~ 
+@4002 = ~Vengador arcano~
+@4003 = ~VENGADOR ARCANO: Aunque la mera mención de sus nombres lleva el miedo al mismo centro de un hechicero arcano, muchos Asesinos de Magos buscan mejorar sus ya abundantes talentos. Esto requiere un inmenso entrenamiento físico y espiritual, pero el resultado es una entidad con poder salvaje insuperable: el vengador arcano.
+
+Capaz de cruzar un umbral mágico sin un razguño, los Vengadores arcanos pueden aparejar el poder de la inmunidad a todos los conjuros potencialmente amenazantes - desde los Misiles mágicos hasta la Flecha de fuego; Nube apestosa hasta Horrible marchitamiento; y aún el temido Parar el tiempo.
+
+Ventajas:
+- Gana un bonificador de +5 al THAC0 y al daño contra magos y hechiceros.
+- Gana un bonificador de +5 a sus tiradas de salvación contra conjuros.
+- Visión etérea, una vez por día cada 10 niveles. Todas las criaturas invisibles se vuelven visibles cada seis segundos, por una duración de 60 segundos.
+- Fuerza trémula, una vez por día cada 10 niveles. Todos los conjuros ofensivos lanzados al Vengador arcano en los próximos 30 segundos serán reflejados automáticamente.
+- Nivel  9: Inmunidad a todos los conjuros de encantamiento y confusión.
+- Nivel 15: El Vengador arcano gana 4% de resistencia mágica por nivel (P.Ej. 60% al nivel 15).
+- Nivel 17: Balance temporal, una vez por día. El Vengador arcano es inmune a Parar el tiempo por toda la duración (30 segundos).
+
+Desventajas:
+- Solo puede obtener gran maestría en los tipos de arma del mago.
+- Puede solo ser dual con un mago (requiere inteligencia 18).
+- Debe ser de alineamiento neutral.
+- Solo los humanos, elfos y gnomos pueden ser Vengadores Arcanos.~
+
+@4004 = ~Fuerza trémula~
+@4005 = ~Equilibrio temporal~
+@4006 = ~Visión etérea~
+
+////////////////////////////////////////
+// Blademaster
+////////////////////////////////////////
+
+@4011 = ~maestro de la espada~ 
+@4012 = ~Maestro de la espada~
+@4013 = ~MAESTRO DE LA ESPADA: Hombres y mujeres que viajan por el mundo conocido y estudian con muchos maestros para perfeccionar sus habilidades de batalla. Aunque pueden explorar otras áreas, tienden a enfocarse en el manejo de la espada. Solo pelean con armadura liviana y usan su increible velocidad y precisión para diezmar a sus enemigos.
+
+Ventajas:
+- Bonificador de -1 a la CA y -1 a la CA contra armas cortantes cada 4 niveles
+- Comienza con un +2 al movimiento
+- Bonificador de +1 al impacto, daño y factor de velocidad cada 5 niveles
+- Puede usar la habilidad 'Danza de espadas' una vez por día por cada 4 niveles (con un uso diario al 1er nivel): esta habilidad dura 10 segundos y mejora el THAC0 y el AC en tres puntos y concede un ataque extra.
+- Puede usar la habilidad 'Kai' una vez por día por cada 5 niveles (con un uso diario al 1er nivel): esta habilidad dura 10 segundos y hace que todos los ataques causen el máximo de daño.
+
+Desventajas:
+- No puede usar armadura mayor que la de cuero tachonado
+- No puede especializarse en otras armas que no sean espadas
+- No puede tener talento en el estilo 'Espada y Escudo'
+- No puede ser clase dual~
+
+@4014 = ~Danza de espadas~
+
+////////////////////////////////////////
+// Demon Knight
+////////////////////////////////////////
+
+@4021 = ~caballero demoníaco~ 
+@4022 = ~Caballero demoníaco~
+@4023 = ~CABALLERO DEMONIACO: Humanos que han sido consumidos por la mancha de sangre demoníaca y se han vuelto hacia la corrupción, haciendo a sus acciones y poderes parecerse a los de un demonio. Cuando los Caballeros Demonio ganan experiencia él o ella gana muchas habilidades como las que tienen otros demonios.
+
+Unos pocos ejemplos son una gran resistencia al fuego y la magia, así como poder determinar en que plano se encuentra.
+
+Ventajas:
+- Inmune al miedo y a los fallos de moral
+- Inmune a paralizar
+- 40% de resistencia al fuego
+- Nivel 12: Se vuelve inmune al laberinto
+- Nivel 15: Puede convocar un demonio para ayudarlo en batalla una vez por día
+- Nivel 21: Se vuelve inmune al cautiverio
+- Gana dos puntos de resistencia mágica desde el nivel 1 al 20 (P.Ej. 40% al nivel 20)
+- Puede lanzar Miedo demoníaco una vez por día cada 4 niveles (con un uso diario al primer nivel): Cuando el conjuro es lanzado, todos los enemigos dentro del área de efecto debe superar una tirada de salvación contra conjuros a caer en terror
+- Puede lanzar Vista interior una vez por día cada 4 niveles: Cuando el conjuro es lanzado, un área de aproximadamente 70 pies alrededor del lanzador se verá afectada. Instantáneamente y una vez por turno luego de que el conjuro es lanzado, todos los conjuros hostiles de ilusión/fantasma en el área de efecto serán descubiertos.
+- Puede lanzar Escudo de fuego una vez por día cada 8 niveles (con un uso diario al primer nivel)
+- Puede conseguir Aura de muerte flamígera como habilidad de alto nivel
+
+Desventajas:
+- No puede especializarse en armas que no sean espadas de dos puños, espadas bastardas, espadas largas y albardas
+- Debe ser de alineamiento caótico maligno
+- No puede tener talento en el estilo 'Espada y Escudo'
+- No puede ser clase dual
+- Debe ser humano
+- La puntuación máxima en sabiduría y carisma es 8
+- No puede usar armas a distancias~
+
+@4024 = ~Miedo demoníaco~
+@4025 = ~Aliado abisal~
+@4026 = ~Vista interior~
+
+////////////////////////////////////////
+// Bastard
+////////////////////////////////////////
+
+@4031 = ~bastardo~
+@4032 = ~Bastardo~
+@4033 = ~BASTARDO: Cruel, astuto, confavulador - estos son los elementos centrales de la salvaje supervivencia del Bastardo. Rechazados a causa de su herencia, son forzados a tener una vida áspera, tornándose hacia el crimen como manera de supervivencia. Habilidosos con la espada bastarda y las espadas pequeñas, son mercenarios silenciosos y eficientes que rara vez matan a una víctima sin torturarla primero. También poseen grandes habilidades mágicas - El poder de convocar los Siete Pecados.
+
+Ventajas:
+- El Bastardo es inmune al apuñalamiento por la espalda.
+- Avaricia, una vez por día a los niveles 9 y 18. Crea un arma mágica a la elección del Bastardo por 15 segundos.
+- Envidia, una vez por día a los niveles 17 y 34. El Bastardo puede incrementar su daño, número de ataques, o factor de movimiento por toda la duración (15 segundos).
+- Gula, una vez por día a los niveles 5 y 10. El Bastardo gana temporalmente 30 puntos de vida por 15 segundos.
+- Lujuria, una vez por día al nivel 13. El Bastardo puede convocar a la Sádica Sarah para ayudarlo en batalla. La duración es de 5 minutos.
+- Pereza, una vez por día a los niveles 11 y 22. El Bastardo gana temporalmente inmunidad a todo el daño mágico, incluyendo elemental, por 15 segundos. Sin embargo, el movimiento del Bastardo se reduce a la mitad, y su número de ataques se reduce.
+- Vanidad, una vez por día a los niveles 15 y 30. Todas las criaturas que ven al Bastardo debe salvarse contra conjuros (con -2) o muere. Las criaturas que superan la tirada de salvación sufre ceguera temporaria.
+- Furia, una vez por día a los niveles 7 y 14. La fuerza y constitución del Bastardo se incrementan en 4 puntos, pero su destreza, inteligencia y sabiduría se reducen en 2 puntos (por 15 segundos).
+- Puede obtener "Lujuria Mayor" como habilidad de alto nivel.
+
+Desventajas:
+- Solo puede obtener maestría en espadas bastardas, espadas cortas y ballestas.
+- Debe ser de alineamiento caótico neutral o caótico maligno.
+- La puntuación máxima de carisma es 10.
+- Solo puede ser humano, enano y semi-orco.
+- Cada 5 niveles hay una posibilidad de 10% de que el Bastardo pierda un punto de sabiduría o carisma.~
+
+@4034 = ~Avaricia~
+@4035 = ~Envidia~
+@4036 = ~Gula~
+@4037 = ~Lujuria~
+@4038 = ~Pereza~
+@4039 = ~Vanidad~
+@4040 = ~Furia~
+
+@4041 = ~Daño x2~
+@4042 = ~Ataques x2~
+@4043 = ~Movimiento x2~
+
+@4044 = ~Sarah sádica~
+@4045 = ~Sarah psicótica~
+
+@4046 = ~Lujuria Mayor~
+@4047 = ~Lujuria Mayor
+(Conjuración/Convocación)
+Nivel: Búsqueda
+Alcance: 25 yardas
+Duración: 5 minutos
+Tiempo de lanzamiento: 1
+Área de Efecto: Especial
+Tirada de Salvación: Ninguna
+
+Este conjuro convoca a la Sarah psicótica para ayudar el lanzador en combate. Es una guerrera feroz, y porta una espada mortífera.~

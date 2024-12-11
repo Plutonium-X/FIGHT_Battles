@@ -1,0 +1,81 @@
+////////////////////////////////////////
+// Bodarch (Archer)
+////////////////////////////////////////
+
+////////////////////////////////////////
+// Go Hostile
+////////////////////////////////////////
+
+IF
+  Allegiance("b#knit01",ENEMY)
+  !Allegiance(Myself,ENEMY)
+THEN
+  RESPONSE #100
+    Enemy()
+END
+
+////////////////////////////////////////
+// Detect Enemy
+////////////////////////////////////////
+
+IF
+  OR(2)
+    Detect([PC])
+    Heard([ANYONE],111)
+  Allegiance(Myself,ENEMY)
+  Allegiance(LastSeenBy(Myself),PC)
+  OR(6)
+    !See(LastSeenBy(Myself))
+    StateCheck([PC],STATE_INVISIBLE)
+    StateCheck([PC],STATE_IMPROVEDINVISIBILITY)
+THEN
+  RESPONSE #100
+    ClearAllActions()
+END
+
+////////////////////////////////////////
+// Use Potions
+////////////////////////////////////////
+
+// Extra Healing
+
+IF
+  HPPercentLT(Myself,76)
+  Allegiance(Myself,ENEMY)
+  !GlobalTimerNotExpired("Cast","LOCALS")
+THEN
+  RESPONSE #100
+    SetGlobalTimer("Cast","LOCALS",6)
+    GiveItemCreate("potn52",Myself,1,0,0)
+    DisplayStringHead(Myself,46150)
+    UseItem("potn52",Myself)
+END
+
+////////////////////////////////////////
+// Use Called Shot &/or Attack
+////////////////////////////////////////
+
+// Shot
+
+IF
+  See([PC])
+  Allegiance(Myself,ENEMY)
+  Allegiance(LastSeenBy(Myself),PC)
+  HaveSpell(ARCHER_CALL_SHOT)
+  !GlobalTimerNotExpired("Cast","LOCALS")
+THEN
+  RESPONSE #100
+    SetGlobalTimer("Cast","LOCALS",6)
+    ForceSpell(Myself,ARCHER_CALL_SHOT)
+END
+
+// Attack
+
+IF
+  See([PC])
+  Allegiance(Myself,ENEMY)
+  Allegiance(LastSeenBy(Myself),PC)
+THEN
+  RESPONSE #100
+    Attack(LastSeenBy(Myself))
+END

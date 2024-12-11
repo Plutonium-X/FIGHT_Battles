@@ -1,0 +1,152 @@
+////////////////////////////////////////
+// Wraith Sarevok
+////////////////////////////////////////
+
+@10 = ~A me, miei fedeli!~
+@11 = ~Angelo! Noooo!~
+@12 = ~Semaj! Noooo!~
+@13 = ~Tamoko! Noooo!~
+@14 = ~Tazok! Noooo!~
+@15 = ~No! Guarda cos'hai fatto! MUORI!~
+@16 = ~Con la morte dei suoi seguaci, Sarevok é più vulnerabile ai tuoi attacchi~
+
+////////////////////////////////////////
+// Master Brain
+////////////////////////////////////////
+
+@20 = ~Usando il suo immenso potere di telepatia, la Mente Antica recupera completamente.~
+@21 = ~In un disperato tentativo la Mente Antica ti attacca con i suoi ampi poteri psichici.~
+
+////////////////////////////////////////
+// Drizzt
+////////////////////////////////////////
+
+@30 = ~Noi non cadremo, Malchor aiutami!~
+@31 = ~Un discendente di bhaal, non vincerai mai!~
+
+////////////////////////////////////////
+// House Jae'llat
+////////////////////////////////////////
+
+@40 = ~Lolth, dammi la forza per distruggere questa gente di superficie!~
+@41 = ~Ti aiuterò fratello!~
+
+////////////////////////////////////////
+// Firkraag
+////////////////////////////////////////
+
+@50 = ~Adesso sei riuscito ad irritarmi!~
+@51 = ~Non mi distruggerai facilmente!~
+@57 = ~Di nuovo! Ma questa volta é diverso.~
+@58 = ~Venite a me, miei servitori alati!~
+
+@52 = ~Ora vedi cosa significa essere una delle specie più antiche di Faerun?~
+@53 = ~Tempo di morire, debole <PRO_RACE>!~
+
+@54 = ~Tu mi impressioni mortale, ma ora é tempo di morire!~
+@55 = ~Fa pure del tuo peggio, ti ho già battuto prima!~
+@56 = ~Pensi che era il mio vero potere, MORTALE?!~
+
+////////////////////////////////////////
+// Knights of Dark Renown
+////////////////////////////////////////
+
+@60 = ~Eccoti ragazzo!~
+@61 = ~Lasciami stare, per favoreeee!~
+@62 = ~Non ha senso. Bodarch!~
+@63 = ~Si, mio signore?~
+@64 = ~Uccidi il bambino.~
+@65 = ~Per favore. Nooo!~
+@66 = ~Con piacere, mio signore!~
+
+@67 = ~Ed ora, il momento che tutti stavamo aspettando!~
+@68 = ~Lord Samildanach contro gli Schiavi di Akkibar!~
+@69 = ~Che il gioco abbia inizio!~
+
+////////////////////////////////////////
+// General
+////////////////////////////////////////
+
+@70 = ~Cambiata in arma non magica~
+@71 = ~Cambiata in arma magica~
+@72 = ~Venite, venite, ovunque voi siate!~
+@73 = ~Attivatore di Incantesimi~
+@74 = ~Catena di Contingenze~
+@75 = ~Non lasciare che gli altri combattano per te!~
+
+////////////////////////////////////////
+// Roenall
+////////////////////////////////////////
+
+@80 = ~Non posso essere sconfitto in presenza del mio esercito!~
+@81 = ~No, non può essere... il mio esercito, sconfitto...~
+@82 = ~Con il suo esercito distrutto, Roenall é vulnerabile.~
+@83 = ~Pensi che abbia terminato con te?!~
+
+////////////////////////////////////////
+// Mad Cleric - The Redeemer
+////////////////////////////////////////
+
+@90 = ~Muori miserabile!~
+@144 = ~Prendete Infedeli!!~
+@145 = ~Ahhh, Palle di Fuoco!! E adesso!?!~
+@146 = ~Scusa!? Chi stai chiamando "Infedele"?~
+@147 = ~Sicuramente ci hai scambiati per qualcun altro.~
+@148 = ~La morte improvvisa di mio fratello pesa molto su di me. Sono stato informato recentemente della sua scomparsa. A quanto pare qualche banda di agitatori hanno trovato le sue scelte religiose non di loro gusto, ed hanno deciso di uccidere il pover'uomo matto con una scusa insignificante. Alcune fonti mi hanno riferito che quegli agitatori potreste essere voi.~
+@149 = ~No, non siamo stati noi. Ora vattene!~
+@150 = ~Si! Quel ratto bastardo credeva che chiunque non adorasse Cyric, sia per propria scelta o no, dovesse morire. Mi dispiace per la vostra perdita amico, ma non abbiamo avuto altra scelta che farlo fuori.~
+@151 = ~Menti!!! Cyric può ancora sentire l'odore del suo sangue sulle tue mani!! Preparati. Troverai in me un avversario molto più difficile! Per Cyric!! E mio fratello,,,~
+@152 = ~Vedremo. Spero davvero che tu sia migliore di lui! La triste scusa di tuo fratello a mala pena ci farà fare uno sforzo!~
+@153 = ~Allora paga il prezzo per il suo schifoso assassinio. MUORI!!~
+@154 = ~Così sia. Fallo!~
+
+////////////////////////////////////////
+// Mencar Pebblecrusher - Pooky
+////////////////////////////////////////
+
+@100 = ~TU QUI! SELVAGGIO, BARBARO, PATETICO...~
+@101 = ~Allora, andiamo Walter, sii  gentile. Il dottore ha detto che devi stare calmo o avrai un altro attacco.~
+@102 = ~Si, cara. Non so cosa mi sia successo. Ehi tu, capo del gruppo. Potrei avere un po' del tuo prezioso tempo?~
+@103 = ~Ma naturalmente, Signor Viverna. C'è qualcosa che posso fare per voi?~
+@104 = ~Due giorni fa mia moglie Martha ed io abbiamo ricevuto notizie di una terribile tragedia. Il nostro unico figlio Pooky, la nostra gioia e felicità, é stato ucciso da un gruppo di selvaggi degenerati. AVETE QUALCOSA A CHE FARE CON LORO?!~
+@105 = ~Walter!~
+@106 = ~Perdonami, cara, ma sono molto stressato. Allora dimmi, buon <LADYLORD>, sai cosa é successo al nostro povero Pooky?~
+@107 = ~Veramente, l'ho ucciso nella Tana dei Sette Veli. Sono terribilmente dispiaciuto per la vostra perdita.~
+@108 = ~(tristemente) Dimmi, <SIRMAAM>, era forse con qualcuno?~
+@109 = ~Si, si. Tra I suoi compagni c'era un puzzolente e ripugnante nano che aveva il nome di Mencar, un ladro insignificante conosciuto come Risling, uno stregone incappucciato che si chiamava Amon...~
+@110 = ~(in modo adirato) Dannazione! Lo sapevo che immischiarsi con gli stregoni avrebbe voluto dire la morte. Glielo avevo detto di starne lontano, ma lui ha ascoltato questo vecchio? Certo che nooo, sapeva SEMPRE lui quello che era meglio!~
+@111 = ~Avete fatto quello che potevate Walter. Ora, potremmo tornare alla ragione della nostra visita?~
+@112 = ~Ah si, la questione della vendetta. Vendicare l'assassinio del nostro amato Pooky! Anche se vi siamo grati per aver ucciso quell brigante di Amon, dobbiamo tuttavia porre fine alla vostra miserabile esistenza. Sarebbe irrispettoso verso Pooky se non lo facciamo.~
+@113 = ~Per favore sentitevi libero di difendervi, in modo tale da non doverci vergognare di aver ottenuto una facile vittoria.~
+@114 = ~ALZA LE TUE ARMI! RIDUCETE IN POLVERE LE LORO OSSA! LASCIATE I LUPI... (guarda Martha, che é furiosa). *Gulp* Mi dispiace, cara.~
+@115 = ~Dormirete per terra stanotte! Attaccate!~
+@116 = ~Così sia!~
+@117 = ~Così loro balzano in aria ed iniziano a volare intorno, ti senti terrorizzato, loro sono fuori dal raggio d’azione di tutte le tue armi da mischia. Il terrore si trasforma in paura, ed il tuo sangue inizia a ribollire nelle tue vene.~
+
+////////////////////////////////////////
+// Falahar
+////////////////////////////////////////
+
+@120 = ~Salve, figlio di Bhaal. Piacere di conoscerti.~
+@121 = ~Um... chi sei tu?~
+@122 = ~Sono Falahar. Ti stavo aspettando per presentarmi.~
+@123 = ~Va bene, ok e perché...?~
+@124 = ~Che c’é? Non mi credi? Cosa vuol dire perché, é stato messo alla fine della tua miserabile esistenza, ecco perché!~
+@125 = ~Ti cre-~
+@126 = ~Lui non ci crede! Draccy, tu conosci la storia, non é vero?~
+@127 = ~Si! Sei nato come un misero discendente di Bhaal. Hai passato la tua giovinezza a girare intorno alle vesti di Gorion, causando ovunque distruzione e riuscendo a farla franca fino a che, più recentemente, hai trascorso diversi mesi a ripulire i guai che aveva combinato l’altro della tua stessa razza che era nella nostra lista. Sarevok. Recentemente hai alquanto ridotto la minaccia che potevi dare su Faerun, ma ci sono alcune vicende a riguardo che, io ritengo, possano solo essere attribuite a te ed al tuo gruppo.~
+@128 = ~Hai sconfitto questo noioso adoratore di Cyric?~
+@129 = ~Forse... perché?~
+@130 = ~Stavo solo chiedendo.~
+@131 = ~Io sono il mago!~
+@132 = ~Zitti voi due! Stavo solo verificando le abilità di questi sempliciotti.~
+@133 = ~Okay, va bene. Non scaldarti!~
+
+////////////////////////////////////////
+// Chromatic Demon
+////////////////////////////////////////
+
+@140 = ~Senti il calore delle mia fiamma rovente!~
+@141 = ~Senti la forza del mio impeto di vento!~
+@142 = ~Senti il freddo del mio gelo pungente!~
+@143 = ~Senti il bruciore della mia sabbia irritante!~

@@ -1,0 +1,140 @@
+////////////////////////////////////////
+// Arcane Avenger
+////////////////////////////////////////
+
+@4001 = ~vendicatore arcano~ 
+@4002 = ~Vendicatore Arcano~
+@4003 = ~VENDICATORE ARCANO: Sebbene il semplice cenno del loro nome susciti terrore nel cuore di un qualsiasi mago, molti Ammazzastregoni cercano di migliorare sempre di più i loro già abbondanti talenti. Ciò necessita di allenamenti e requisiti sia fisici che spirituali notevoli, ma il risultato è l'acquisizione di un potere insuperabile: ecco cos'è il Vendicatore Arcano.
+
+Capace di superare la soglia della magia senza particolari problemi, i Vendicatori Arcani possono sfruttare il potere dell'immunità verso tutti i tipi di incantesimi - dai Dardi Incantati alla Freccia Infuocata; dalla Nube Assassina all'Orripilante Avvizzimento; ed anche il temuto Fermare il Tempo.
+
+Vantaggi:
+- Guadagna un bonus di +5 al THAC0 e ai Danni contro Maghi e Stregoni.
+- Guadagna un bonus di +5 ai Tiri Salvezza contro gli Incantesimi.
+- Visione Eterea, una volta al giorno per ogni 10 livelli. Tutte le creature invisibili saranno rese visibili ogni sei secondi, per una durata di 60 secondi.
+- Forza Scintillante, una volta al giorno per ogni 10 livelli. Tutti gli incantesimi di natura offensiva lanciati contro il Vendicatore Arcano nei successivi 30 secondi saranno automaticamente deviati.
+- 9° livello: Immunità a tutti gli Incantesimi di Blocco, Charme e Confusione.
+- 15° livello: il Vendicatore Arcano guadagna il 4% di resistenza alla magia ad ogni livello (ad esempio al 15° livello avrà il 60% di resistenza magica).
+- 17° livello: Immobilità Temporale, una volta al giorno. Il Vendicatore Arcano è immune al Fermare il Tempo per tutta la sua durata (30 secondi).
+
+Svantaggi:
+- Possono solo ottenere la Grande Maestria nelle ordinarie armi usate dai maghi.
+- Può solo biclassarsi a Mago (richiede comunque un punteggio di 18 all'Intelligenza).
+- Può essere solo di allineamento Neutrale.
+- Possono diventare Vendicatori Arcani solo Umani, Elfi e Gnomi.~
+
+@4004 = ~Forza Scintillante~
+@4005 = ~Immobilità Temporale~
+@4006 = ~Visione Eterea~
+
+////////////////////////////////////////
+// Blademaster
+////////////////////////////////////////
+
+@4011 = ~maestro d'armi~ 
+@4012 = ~Maestro d'Armi~
+@4013 = ~MAESTRO D'ARMI: Sono uomini e donne che hanno viaggiato conoscendo il mondo e studiato con vari maestri per perfezionare le loro capacità di combattimento. Anche se potrebbero dedicarsi ad altri tipi di combattimento tendono a concentrarsi soprattutto nell'arte della spada. Combattono solo con armature leggere ed usano la loro incredibile velocità e precisione per distruggere i loro nemici.
+
+Vantaggi:
+- Bonus di -1 alla Classe Armatura e -1 alla Classe Armatura verso le armi da taglio ogni 4 livelli
+- Un Maestro d'Armi parte con un bonus di +2 al movimento base
+- Bonus di +1 per colpire, al danno e alla velocità d'attacco ogni 5 livelli
+- Puo utilizzare l'abilità 'Danza della Spada' una volta al giorno ogni 4 livelli (parte al 1° livello con un solo uso): questa abilità dura 10 secondi e migliora il THAC0 e la Classe Armatura di tre punti garantendo un attacco extra.
+- Può usare l'abilità 'Kai' una volta al giorno per ogni 5 livelli (parte dal 1° livello con un solo uso): questa abilità dura 10 secondi e permette che ogni attacco faccia il massimo danno.
+
+Svantaggi:
+- Non può indossare armature più resistenti del Cuoio Borchiato
+- Non può specializzarsi in altre armi che non siano le spade
+- Non può ottenere la Competenza nello stile con 'Spada e Scudo'
+- Non può biclassarsi~
+
+@4014 = ~Danza della Spada~
+
+////////////////////////////////////////
+// Demon Knight
+////////////////////////////////////////
+
+@4021 = ~cavaliere demoniaco~ 
+@4022 = ~Cavaliere Demoniaco~
+@4023 = ~CAVALIERE DEMONIACO: Gli umani che sono stati corrotti e contaminati dal sangue Demoniaco e sono stati coinvolti nella corruzione, rendono i loro atti simili a quello di un Demone. In quanto Cavalieri Demoniaci guadagnano esperienza e molte abilità che hanno i demoni.
+
+Qualche esempio può essere il fatto che ha una grande resistenza al fuoco e alla magia come pure le sue capacità di poter sapere su quale piano si trova.
+
+Vantaggi:
+- Immune alla paura e al fallimento del morale
+- Immune al blocco
+- 40% di resistenza al fuoco
+- 12° livello: Diventa immune a Labirinto
+- 15° livello: Può evocare un demone che lo aiuta in battaglia una volta al giorno
+- 21° livello: Diventa immune a Imprigionamento
+- Guadagna il 2% di resistenza alla magia per livello dal 1° livello al 20° (ad esempio al livello 20 avrà il 40% di resistenza alla magia)
+- Può lanciare Paura Demoniaca una volta al giorno ogni 4 livelli (parte dal 1° livello con un solo uso): Quando lancia questo incantesimo tutti i nemici che si trovano nell'area d'effetto devono fare un tiro salvezza contro incantesimi o fuggire terrorizzati
+- Può lanciare Vista Spirituale una volta al giorno ogni 4 livelli: Quando questo incantesimo viene lanciato, avrà effetto su un'area di 20 metri di diametro intorno al lanciatore. Immediatamente ed una volta ogni round per 1 turno dopo che questo incantesimo é stato lanciato, tutti gli incantesimi di illusioni ostili nell'area d'effetto saranno dissipati.
+- Può lanciare Scudo di Fuoco Rosso una volta al giorno ogni 8 livelli (parte dal 1° livello con un solo uso)
+- Può lanciare Aura di Morte Infuocata come abilità di alto livello
+
+Svantaggi:
+- Può Specializzarsi solo nelle Spade a due Mani, Spade Bastarde, Spade Lunghe e Alabarde
+- Deve avere un allineamento Caotico Malvagio
+- Non può ottenere la Competenza nello stile con 'Spada e Scudo'
+- Non può biclassarsi
+- Deve essere umano
+- Il punteggio alla Saggezza e al Carisma non può essere superiore ad 8
+- Non può usare armi a distanza~
+
+@4024 = ~Paura Demoniaca~
+@4025 = ~Alleato degli Abissi~
+@4026 = ~Vista Spirituale~
+
+////////////////////////////////////////
+// Bastard
+////////////////////////////////////////
+
+@4031 = ~bastardo~
+@4032 = ~Bastardo~
+@4033 = ~BASTARDO: Crudele, astuto, connivente - queste sono le principali caratteristiche di sopravvivenza del selvaggio Bastardo. Respinti a causa del loro retaggio, sono costretti a vivere una vita difficile, disposti al crimine in quanto, per loro, unico mezzo di sopravvivenza. Esperti con le spade bastarde e con le piccole lame, sono silenziosi, mercenari efficienti che difficilmente uccidono una persona senza prima torturarla. Possiedono anche abilità magiche - il potere di evocare l'invocazione dei Sette Peccati Capitali.
+
+Vantaggi:
+- Il Bastardo é immune alla Pugnalata alle Spalle.
+- Avarizia, una volta al giorno ai livelli 9 e 18. Crea un'arma magica a scelta del Bastardo per 15 secondi.
+- Invidia, una volta al giorno ai livelli 17 e 34. Il Bastardo può incrementare il suo danno, il numero di attacchi, o il movimento per il tempo della sua durata (15 secondi).
+- Gola, una volta al giorno ai livelli 5 e 10. Il Bastardo guadagna temporaneamente 30 punti ferita per il tempo della sua durata (15 secondi).
+- Lussuria, una volta al giorno al livello 13. Il Bastardo può evocare Sarah la Sadica per aiutarlo in battaglia. La durata è di 5 minuti.
+- Pigrizia, una volta al giorno ai livelli 11 e 22. I Bastardi guadagnano temporaneamente l'immunità a tutti i danni magici, incluso quelli elementali, per il tempo della sua durata (15 secondi). Tuttavia, il movimento del Bastardo é dimezzato, e il numero dei suoi attacchi ridotto.
+- Vanità, una volta al giorno ai livelli 15 e 30. Tutte le creature che guardano il Bastardo devono fare un tiro Salvezza contro Incantesimo (-2) o morire. Le creature che faranno un tiro salvezza subiranno una temporanea cecità.
+- Ira, una volta al giorno ai livelli 7 e 14. La Forza e la Costituzione del Bastardo saranno incrementate di 4 punti, ma la sua Destrezza, la sua Intelligenza e la sua Saggezza diminuiranno di 2 punti (per 15 secondi).
+- Può ottenere "Lussuria Maggiore" come Abilità di Alto Livello.
+
+Svantaggi:
+- Può solo ottenere la Maestria nelle Spade Bastarde, nelle Spade Corte, nei Pugnali e Balestre.
+- Deve essere di allineamento Caotico Neutrale o Caotico Malvagio.
+- Può avere al massimo un punteggio di 10 al Carisma.
+- Solo gli Umani, i Nani e i Mezzorchi possono diventare Bastardi.
+- Ogni 5 livelli c'é una possibilità del 10% che il Bastardo perda un punto alla Saggezza o al Carisma.~
+
+@4034 = ~Avarizia~
+@4035 = ~Invidia~
+@4036 = ~Gola~
+@4037 = ~Lussuria~
+@4038 = ~Pigrizia~
+@4039 = ~Vanità~
+@4040 = ~Ira~
+
+@4041 = ~Danno x2~
+@4042 = ~Attacchi x2~
+@4043 = ~Movimento x2~
+
+@4044 = ~Sarah la Sadica~
+@4045 = ~Sarah la Psicotica~
+
+@4046 = ~Lussuria Maggiore~
+@4047 = ~Lussuria Maggiore
+(Evocazione/Attrazione)
+Livello: Cerca
+Raggio d'Azione: 20 metri
+Durata: 5 minuti
+Tempo di Lancio: 1
+Area d'Effetto: Speciale
+Tiro Salvezza: Nessuno
+
+Questo incantesimo evoca Sarah la Psicotica che aiuta il lanciatore nel combattimento. Sarah la Psicotica è una feroce guerriera, ed usa una spada mortale.~

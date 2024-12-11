@@ -1,0 +1,362 @@
+////////////////////////////////////////
+// Drizzt
+////////////////////////////////////////
+
+@1001 = ~Scimitarra +5, di Ghiaccio~
+@1002 = ~Questa è una scimitarra magica +5, di Ghiaccio. E' una delle armi personali di Drizzt.  
+
+STATISTICHE:
+
+Abilità durante l'Uso:
+  Resistenza al Fuoco: fissata al 100%
+
+Abilità di Combattimento:
+  Aggiunge +2 punti di danno da freddo ad ogni colpo
+  20% di Probabilità ad ogni colpo di rallentare il bersaglio (senza tiro salvezza)
+
+THAC0: bonus +5 
+Danno: 1D8 + 5
+Tipo di Danno: tagliente
+Peso: 4
+Tipo di Competenza: Scimitarra
+Fattore Velocità: 2
+Tipo: ad una mano
+Richiede: 8 alla Forza
+Non Utilizzabile da:
+  Chierico
+  Mago~
+
+
+
+@1003 = ~Scimitarra +5, La Protettrice~
+@1004 = ~Questa è la scimitarra magica +5, La Protettrice che porta il nome di "Scintillante".  E' una delle armi personale di Drizzt. A causa della sua magica natura, solo i puri di cuore la possono utilizzare.
+
+STATISTICHE:
+
+Quando Indossata:
+  +20% di resistenza alle armi perforanti, da lancio, contundenti e taglienti
+  Classe Armatura: bonus +2
+ 
+THAC0: bonus +5 
+Danno: 1D8 + 5
+Tipo di Danno: tagliente
+Peso: 4
+Tipo di Competenza: Scimitarra
+Fattore Velocità: 2
+Tipo: ad una mano
+Richiede: 8 alla Forza
+Non Utilizzabile da:
+  Personaggi di Allineamento Malvagio o Neutrale
+  Chierico
+  Mago~
+
+
+
+@1005 = ~Arco corto di Tansheron +3~
+@1006 = ~Arco corto di Tansheron +3 
+La corda sottile e fragile di questo arco sembra inutilizzabile, ma quando viene tesa una freccia solida ma invisibile diventa tangibile. Il lich Tansheron diede questo arco al suo Osservatore, il guardiano del suo castello, che si trovava in cima ad una torre senza entrate né uscite. Quando qualcuno si avvicinava, dall'alto cadeva una pioggia infinita di frecce fantasma fino a quando l'intruso era morto o in fuga. Non si sa come questo arco fu strappato dalle mani dell'Osservatore, ma probabilmente sarebbe una magnifica storia da taverna.
+
+Catti-Brie è stata la sola persona capace di liberare le potenzialità di quest'arma che può lacerare le protezioni dei maghi ed invertirne il bersaglio.
+
+Nota: evitate di equipaggiare il vostro personaggio con frecce normali, altrimenti l'arco lancerà quelle invece delle frecce fantasma. 
+
+STATISTICHE:
+
+Abilità Speciali:
+  Questo potente arco non richiede munizioni 
+
+Abilità di Combattimento:
+  100% di Possibilità che l'avversario venga buttato a terra
+  Dissolve Magie ogni volta che le frecce colpiscono un avversario 
+
+THACO: bonus +3
+Danno: 2D4 + 3
+Tipo di Danno: proiettile (perforante)
+Peso: 2
+Fattore Velocità: 3
+Tipo di Competenza: Arco Corto
+Tipo: a due mani
+Utilizzabile da:
+  Catti-Brie~
+
+////////////////////////////////////////
+// Firkraag
+////////////////////////////////////////
+
+@1011 = ~Disprezzo della Virtù +4~
+@1012 = ~Spada Bastarda +4: Il Disprezzo della Virtù
+
+Sarebbe dovuta essere stata creata dal bene ma fu creata dal male allo stato puro, solo gli insensibili senza cuore possono osare toccare Il Disprezzo della Virtù. In che modo una simile spada può essere comparsa a Faerun? Quest'arma fu creata prima della morte di un potente Signore dei Demoni. Il Signore dei Demoni uccise molte creature innocenti, incluse ninfe, elfi, svirfneblin, e figli di Draghi d'Argento. L'impugnatura di questa insolita arma è stata fatta con uova di Drago d'Argento e sangue di elfo. L'impeccabile lama è stata fatta dalle ossa carbonizzate di ninfe e da gnomi svirfneblin. Il potente Signore dei Demoni completò quest'arma imprimendo lo spirito del male puro e contrassegnandola con il suo potere contro tutto ciò che è bene. Il Signore dei Demoni rimase ucciso nel tentativo di creare la compagna di questa spada - il mazzafrusto chiamato Il Sacrificio del Sacro.
+
+STATISTICHE:
+
+Abilità durante l'uso:
+  Protezione Permanente dal Bene
+  Causa Ferite Gravi: Una volta al giorno
+  Cause Ferite Critiche: Una volta al giorno
+  Dolore: Una volta al giorno
+
+Abilità di Combattimento: 
+  25% di possibilità di mandare in Panico il bersaglio per 12 secondi
+  15% di possibilità di lanciare Malefica Desolazione sul bersaglio
+
+THACO:  bonus +4
+Danno:  2D4 + 4
+Tipo di Danno: tagliente
+Peso: 5
+Fattore Velocità: 2
+Tipo di Competenza: Spada Bastarda
+Tipo: ad una mano
+Richiede: 18/00 alla Forza
+Utilizzabile solo da:
+ Personaggi di allineamento Malvagio
+ Guerrieri
+ Paladino Decaduto
+ Ranger Decaduto~
+
+
+
+@1013 = ~Sacrificio del Sacro +4~
+@1014 = ~Mazzafrusto +4: Il Sacrificio del Sacro
+
+Mostri di ogni terra hanno duramente combattuto per mettere le mani su questo potente mazzafrusto. Il suo potere è paragonato a quello di poche altre armi in circolazione. Il Drago Firkraag, è stato l'ultimo ad essere visto maneggiare quest'arma, ma è stato ucciso da <CHARNAME>, che Firkraag voleva uccidere semplicemente perché Gorion era il padre adottivo di <CHARNAME>. Questo potente mazzafrusto è stato creato dal cuore di un potente Signore dei Demoni, che ha sacrificato se stesso affinché non ne venga creata una versione più potente. Il sangue del Signore dei Demoni è stato sparso sul manico per prevenire che chiunque lo possa usare con lo scopo di fare del bene. Solo le più orribili creature possono utilizzare quest'arma, poiché si tratta di una creazione infernale.
+
+STATISTICHE:
+
+Abilità Incorporate:
+  25% di resistenza al Fuoco
+
+Abilità di Combattimento: 
+  25% di possibilità di lanciare Piaga degli Insetti sul bersaglio
+  15% di possibilità di risucchiare 1 livello dal bersaglio
+  3% di possibilità che il possessore dell'arma guarisca completamente
+
+THACO:  bonus +4
+Danno:  1d8 + 4, +1d5 di danno da fuoco
+Tipo di Danno:  schiacciamento
+Peso: 8
+Fattore Velocità: 2
+Tipo di Competenza: Mazzafrusto/Morning Star
+Tipo: ad una mano
+Richiede: 18/00 alla Forza
+Utilizzabile solo da:
+ Personaggi di allineamento Malvagio
+ Guerrieri
+ Paladino Decaduto
+ Ranger Decaduto~
+
+////////////////////////////////////////
+// Temple Sewers Party
+////////////////////////////////////////
+
+@1021 = ~Abito della Resistenza~
+@1022 = ~Abito del Monaco: Abito della Resistenza
+Negli anni iniziali di questo secolo, Aka'rima Tzu, un famoso Monaco degli Spezzati, combattè una colossale battaglia con un'irosa madre di Drago di Ghiaccio, Ingarjuk. Sebbene il suo duro allenamento fisico e spirituale gli ha permesso di sopravvivere rispetto a quello che poteva succedere ad un altra persona mortale, questo abito gli ha consentito di dargli l'ultimo spicchio di forza necessaria per uccidere la bestia infernale.
+
+STATISTICHE:
+
+Abilità Incorporate:
+Classe Armatura: bonus +2
+Rigenera 1 punto ferita  ogni 6 secondi
++15% di resistenza a tutti gli attacchi Contundenti, Perforanti e Taglienti
+Peso: 3
+Utilizzabile da:
+  Monaco~
+
+////////////////////////////////////////
+// Wraith Sarevok
+////////////////////////////////////////
+
+@1031 = ~Amuleto Scudo della Resistenza~
+@1032 = ~Amuleto Scudo della Resistenza
+
+Questo strano pezzo di metallo e oro a prima vista sembra essere una variazione molto più potente dell'Amuleto Scudo. Il buon senso ti suggerisce di attivarlo nello stesso modo dell'Amuleto Scudo. Esaminando meglio questo gioiello, riesci a capire subito cosa succede se viene attivato... permette al possessore di avere un potente Scudo di Resistenza.
+
+STATISTICHE:
+
+Utilizzo (1 Carica): Scudo di Resistenza
+ Raggio d'Azione: 0
+ Area d'Effetto: Il Lanciatore
+ Classe Armatura: di Base portata a 0
+ Speciale: Bonus di 25% di resistenza ai danni fisici
+ Durata: 2 rounds~
+
+
+
+@1033 = ~Tunica da Battaglia dell'Arcimago~
+@1034 = ~Tunica da Battaglia dell'Arcimago
+
+Quando i maghi attraversano terre e paesi non hanno spesso appropriate protezioni che gli permettano di affrontare terribili battaglie. Almeno questo era vero prima della creazione della Tunica dell'Arcimago. Inzuppata con il sangue di molti mostri, questa tunica non ha mai visto la luce della superficie. Questa tunica è stata creata da un Arcimago sconosciuto, che sicuramente fu imprigionato in un piano ignoto per un tempo maggiore di quanto si potrebbe immaginare. Quando viene usata, si ha una certa sensazione... ovvero che potrebbe fare concorrenza alla Tunica di Vecna. Una buona protezione è sempre difficile da trovare per i maghi.
+
+STATISTICHE:
+
+Abilità Incorporate::
+Classe Armatura: bonus +3
+THAC0: bonus +3
+Punti Ferita: bonus +10
+Migliora la velocità di lancio di 2
+Bonus di 5% di resistenza ai danno fisici
+Peso: 3
+Utilizzabile da:
+  Mago (singolo, duale, e multiclasse)~
+
+
+
+@1035 = ~Occhio dell'Aquila~
+@1036 = ~Arco Corto +5: Occhio dell'Aquila
+
+Un orco spaccone una volta uccise diverse innocue Aquile nel tentativo di creare un arco perfetto. Ne abbattè parecchie assassinando così molti pacifici uccelli. Sapendo ben utilizzare la forgia, il misterioso orco usò i teschi dei poveri uccelli per creare il manico e con le loro piume ci fece la corda. Sul manico attaccò alcuni occhi, e subito si accorse di aver dato all'arco un'incredibile potenza. Con grande sorpresa del mitico fabbro infatti, quando staccava gli occhi dalle Aquile essi si trasformavano in grosse sfere quando separati dai teschi delle povere aquile... ed in più, misteriosamente, l'arco acquisì la capacità di creare frecce speciali. L'anonimo orco ladro morì quando uscirono fuori dei pettegolezzi sul suo arco, e nessun altro riuscì a capire come funzionasse. Si cercò subito di bruciare l'arco, nel tentativo di distruggerne la sua strana struttura. Ma in qualche modo, la sua forma rimase invariata per secoli ed un semi-dio chiamato <CHARNAME> lo trovò in un piano molto difficile da raggiungere... l'Inferno. Solo una domanda rimane senza risposta: ora l'arco ha subito dei danni in qualche modo?
+
+STATISTICHE:
+
+Abilità di Combattimento:
+Numero di Attacchi: bonus +2
+Raggio d'Azione: bonus x2
+
+Abilità Speciali:
+Crea 5 Frecce di Piuma d'Aquila al giorno
+
+THAC0: bonus +5
+Danno: bonus +3
+Peso: 2
+Fattore Velocità: 4
+Tipo di Competenza: Arco Corto
+Tipo: a due mani
+Richiede: 6 alla Forza
+Utilizzabile da:
+  Arciere
+  Ladro (singolo, duale, e multiclasse)~
+
+
+
+@1037 = ~Freccia di Piuma d'Aquila~
+@1038 = ~Freccia di Piuma d'Aquila 
+Questa freccia magica è stata creata usando l'Occhio dell'Aquila. La freccia durerà solo per ventiquattro ore.
+
+STATISTICHE:
+
+Abilità di Combattimento:
+Ogni freccia stordirà il bersaglio ad ogni colpo (senza tiro salvezza)
+5% di possibilità di uccidere il bersaglio con ogni colpo (senza tiro salvezza)
+
+THACO: bonus +5
+Danno: 1D6
+Tipo di Danno: proiettile (perforante)
+Peso: 0
+Launciatore: Arco
+Utilizzabile da:
+  Arcere
+  Ladro (singolo, duale, e multiclasse)~
+
+
+
+@1039 = ~Furia Infernale~
+@1040 = ~Spada a due Mani +4: la Furia Infernale
+
+Molti Giganti che attraversano i Reami creano per se stessi dei pugnali. Solamente uno sfuggì dalle mani dei giganti. Si trattava della Furia Infernale. Numerose creature hanno provato ad impossessarsene, finché <CHARNAME> non lo ha trovato nel posto più orribile conosciuto tanto dagli uomini quanto dai giganti... l'Inferno.
+
+STATISTICHE:
+
+Abilità di Combattimento
+Ogni colpo produce una delle seguenti situazioni:
+1 - Lancia Sbagliare Lancio Magia sul bersaglio (80% di possibilità che fallisca)
+2 - Aggiunge 15 punti di danno da fuoco sul bersaglio
+3 - Aggiunge 15 punti di danno tagliente sul bersaglio
+4 - Lancia Labirinto sul bersaglio
+
+THAC0: bonus +4
+Danno: 1D10 + 4
+Tipo di Danno: tagliente
+Peso: 10
+Fattore Velocità: 5
+Tipo di Competenza: Spada a due Mani
+Tipo: a due mani
+Richiede: 14 alla Forza
+Utilizzabile da:
+  Barbaro
+  Guerriero (singolo, duale, e multiclasse)~
+
+////////////////////////////////////////
+// Knights of Dark Renown
+////////////////////////////////////////
+
+@1051 = ~Nota di Samildanach~
+@1052 = ~Nota di Samildanach
+"<CHARNAME>, se vuoi sapere cosa è successo oggi, ti propongo di incontrarci al Diadema di Rame prima del prossimo tramonto.
+
+Tuttavia devi essere avvertito che: hai insistito ad affrontare questo argomento contro la mia volontà, AVRAI delle serie ferite. Decidi con grande cautela e rifletti".
+
+Samildanach, Signore di Gabala.~
+
+
+
+@1053 = ~Macchia del Peccato~
+@1054 = ~Spada Bastarda +4: la Macchia del Peccato
+
+Appartenuta un tempo al Cavaliere dalla Fama Oscura conosciuto come Lord Samildanach, questa mitica spada fu poi a suo tempo ritrovata da un avventuriero conosciuto col nome di Mannanan. Mannanan doveva cercare i suoi alleati, che erano stati colpiti dal Vampirismo. Non riuscì però a risolvere il problema e tutto quello che riuscì a trovare fu questa spada, la Macchia del Peccato. Mannanan ne perse poi il possesso ed il luogo dove si trova ora questa spada rimane sconosciuto. Forse l'arma ha acquistato la sua parte migliore.
+
+STATISTICHE:
+
+Abilità di Combattimento:
+1% di possibilità di lanciare un'Eclissi Solare sul possessore. Ciò trasformerà permanentemente il possessore in una statua di pietra, a meno che gli effetti non siano disperdano
+2% di possibilità di uccidere istantaneamente il bersaglio
+5% di possibilità di infliggere una ferita mortale (50 punti di danno addizionale)
+8% di possibilità di risucchiare due livelli dal bersaglio
+10% di possibilità che il possessore andrà in berserk ad ogni colpo (per 18 secondi)
+Ad ogni colpo riuscito 1 punto addizionale di danno da sanguinamento ad ogni round per 3 rounds
+Ad ogni colpo riuscito vengono sottratti 2 punti ferita dal bersaglio e trasferiti al possessore dell'arma
+Ogni colpo avrà uno dei seguenti effetti sul bersaglio. Un Tiro Salvezza contro Incantesimo andato a buon fine (-2) ne negherà gli effetti:
+  1 - Cecità
+  2 - Panico
+  3 - Rallentamento
+  4 - Confusione
+
+THAC0: bonus +4
+Danno: 2D4 + 4
+Tipo di Danno: tagliente
+Peso: 6
+Fattore Velocità: 5
+Tipo di Competenza: Spada Bastarda
+Tipo: ad una mano
+Richiede: 15 alla Forza, 12 alla Destrezza
+Non Utilizzabile da:
+  Chierico
+  Druido
+  Mago
+  Ladro~
+
+////////////////////////////////////////
+// Master Brain
+////////////////////////////////////////
+
+@1061 = ~Amuleto della Protezione della Mente~
+@1062 = ~Amuleto della Protezione della Mente
+
+I compagni di <CHARNAME> e <PRO_HISHER> sono stati recentemente catturati dai Mind Flayers, mentre si avventuravano nel Sottosuolo. Fuggendo hanno combattuto diverse battaglie, inclusa quella contro la Mente Antica degli Illithid. Questi poco maneggevoli pezzi di corda sembrano essere stati creati con i pezzi del Cervello Maestro, ed i suoi intestini. Senza pensare molto a cossa potessero servire, hanno una forma abbastanza circolare. Sembrano essere fatti per andare intorno al collo, come un amuleto, e protegge dal potere malvagio degli Illithids...
+
+STATISTICHE:
+
+Immunità a tutti gli attacchi di risucchio di intelligenza
+Immunità allo charme e al dominio~
+
+@1063 = ~Aegis-Fang +3~
+@1064 = ~Aegis-Fang
+
+Quest'arma è stata creata appositamente per Wulfgar da Bruenor Battlehammer, e il più forte dei suoi incantesimi funziona solo nelle mani del giovane guerriero. Tutti gli altri impugnano Aegis-Fang come un Martello da Guerra +3.
+
+STATISTICHE:
+
+THAC0: bonus +3
+Danno: 2D4 + 3
+Tipo di Danno: da impatto
+Peso: 3
+Fattore Velocità: 1
+Tipo di Competenza: Martello da Guerra
+Tipo: ad una mano
+Richiede: 18 alla Forza
+Non Utilizzabile da:
+ Druido
+ Mago 
+ Ladro
+ Monaco
+ Addestratore di Animali~

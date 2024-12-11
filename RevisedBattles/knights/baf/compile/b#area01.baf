@@ -1,0 +1,35 @@
+////////////////////////////////////////
+// New Area
+////////////////////////////////////////
+
+// Create Knights
+
+IF
+  InMyArea(Player1)
+  Global("b#SamilNewArea","GLOBAL",1)
+THEN
+  RESPONSE #100
+    SetGlobal("b#SamilNewArea","GLOBAL",2)
+    CreateCreature("b#knit01",[530.450],6)
+    CreateCreature("b#knit02",[580.500],6)
+    CreateCreature("b#knit03",[630.450],6)
+    CreateCreature("b#knit04",[530.550],6)
+    CreateCreature("b#knit05",[680.400],6)
+    CreateCreature("b#knit06",[480.600],6)
+    CreateCreature("b#knit07",[730.350],6)
+    CreateCreature("b#knit08",[430.650],6)
+    ActionOverride("b#knit01",StartDialogNoSet(Player1))
+END
+
+// Killed Samildanach
+
+IF
+  Dead("b#knit01")
+  Global("b#SamilNewArea","GLOBAL",2)
+  Global("b#SamilJournal","GLOBAL",0)
+THEN
+  RESPONSE #100
+    SetGlobal("b#SamilJournal","GLOBAL",1)
+    AddJournalEntry(@302,QUEST_DONE)
+    EraseJournalEntry(@301)
+END
