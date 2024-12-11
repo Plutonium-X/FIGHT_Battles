@@ -1,0 +1,34 @@
+/==============================================================================\
+|              /------------------------------------------------\              |
+|              | Changes to Improved Drizzt (before Battle mod) |              |
+|              \------------------------------------------------/              |
+|                                                                              |
+| Version  1: - BETA                                                           |
+|                                                                              |
+| Version  2: - Fixed item drop, Thanks Assassin.                              |
+|             - Improved Catti-Brie's bow, Thanks Eocine & Assassin.           |
+|             - Made changes to Guenhwyvar, Thanks Kensai_Ryu.                 |
+|             - Replaced some of the original equipment that was missing.      |
+|                                                                              |
+| Version  3: - Fixed one of my mistakes where all other cats would also get   |
+|               Guenhwyvar's new 'claw'.                                       |
+|             - Improved Drizzt's Scimitars.                                   |
+|                                                                              |
+| Version  4: - Made Guenhwyvar immortal and only dies when Drizzt & co. die,  |
+|               Thanks Eocine.                                                 |
+|             - Fixed Aegis Fang description, Thanks Moonfruit.                |
+|                                                                              |
+| Version  5: - Included Improved Drizzt in Bodhi's Lair, Thanks Caedwyr.      |
+|                                                                              |
+| Version  6: - Fixed a bug where Guenhwyvar wouldn't get the right 'claw'.    |
+|                                                                              |
+| Version  7: - Added Malchor Harpell, Thanks evildevil.                       |
+|             - Made Guenhwyvar more effective against mages, Thanks mitchmc.  |
+|             - Fixed a bug where Guenhwyvar would be hostile in Bodhi's lair, |
+|               Thanks adam_2112                                               |
+|             - Fixed alot of scripts that would make Drizzt's companions do   |
+|               nothing in Bodhi's lair.                                       |
+|             - Fixed a bug where Drizzt wouldn't attack anybody in Bodhi's    |
+|               lair, Thanks Moonfruit                                         |
+|                                                                              |
+\==============================================================================/

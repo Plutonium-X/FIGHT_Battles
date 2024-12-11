@@ -1,0 +1,44 @@
+/==============================================================================\
+|                       //----------------------------\\                       |
+|                       || Area Codes for Battles Mod ||                       |
+|                       \\----------------------------//                       |
+|                                                                              |
+| You can use the following command on the cheat console. Just replace ____    |
+| with the area code you want to go to:                                        |
+|                                                                              |
+|	CLUAConsole:MoveToArea("AR____")                                       |
+|                                                                              |
+|	Drizzt:			  2601 {Drizzt}, 0808 {Bodhi's lair}           |
+|	Mencar:			  0712                                         |
+|	Mad Cleric:		  0300                                         |
+|	House Jae'llat:		  2209                                         |
+|	Master Brain:		  2400                                         |
+|	Wraith Sarevok:		  2900 {Watch cut-scene & go downstairs}       |
+|	Cohrvale, Bregg & Alamas: 0400                                         |
+|	Firkraag:		  1203                                         |
+|	Fire Giants:		  5204                                         |
+|	Shade Lord:		  1402 {CTRL-Y dragon & go upstairs}           |
+|	Trademeet Crypt:	  2013                                         |
+|	Dungeon:		  0603                                         |
+|	Temple Sewers Party:	  0701                                         |
+|	Kiser Jhaeri:		  5014                                         |
+|	Falahar:		  0530                                         |
+|	Drow Pit Fights:	  2202					       |
+|	Chromatic Demon:	  3016					       |
+|                                                                              |
+|	Roenall:		  1304 {Move to drawbridge & use cheat         |
+|				  console: SetGlobal("KeepPlot","GLOBAL",11)}  |
+|				  	   				       |
+|	Knights of Dark Renown	  {Use console with Player 1 selected:	       |
+|		   		  SetCurrentXP(XP Needed for Level 15)}	       |
+\                                                                              /
+ |============================================================================|
+/                                                                              \
+| Note: you must have the Cheat Console activated in order to use these codes  |
+|                                                                              |
+| To activate the cheat console, add the following line (case sensitive) to    |
+| your bardur.ini file, under [Program Options]:                               |
+|                                                                              |
+| Debug Mode=1                                                                 |
+|                                                                              |
+\==============================================================================/

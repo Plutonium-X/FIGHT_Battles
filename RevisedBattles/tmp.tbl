@@ -1,0 +1,34 @@
+
+CREATURE		PROF_TYPE	NECESSARY_STARS
+
+sevpat01.CRE	97		2
+sevpat01.CRE	100		5
+sevpat01.CRE	114		3
+
+sevpat04.cre	90		1
+sevpat04.cre	94		5
+sevpat04.cre	95		2
+sevpat04.cre	113		2
+
+sevpat05.cre	90		1
+sevpat05.cre	91		1
+sevpat05.cre	96		1
+sevpat05.cre	103		1
+sevpat05.cre	105		1
+sevpat05.cre	106		1
+sevpat05.cre	113		1
+
+bregg.cre		91		5
+bregg.cre		113		2
+
+cohrvale.cre	92		5
+cohrvale.cre	112		2
+
+ruffian.cre		90		5
+ruffian.cre		114		3
+
+sarkis01.cre	91		5
+sarkis01.cre	114		1
+sarkis04.cre	91		5
+sarkis04.cre	114		1
+
