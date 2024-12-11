@@ -1,0 +1,12 @@
+////////////////////////////////////////
+// Fixes bug that none of Drizzt's friends attacked
+////////////////////////////////////////
+IF 
+    See([PC])
+    See(NearestEnemyOf([PC]))
+    !StateCheck([PC],STATE_CHARMED)
+    !StateCheck(Myself,STATE_CHARMED)
+THEN
+    RESPONSE #100
+        Attack(LastSeenBy(Myself))
+END

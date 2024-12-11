@@ -1,0 +1,33 @@
+////////////////////////////////////////
+// Talk to PC
+////////////////////////////////////////
+
+IF
+  NumTimesTalkedTo(0)
+  See([PC])
+THEN
+  RESPONSE #100
+    StartDialogueNoSet([PC])
+END
+
+////////////////////////////////////////
+// Call for Malchor
+////////////////////////////////////////
+
+IF
+  See(NearestEnemyOf(Myself))
+  Allegiance(Myself,ENEMY)
+  !Exists("c6harp")
+THEN
+  RESPONSE #100
+    StartCutSceneMode()
+    ClearAllActions()
+    DisplayStringHead("c6drizz",@30)
+    Wait(2)
+    CreateVisualEffect("SPDIMNDR",[623.301])
+    Wait(1)
+    CreateCreature("c6harp",[633.301],2)
+    Wait(1)
+    DisplayStringHead("c6harp",@31)
+    EndCutSceneMode()
+END

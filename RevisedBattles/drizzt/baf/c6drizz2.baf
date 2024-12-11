@@ -1,0 +1,35 @@
+////////////////////////////////////////
+// New Additions
+////////////////////////////////////////
+
+IF 
+    See(NearestEnemyOf([PC]))
+    !StateCheck([PC],STATE_CHARMED)
+    !StateCheck(Myself,STATE_CHARMED)
+THEN
+    RESPONSE #100
+        Attack(LastSeenBy(Myself))
+END
+
+IF 
+    See("c6bodhi")
+    !StateCheck(Myself,STATE_CHARMED)
+THEN
+    RESPONSE #100
+        Attack("c6bodhi")
+END
+
+////////////////////////////////////////
+// Create & Use POTN52
+////////////////////////////////////////
+
+IF
+  HPPercentLT(Myself,76)
+  !GlobalTimerNotExpired("Cast","LOCALS")
+THEN
+  RESPONSE #100
+    SetGlobalTimer("Cast","LOCALS",6)
+    GiveItemCreate("potn52",Myself,1,0,0)
+    DisplayStringHead(Myself,46150)
+    UseItem("potn52",Myself)
+END

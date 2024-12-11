@@ -1,0 +1,90 @@
+IF
+  Die()
+THEN
+  RESPONSE #100
+    ReallyForceSpellDead(Myself,CLERIC_INSECT_PLAGUE)
+END
+
+IF
+  !GlobalTimerNotExpired("Cast","LOCALS")
+  !Global("CastCS","LOCALS",1)
+  !StateCheck(Myself,STATE_HELPLESS)
+  !StateCheck(Myself,STATE_STUNNED)
+  !StateCheck(Myself,STATE_PANIC)
+  See(ThirdNearestEnemyOf(Myself))
+  Range(ThirdNearestEnemyOf(Myself),20)
+THEN
+  RESPONSE #100
+    ReallyForceSpell(ThirdNearestEnemyOf(Myself),CLERIC_DOLOROUS_DECAY)
+    SetGlobal("CastCS","LOCALS",1)
+    SetGlobalTimer("Cast","LOCALS",18)
+END
+
+IF
+  !GlobalTimerNotExpired("Cast","LOCALS")
+  !Global("CastCS","LOCALS",1)
+  See(SecondNearestEnemyOf(Myself))
+  Range(SecondNearestEnemyOf(Myself),20)
+  !StateCheck(Myself,STATE_HELPLESS)
+  !StateCheck(Myself,STATE_STUNNED)
+  !StateCheck(Myself,STATE_PANIC)
+THEN
+  RESPONSE #100
+    ReallyForceSpell(SecondNearestEnemyOf(Myself),CLERIC_DOLOROUS_DECAY)
+    SetGlobal("CastCS","LOCALS",1)
+    SetGlobalTimer("Cast","LOCALS",18)
+END
+
+IF
+  !GlobalTimerNotExpired("Cast","LOCALS")
+  !Global("CastCS","LOCALS",1)
+  See(NearestEnemyOf(Myself))
+  Range(NearestEnemyOf(Myself),20)
+  !StateCheck(Myself,STATE_HELPLESS)
+  !StateCheck(Myself,STATE_STUNNED)
+  !StateCheck(Myself,STATE_PANIC)
+THEN
+  RESPONSE #100
+    ReallyForceSpell(NearestEnemyOf(Myself),CLERIC_DOLOROUS_DECAY)
+    SetGlobal("CastCS","LOCALS",1)
+    SetGlobalTimer("Cast","LOCALS",18)
+END
+
+IF
+  !GlobalTimerNotExpired("Cast","LOCALS")
+  Global("CastCS","LOCALS",1)
+  See(NearestEnemyOf(Myself))
+  Range(NearestEnemyOf(Myself),25)
+  !StateCheck(Myself,STATE_HELPLESS)
+  !StateCheck(Myself,STATE_STUNNED)
+  !StateCheck(Myself,STATE_PANIC)
+THEN
+  RESPONSE #100
+    ReallyForceSpell(NearestEnemyOf(Myself),WIZARD_CARRION)
+    SetGlobal("CastCS","LOCALS",0)
+    SetGlobalTimer("Cast","LOCALS",18)
+END
+
+IF
+  !GlobalTimerNotExpired("Cast","LOCALS")
+  Global("CastCS","LOCALS",1)
+  See(NearestEnemyOf(Myself))
+  !Range(NearestEnemyOf(Myself),25)
+  !StateCheck(Myself,STATE_HELPLESS)
+  !StateCheck(Myself,STATE_STUNNED)
+  !StateCheck(Myself,STATE_PANIC)
+THEN
+  RESPONSE #100
+    ReallyForceSpell(Myself,WIZARD_CARRION)
+    SetGlobal("CastCS","LOCALS",0)
+    SetGlobalTimer("Cast","LOCALS",18)
+END
+
+IF
+    Allegiance(Myself,ENEMY)
+    !Allegiance(LastSeenBy(Myself),ENEMY)
+    InMyArea(LastSeenBy(Myself))
+THEN
+    RESPONSE #100
+        AttackReevaluate(LastSeenBy(Myself),15)
+END

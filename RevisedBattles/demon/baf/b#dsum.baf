@@ -1,0 +1,75 @@
+IF
+  OR(9)
+    See(ThirdNearestEnemyOf([PC]))
+    See(SecondNearestEnemyOf([PC]))
+    See(NearestEnemyOf([PC]))
+    See(ThirdNearestEnemyOf([PC]))
+    See(SecondNearestEnemyOf([PC]))
+    See(NearestEnemyOf([PC]))
+    See(ThirdNearestEnemyOf([Pc]))
+    See(SecondNearestEnemyOf([Pc]))
+    See(NearestEnemyOf([PC]))
+    Global("Prep","LOCALS",0)
+THEN
+    RESPONSE #100
+        ForceSpell(LastSeenBy(Myself),WIZARD_DISPEL_MAGIC)
+        SetGlobal("Prep","LOCALS",1)
+END
+
+IF
+  OR(9)
+    See(ThirdNearestEnemyOf([PC]))
+    See(SecondNearestEnemyOf([PC]))
+    See(NearestEnemyOf([PC]))
+    See(ThirdNearestEnemyOf([PC]))
+    See(SecondNearestEnemyOf([PC]))
+    See(NearestEnemyOf([PC]))
+    See(ThirdNearestEnemyOf([Pc]))
+    See(SecondNearestEnemyOf([Pc]))
+    See(NearestEnemyOf([PC]))
+THEN
+    RESPONSE #70
+        AttackOneRound(LastSeenBy(Myself))
+        AttackOneRound(LastSeenBy(Myself))
+    RESPONSE #30
+        ForceSpell(LastSeenBy(Myself),WIZARD_POWER_WORD_STUN)
+        AttackOneRound(LastSeenBy(Myself))
+END
+
+IF
+  OR(9)
+    See(ThirdNearestEnemyOf([PC]))
+    See(SecondNearestEnemyOf([PC]))
+    See(NearestEnemyOf([PC]))
+    See(ThirdNearestEnemyOf([PC]))
+    See(SecondNearestEnemyOf([PC]))
+    See(NearestEnemyOf([PC]))
+    See(ThirdNearestEnemyOf([Pc]))
+    See(SecondNearestEnemyOf([Pc]))
+    See(NearestEnemyOf([PC]))
+    Global("Prep","LOCALS",0)
+THEN
+    RESPONSE #100
+        ForceSpell(LastSeenBy(Myself),WIZARD_DISPEL_MAGIC)
+        SetGlobal("Prep","LOCALS",1)
+END
+
+IF
+  OR(9)
+    See(ThirdNearestEnemyOf([PC]))
+    See(SecondNearestEnemyOf([PC]))
+    See(NearestEnemyOf([PC]))
+    See(ThirdNearestEnemyOf([PC]))
+    See(SecondNearestEnemyOf([PC]))
+    See(NearestEnemyOf([PC]))
+    See(ThirdNearestEnemyOf([PC]))
+    See(SecondNearestEnemyOf([PC]))
+    See(NearestEnemyOf([PC]))
+    Global("Prep","LOCALS",1)
+THEN
+    RESPONSE #75
+        AttackReevaluate(LastSeenBy(Myself),30)
+    RESPONSE #25
+        ForceSpell(LastSeenBy(Myself),WIZARD_POWER_WORD_STUN)
+END
+

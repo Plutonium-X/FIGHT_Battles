@@ -1,0 +1,101 @@
+////////////////////////////////////////
+// Target Mage
+////////////////////////////////////////
+
+IF
+  OR(9)
+    See(ThirdNearestEnemyOfType([0.0.0.MAGE_ALL]))
+    See(SecondNearestEnemyOfType([0.0.0.MAGE_ALL]))
+    See(NearestEnemyOfType([0.0.0.MAGE_ALL]))
+    See(ThirdNearestEnemyOfType([0.0.0.SORCERER]))
+    See(SecondNearestEnemyOfType([0.0.0.SORCERER]))
+    See(NearestEnemyOfType([0.0.0.SORCERER]))
+    See(ThirdNearestEnemyOfType([0.0.0.BARD_ALL]))
+    See(SecondNearestEnemyOfType([0.0.0.BARD_ALL]))
+    See(NearestEnemyOfType([0.0.0.BARD_ALL]))
+    Range(LastSeenBy(Myself),7)
+THEN
+  RESPONSE #100
+    Attack(LastSeenBy(Myself))
+END
+
+////////////////////////////////////////
+// Original Script
+////////////////////////////////////////
+
+IF
+  AttackedBy([GOODCUTOFF],DEFAULT)
+  Allegiance(Myself,NEUTRAL)
+THEN
+  RESPONSE #100
+    Shout(89)
+    Enemy()
+END
+
+IF
+  HitBy([GOODCUTOFF],CRUSHING)
+THEN
+  RESPONSE #100
+    Shout(89)
+    Continue()
+END
+
+IF
+  OR(5)
+    AttackedBy([PC],DEFAULT)
+    AttackedBy([FAMILIAR],DEFAULT)
+    AttackedBy([ALLY],DEFAULT)
+    AttackedBy([CONTROLLED],DEFAULT)
+    AttackedBy([CHARMED],DEFAULT)
+  Allegiance(Myself,ENEMY)
+  ActionListEmpty()
+THEN
+  RESPONSE #100
+    Shout(89)
+    Continue()
+END
+
+IF
+  Heard([ANYONE],89)
+  Allegiance(Myself,NEUTRAL)
+  !Class(Myself,INNOCENT)
+THEN
+  RESPONSE #100
+    Enemy()
+    MoveToObject(LastHeardBy(Myself))
+END
+
+IF
+  Heard([ANYONE],89)
+  Allegiance(Myself,NEUTRAL)
+THEN
+  RESPONSE #100
+    Enemy()
+END
+
+IF
+  Heard([ANYONE],89)
+  !Class(Myself,INNOCENT)
+  !See(NearestEnemyOf(Myself))
+THEN
+  RESPONSE #100
+    MoveToObject(LastHeardBy(Myself))
+    Continue()
+END
+
+////////////////////////////////////////
+// Destroy Self
+////////////////////////////////////////
+
+IF
+  AreaCheck("AR2601")
+  Dead("c6drizz")
+  Dead("c6wulf")
+  Dead("c6catti")
+  Dead("c6bruen")
+  Dead("c6regis")
+  Dead("c6harp")
+THEN
+  RESPONSE #100
+    Kill(Myself)
+END
