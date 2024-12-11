@@ -1,0 +1,114 @@
+IF
+  Die()
+THEN
+  RESPONSE #100
+    CreateVisualEffectObject("ICRMPARI",Myself)
+    DestroySelf()
+END
+
+IF
+  Global("GetAwayNPC","LOCALS",1)
+  Range(Player2,10)
+THEN
+  RESPONSE #100
+    ApplySpellRES("ch3away",Player2) // No such index
+    Continue()
+END
+
+IF
+  Global("GetAwayNPC","LOCALS",1)
+  Range(Player3,10)
+THEN
+  RESPONSE #100
+    ApplySpellRES("ch3away",Player3) // No such index
+    Continue()
+END
+
+IF
+  Global("GetAwayNPC","LOCALS",1)
+  Range(Player4,10)
+THEN
+  RESPONSE #100
+    ApplySpellRES("ch3away",Player4) // No such index
+    Continue()
+END
+
+IF
+  Global("GetAwayNPC","LOCALS",1)
+  Range(Player5,10)
+THEN
+  RESPONSE #100
+    ApplySpellRES("ch3away",Player5) // No such index
+    Continue()
+END
+
+IF
+  Global("GetAwayNPC","LOCALS",1)
+  Range(Player6,10)
+THEN
+  RESPONSE #100
+    ApplySpellRES("ch3away",Player6) // No such index
+    Continue()
+END
+
+IF
+  Global("GetAwayNPC","LOCALS",1)
+THEN
+  RESPONSE #100
+    SetGlobal("GetAwayNPC","LOCALS",0)
+END
+
+IF
+  See(Player1)
+  InPartySlot([GOODCUTOFF],0)
+  Allegiance(Myself,ENEMY)
+THEN
+  RESPONSE #100
+    AttackReevaluate(Player1,15)
+END
+
+IF
+  Allegiance(Myself,ENEMY)
+  See(NearestEnemyOf(Myself))
+  Gender(LastSeenBy(Myself),SUMMONED)
+  !LevelGT(LastSeenBy(Myself),9)
+THEN
+  RESPONSE #100
+    CreateVisualEffectObject("SPGFLSH1",NearestEnemyOf(Myself))
+    ActionOverride(NearestEnemyOf(Myself),DestroySelf())
+END
+
+IF
+  Allegiance(Myself,ENEMY)
+  See(NearestEnemyOf(Myself))
+  InPartySlot(LastSeenBy(Myself),0)
+  Global("GetAwayNPC","LOCALS",0)
+THEN
+  RESPONSE #100
+    AttackReevaluate(Player1,30)
+END
+
+IF
+  Allegiance(Myself,ENEMY)
+  See(NearestEnemyOf(Myself))
+  !InPartySlot(LastSeenBy(Myself),0)
+  Global("GetAwayNPC","LOCALS",0)
+  Allegiance(NearestEnemyOf(Myself),PC)
+  !GlobalTimerNotExpired("ThrowBackTimer","LOCALS")
+THEN
+  RESPONSE #100
+    SetGlobalTimer("ThrowBackTimer","LOCALS",10)
+    SetGlobal("GetAwayNPC","LOCALS",1)
+    DisplayStringHead(Myself,72802) // Away!  You are of no concern to me!
+    SwingOnce()
+END
+
+IF
+  Allegiance(Myself,ENEMY)
+  See(NearestEnemyOf(Myself))
+  !InPartySlot(LastSeenBy(Myself),0)
+  Allegiance(NearestEnemyOf(Myself),GOODCUTOFF)
+THEN
+  RESPONSE #100
+    AttackReevaluate(NearestEnemyOf(Myself),15)
+END

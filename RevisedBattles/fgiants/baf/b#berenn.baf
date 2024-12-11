@@ -1,0 +1,47 @@
+////////////////////////////////////////
+// Start Dialogue
+////////////////////////////////////////
+
+IF
+  Detect([PC])
+  NumTimesTalkedTo(0)
+THEN
+  RESPONSE #100
+    StartDialogueNoSet(LastSeenBy(Myself))
+END
+
+////////////////////////////////////////
+// Protection Spells
+////////////////////////////////////////
+
+IF
+  See([PC])
+  !GlobalTimerNotExpired("Prep","LOCALS")
+THEN
+  RESPONSE #100
+    SetGlobalTimer("Prep","LOCALS",18)
+    ReallyForceSpell(Myself,WIZARD_STONE_SKIN)
+    ReallyForceSpell(Myself,WIZARD_PROTECTION_FROM_THE_ELEMENTS)
+END
+
+////////////////////////////////////////
+// Low Hit Points
+////////////////////////////////////////
+
+IF
+  HPPercentLT(Myself,51)
+  Global("CastBreath","LOCALS",0)
+THEN
+  RESPONSE #100
+    SetGlobal("CastBreath","LOCALS",1)
+    ReallyForceSpell(NearestEnemyOf(Myself),RED_DRAGON_BREATH)
+END
+
+IF
+  HPPercentLT(Myself,26)
+  Global("CastBuffet","LOCALS",0)
+THEN
+  RESPONSE #100
+    SetGlobal("CastBuffet","LOCALS",1)
+    ReallyForceSpell(NearestEnemyOf(Myself),DRAGON_WING_BUFFET)
+END

@@ -1,0 +1,11 @@
+IF
+	Global("SPRITE_IS_DEADfirkra02","GLOBAL",0)
+	CombatCounter(0)
+	RealGlobalTimerExpired("VP_FirAttacksParty","GLOBAL")
+	Global("VP_AngelosLegacy","GLOBAL",4)
+	Global("VP_Firkrag_Hostile","MYAREA",0)
+THEN
+	RESPONSE #100
+		SetGlobal("VP_Firkrag_Hostile","MYAREA",1)
+		ActionOverride("b#fir01",Enemy())
+END

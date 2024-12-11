@@ -1,0 +1,19 @@
+IF
+	Global("RE_FirkraagFlirt","GLOBAL",1)
+THEN
+	RESPONSE #100
+		StartCutSceneMode()
+		ClearAllActions()
+		Wait(1)
+		DisplayStringHead("b#fir01",168926) // Now you've gone and irritated me!
+		Wait(1)
+		CreateVisualEffectObject("SPFIREPI","b#fir01")
+		ReallyForceSpellRES("b#fir01",Myself) // Lord Jierdan
+		Wait(2)
+		CreateVisualEffectObject("SPSTRENH","b#fir01")
+		CreateVisualEffectObject("SPHOLMIG","b#fir01")
+		CreateVisualEffectObject("GRNDGLOW","b#fir01")
+		Wait(1)
+		ReallyForceSpellRES("b#fir04",Myself) // Firkraag
+		EndCutSceneMode()
+END

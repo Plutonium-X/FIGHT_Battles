@@ -1,0 +1,10 @@
+IF
+	Exists([PC])
+	!Exists("b#fir03")
+	Global("b#firavatar","GLOBAL",2)
+THEN
+	RESPONSE #100
+		SetGlobal("b#firavatar","GLOBAL",3)
+		CreateCreature("b#fir03",[4123.959],10)
+		Continue()
+END

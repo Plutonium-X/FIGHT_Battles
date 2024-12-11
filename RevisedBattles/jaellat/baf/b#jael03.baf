@@ -1,0 +1,57 @@
+////////////////////////////////////////
+// Original Script
+////////////////////////////////////////
+IF
+    Global("DrowCityHostile","GLOBAL",1)
+    !Allegiance(Myself,ENEMY)
+THEN
+    RESPONSE #100
+        EscapeArea()
+END
+
+IF
+    Allegiance(Myself,ENEMY)
+    AreaCheck("AR2200")
+    Global("DrowCityHostile","GLOBAL",0)
+THEN
+    RESPONSE #100
+        SetGlobal("DrowCityHostile","GLOBAL",1)
+END
+
+////////////////////////////////////////
+// Shape Change
+////////////////////////////////////////
+IF
+    HPPercentLT(Myself,25)
+    Global("b#istavatar","LOCALS",0)
+THEN
+    RESPONSE #100
+        StartCutSceneMode()
+        ClearAllActions()
+        SetGlobal("b#istavatar","LOCALS",1)
+        DisplayStringHead("jael03",@40)
+        Wait(1)
+        ReallyForceSpellRES("b#ist01",Myself) // No such index
+        CreateVisualEffectObject("SPFIREPI",Myself)
+        Wait(2)
+        CreateVisualEffectObject("SPSTRENH",Myself)
+        CreateVisualEffectObject("GRNDGLOW",Myself)
+        Wait(1)
+        CreateCreatureObjectEffect("b#spid","MMAGICH",Myself)
+        CreateCreatureObjectEffect("b#spid","MMAGICH",Myself)
+        CreateCreatureObjectEffect("b#spid","MMAGICH",Myself)
+        CreateCreatureObjectEffect("jael04","MMAGICH",Myself)
+        CreateCreatureObjectEffect("jael04","MMAGICH",Myself)
+        ReallyForceSpellRES("b#ist02",Myself) // No such index
+        EndCutSceneMode()
+END
+
+////////////////////////////////////////
+// Attack
+////////////////////////////////////////
+IF
+    See(NearestEnemyOf(Myself))
+THEN
+    RESPONSE #100
+        Attack(LastSeenBy(Myself))
+END

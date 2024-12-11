@@ -1,0 +1,31 @@
+////////////////////////////////////////
+// Protection Spells
+////////////////////////////////////////
+
+IF
+  See([PC])
+  !GlobalTimerNotExpired("Prep","LOCALS")
+THEN
+  RESPONSE #100
+    SetGlobalTimer("Prep","LOCALS",18)
+    ReallyForceSpell(Myself,WIZARD_STONE_SKIN)
+    ReallyForceSpell(Myself,WIZARD_PROTECTION_FROM_THE_ELEMENTS)
+END
+
+////////////////////////////////////////
+// FireBall & Flamestrike
+////////////////////////////////////////
+
+IF
+  See([PC])
+  Allegiance(Myself,ENEMY)
+  Allegiance(LastSeenBy(Myself),PC)
+  CheckStatLT(LastSeenBy(Myself),51,RESISTFIRE)
+  Global("CastFireball","LOCALS",0)
+THEN
+  RESPONSE #100
+    SetGlobal("CastFireball","LOCALS",1)
+    ReallyForceSpell(LastSeenBy(Myself),WIZARD_GREATER_MALISON)
+    ReallyForceSpell(LastSeenBy(Myself),WIZARD_FIREBALL)
+    ReallyForceSpell(LastSeenBy(Myself),CLERIC_FLAME_STRIKE)
+END

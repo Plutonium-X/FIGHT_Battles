@@ -1,0 +1,12 @@
+IF
+	Global("DeSpawnItem","AR1203",0)
+	Exists("firkra02")
+THEN
+	RESPONSE #100
+		SetGlobal("DeSpawnItem","AR1203",1)
+		GiveItemCreate("DeITM018","firkra02",0,0,0) // MageSlain
+		GiveItemCreate("DeITM035","firkra02",0,0,0) // Impending Death
+		GiveItemCreate("DeITM073","firkra02",0,0,0) // Defensive Stance
+		GiveItemCreate("DeITM083","firkra02",0,0,0) // Near Death
+		Continue()
+END

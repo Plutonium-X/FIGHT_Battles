@@ -1,0 +1,161 @@
+////////////////////////////////////////
+// Script from Guareded Compound
+////////////////////////////////////////
+
+IF
+  Allegiance(Myself,ENEMY)
+  Global("Prep","LOCALS",0)
+  NumCreatureLT([0.UNDEAD.0.0.0.0.0],4)
+THEN
+  RESPONSE #100
+    ReallyForceSpell(Myself,CLERIC_ANIMATE_DEAD)
+    ReallyForceSpell(Myself,CLERIC_ANIMATE_DEAD)
+    Continue()
+END  
+
+IF
+  Allegiance(Myself,ENEMY)
+  Global("Prep","LOCALS",0)
+THEN
+  RESPONSE #100
+    SetGlobalTimer("Cast","LOCALS",1)
+    ReallyForceSpell("jael04",CLERIC_CHAOTIC_COMMANDS)
+    ReallyForceSpell("jael04",CLERIC_CHAOTIC_COMMANDS)
+    ReallyForceSpell(Myself,CLERIC_CHAOTIC_COMMANDS)
+    ReallyForceSpell(Myself,CLERIC_PROTECTION_FROM_EVIL_10_FOOT)
+    ReallyForceSpell(Myself,CLERIC_REMOVE_FEAR)
+    ReallyForceSpell("jael04",CLERIC_REMOVE_FEAR)
+    ReallyForceSpell("jael04",CLERIC_REMOVE_FEAR)
+    ReallyForceSpell(Myself,CLERIC_SHIELD_OF_THE_ARCHONS)
+    ReallyForceSpell(Myself,CLERIC_TRUE_SIGHT)
+    ReallyForceSpell(Myself,CLERIC_SANCTUARY)
+    SetGlobal("Prep","LOCALS",1)
+    SetGlobal("Animal","LOCALS",2)
+    SetGlobal("Command","LOCALS",0)
+    SetGlobal("Mirror","LOCALS",1)
+    SetGlobal("Sanct","LOCALS",5)
+    SetGlobal("Mental","LOCALS",7)
+    SetGlobal("Hold","LOCALS",9)
+    SetGlobal("Glyph","LOCALS",4)
+    SetGlobal("Holy","LOCALS",1)
+    Continue()
+END
+
+IF
+  Allegiance(Myself,ENEMY)
+  GlobalTimerExpired("Cast","LOCALS")
+  GlobalGT("Sanct","LOCALS",0)
+  Range(NearestEnemyOf(Myself),4)
+  CheckStatLT(Myself,1,SANCTUARY)
+THEN
+  RESPONSE #100
+    IncrementGlobal("Sanct","LOCALS",-1)
+    SetGlobalTimer("Cast","LOCALS",6)
+    SpellNoDec(Myself,CLERIC_SANCTUARY)
+END
+
+IF
+  Allegiance(Myself,ENEMY)
+  GlobalTimerExpired("Cast","LOCALS")
+  GlobalGT("Mirror","LOCALS",0)
+  See(LastAttackerOf(Myself))
+  !Range(LastAttackerOf(Myself),3)
+THEN
+  RESPONSE #100
+    IncrementGlobal("Mirror","LOCALS",-1)
+    SetGlobalTimer("Cast","LOCALS",6)
+    SpellNoDec(Myself,CLERIC_PHYSICAL_MIRROR)
+END
+
+IF
+  Allegiance(Myself,ENEMY)
+  GlobalTimerExpired("Cast","LOCALS")
+  GlobalGT("Animal","LOCALS",0)
+  OR(2)
+    !CombatCounter(0)
+    See(NearestEnemyOf(Myself))
+THEN
+  RESPONSE #100
+    IncrementGlobal("Animal","LOCALS",-1)
+    SetGlobalTimer("Cast","LOCALS",6)
+    SpellNoDec(Myself,CLERIC_ANIMAL_SUMMONING_3)
+END
+
+IF
+  Allegiance(Myself,ENEMY)
+  GlobalTimerExpired("Cast","LOCALS")
+  GlobalGT("Command","LOCALS",0)
+  See(NearestEnemyOfType([PC]))
+THEN
+  RESPONSE #100
+    IncrementGlobal("Command","LOCALS",-1)
+    SetGlobalTimer("Cast","LOCALS",6)
+    SpellNoDec(NearestEnemyOfType([PC]),CLERIC_GREATER_COMMAND)
+END
+
+IF
+  Allegiance(Myself,ENEMY)
+  GlobalTimerExpired("Cast","LOCALS")
+  GlobalGT("Mental","LOCALS",0)
+  See(NearestEnemyOfType([PC]))
+THEN
+  RESPONSE #100
+    IncrementGlobal("Mental","LOCALS",-1)
+    SetGlobalTimer("Cast","LOCALS",6)
+    SpellNoDec(NearestEnemyOfType([PC]),CLERIC_MENTAL_DOMINATION)
+END
+
+IF
+  Allegiance(Myself,ENEMY)
+  GlobalTimerExpired("Cast","LOCALS")
+  GlobalGT("Hold","LOCALS",0)
+  See(NearestEnemyOfType([PC]))
+THEN
+  RESPONSE #100
+    IncrementGlobal("Hold","LOCALS",-1)
+    SetGlobalTimer("Cast","LOCALS",6)
+    SpellNoDec(NearestEnemyOfType([PC]),CLERIC_HOLD_PERSON)
+END
+
+IF
+  Allegiance(Myself,ENEMY)
+  GlobalTimerExpired("Cast","LOCALS")
+  GlobalGT("Glyph","LOCALS",0)
+  See(NearestEnemyOfType([PC]))
+THEN
+  RESPONSE #100
+    IncrementGlobal("Glyph","LOCALS",-1)
+    SetGlobalTimer("Cast","LOCALS",6)
+    SpellNoDec(NearestEnemyOfType([PC]),CLERIC_GLYPH_OF_WARDING)
+END
+
+IF
+  Allegiance(Myself,ENEMY)
+  GlobalTimerExpired("Cast","LOCALS")
+  GlobalGT("Holy","LOCALS",0)
+  See(NearestEnemyOfType([PC]))
+THEN
+  RESPONSE #100
+    IncrementGlobal("Holy","LOCALS",-1)
+    SetGlobalTimer("Cast","LOCALS",6)
+    SpellNoDec(Myself,CLERIC_HOLY_POWER)
+    Attack(NearestEnemyOfType([PC]))
+END
+
+IF
+  !Detect(NearestEnemyOf(Myself))
+  HPPercentLT(Myself,100)
+THEN
+  RESPONSE #100
+    ClearActions(Myself)
+    ReallyForceSpell(Myself,CLERIC_ZONE_OF_SWEET_AIR)
+    ReallyForceSpell(Myself,CLERIC_HEAL)  
+    ReallyForceSpell("jael04",CLERIC_HEAL)  
+END
+
+IF
+  True()
+THEN
+  RESPONSE #100
+    NoAction()
+END

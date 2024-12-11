@@ -1,0 +1,33 @@
+IF
+	Global("SPRITE_IS_DEADfirkra02","GLOBAL",1)
+	CombatCounter(0)
+	Global("VP_Firkrag_Is_Dead","GLOBAL",0)
+	OR(2)
+		InParty("Sharteel")
+		InMyArea("Sharteel")
+	!Dead("Sharteel")
+THEN
+	RESPONSE #100
+		SetGlobal("VP_Firkrag_Is_Dead","GLOBAL",1)
+		ActionOverride("Sharteel",StartDialogueNoSet([PC]))
+		Continue()		
+END
+
+IF
+	Global("SPRITE_IS_DEADfirkra02","GLOBAL",1)
+	CombatCounter(0)
+	Global("VP_Firkrag_Is_Dead","GLOBAL",0)
+	OR(3)
+		!InParty("Sharteel")
+		!InMyArea("Sharteel")
+		Dead("Sharteel")
+	OR(2)
+		InParty("Leina")
+		InMyArea("Leina")
+	!Dead("Leina")
+THEN
+	RESPONSE #100
+		SetGlobal("VP_Firkrag_Is_Dead","GLOBAL",1)
+		ActionOverride("Leina",StartDialogueNoSet([PC]))
+		Continue()
+END

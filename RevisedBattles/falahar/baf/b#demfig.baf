@@ -1,0 +1,57 @@
+////////////////////////////////////////
+// Talk
+////////////////////////////////////////
+
+IF
+  NumTimesTalkedTo(0)
+  See([PC])
+THEN
+    RESPONSE #100
+      StartDialogueNoSet([PC])
+      Continue()
+END
+
+////////////////////////////////////////
+// Detect & Attack Enemy
+////////////////////////////////////////
+
+IF
+  Heard([ANYONE],111)
+THEN
+  RESPONSE #100
+    MoveToObject(NearestEnemyOf(Myself))
+END
+
+IF
+  Detect([PC])
+  OR(6)
+    !See(LastSeenBy(Myself))
+    StateCheck([PC],STATE_INVISIBLE)
+    StateCheck([PC],STATE_IMPROVEDINVISIBILITY)
+THEN
+  RESPONSE #100
+    DisplayStringHead(Myself,26703)
+    MoveToObject(LastSeenBy(Myself))
+END
+
+IF
+  See(NearestEnemyOf(Myself))
+THEN
+  RESPONSE #100
+    AttackReevaluate(NearestEnemyOf(Myself),30)
+END
+
+////////////////////////////////////////
+// Use Items
+////////////////////////////////////////
+
+IF
+  HPPercentLT(Myself,50)
+  HasItem("potn52",Myself)
+  GlobalTimerExpired("Cast","LOCALS")
+THEN
+  RESPONSE #100
+    SetGlobalTimer("Cast","LOCALS",6)
+    DisplayStringHead(Myself,46150)
+    UseItem("potn52",Myself)
+END

@@ -1,0 +1,44 @@
+////////////////////////////////////////
+// Create & Use POTN52
+////////////////////////////////////////
+
+IF
+  HPPercentLT(Myself,76)
+  !GlobalTimerNotExpired("Cast","LOCALS")
+THEN
+  RESPONSE #100
+    SetGlobalTimer("Cast","LOCALS",6)
+    GiveItemCreate("potn52",Myself,1,0,0)
+    DisplayStringHead(Myself,46150)
+    UseItem("potn52",Myself)
+END
+
+////////////////////////////////////////
+// Original Script
+////////////////////////////////////////
+IF
+    Global("DrowCityHostile","GLOBAL",1)
+    !Allegiance(Myself,ENEMY)
+THEN
+    RESPONSE #100
+        EscapeArea()
+END
+
+IF
+    Allegiance(Myself,ENEMY)
+    AreaCheck("AR2200")
+    Global("DrowCityHostile","GLOBAL",0)
+THEN
+    RESPONSE #100
+        SetGlobal("DrowCityHostile","GLOBAL",1)
+END
+
+////////////////////////////////////////
+// Attack
+////////////////////////////////////////
+IF
+    See(NearestEnemyOf(Myself))
+THEN
+    RESPONSE #100
+        Attack(LastSeenBy(Myself))
+END

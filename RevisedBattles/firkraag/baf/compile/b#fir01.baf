@@ -1,0 +1,91 @@
+////////////////////////////////////////
+// Talk
+////////////////////////////////////////
+
+IF
+  NumTimesTalkedTo(0)
+  See([PC])
+THEN
+    RESPONSE #100
+      StartDialogueNoSet([PC])
+      Continue()
+END
+
+////////////////////////////////////////
+// Kills Summons
+////////////////////////////////////////
+
+IF
+  Allegiance(Myself,ENEMY)
+  See([GOODCUTOFF.0.0.0.0.SUMMONED])
+THEN
+  RESPONSE #100
+    Kill(LastSeenBy(Myself))
+    DisplayStringHead(Myself,@75)
+END
+
+////////////////////////////////////////
+// Fight Again
+////////////////////////////////////////
+
+IF
+    HPPercentLT(Myself,10)
+    Global("b#jier","GLOBAL",0)
+THEN
+    RESPONSE #100
+        StartCutSceneMode()
+        ClearAllActions()
+        DisplayStringHead("b#fir01",@57)
+        Wait(2)
+	ReallyForceSpell(Myself,CLERIC_HEAL)
+        SetGlobal("b#jier","GLOBAL",1)
+        DisplayStringHead("b#fir01",@58)
+	Wait(2)
+        CreateCreatureObjectEffect("b#wyv","SHAREA",[PC])
+        CreateCreatureObjectEffect("b#wyv","SHAREA",[PC])
+        CreateCreatureObjectEffect("b#wyv","SHAREA",Myself)
+        CreateCreatureObjectEffect("b#wyv","SHAREA",Myself)
+        EndCutSceneMode()
+END
+
+////////////////////////////////////////
+// Shape Change
+////////////////////////////////////////
+
+IF
+    HPPercentLT(Myself,10)
+    Global("b#firavatar","GLOBAL",0)
+    Global("b#jier","GLOBAL",1)
+THEN
+    RESPONSE #100
+        StartCutSceneMode()
+        SetGlobal("b#firavatar","GLOBAL",1)
+        ClearAllActions()
+        Wait(1)
+        DisplayStringHead("b#fir01",@50)
+        Wait(1)
+        CreateVisualEffectObject("SPFIREPI","b#fir01")
+        ReallyForceSpellRES("b#fir01",Myself) // No such index
+        Wait(2)
+        CreateVisualEffectObject("SPSTRENH","b#fir01")
+        CreateVisualEffectObject("SPHOLMIG","b#fir01")
+        CreateVisualEffectObject("GRNDGLOW","b#fir01")
+        Wait(1)
+        ReallyForceSpellRES("b#fir02",Myself) // No such index
+        EndCutSceneMode()
+END
+
+////////////////////////////////////////
+// Create & Use POTN52
+////////////////////////////////////////
+
+IF
+  HPPercentLT(Myself,76)
+  !GlobalTimerNotExpired("Cast","LOCALS")
+THEN
+  RESPONSE #100
+    SetGlobalTimer("Cast","LOCALS",6)
+    GiveItemCreate("potn52",Myself,1,0,0)
+    DisplayStringHead(Myself,46150)
+    UseItem("potn52",Myself)
+END
