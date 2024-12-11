@@ -1,0 +1,19 @@
+IF
+	Global("EAMadCleric","GLOBAL",0)
+	Dead("dcleric")
+THEN
+	RESPONSE #100
+		SetGlobal("EAMadCleric","GLOBAL",1)
+		SetGlobalTimer("EAMadClericSpawn","GLOBAL",THIRTY_DAYS)
+END
+
+IF
+	Global("EAMadCleric","GLOBAL",1)
+	AreaType(OUTDOOR)
+	AreaType(CITY)
+	GlobalTimerExpired("EAMadClericSpawn","GLOBAL")
+THEN
+	RESPONSE #500
+		ActionOverride(Player1,CreateCreatureOffScreen("dcleric2",0))
+		SetGlobal("EAMadCleric","GLOBAL",2)
+END

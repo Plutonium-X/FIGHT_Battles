@@ -1,0 +1,27 @@
+IF
+  Detect([PC])
+  Global("DoOnce","LOCALS",0)
+THEN
+  RESPONSE #100
+    SetInterrupt(FALSE)
+    DisplayStringHead(Myself,62033)
+    Wait(1)
+    ReallyForceSpell(Myself,WIZARD_STONE_SKIN)
+    SetGlobalTimer("castspell","LOCALS",ONE_ROUND)
+    ForceSpell(Player1,PSIONIC_EGOWHIP)
+    ForceSpell(Player2,PSIONIC_EGOWHIP)
+    ForceSpell(Player3,PSIONIC_EGOWHIP)
+    ForceSpell(Player4,PSIONIC_EGOWHIP)
+    ForceSpell(Player5,PSIONIC_EGOWHIP)
+    ForceSpell(Player6,PSIONIC_EGOWHIP)
+    ReallyForceSpell(LastSeenBy(Myself),WIZARD_LOWER_RESISTANCE)
+    ReallyForceSpell(LastSeenBy(Myself),WIZARD_ABI_DALZIMS_HORRID_WILTING)
+    CreateVisualEffect("SPROTECT",[728.711])
+    CreateCreature("GOLKILL2",[728.711],0)
+    CreateVisualEffect("SPROTECT",[728.905])
+    CreateCreature("b#golmag",[728.905],6)
+    CreateVisualEffect("SPROTECT",[500.905])
+    CreateCreature("GOLKILL2",[500.905],12)
+    SetInterrupt(TRUE)
+    SetGlobal("DoOnce","LOCALS",1)
+END

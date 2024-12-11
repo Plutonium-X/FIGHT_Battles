@@ -1,0 +1,18 @@
+IF
+	Detect([PC])
+	Global("doOnce","LOCALS",0)
+THEN
+	RESPONSE #100
+		SetInterrupt(FALSE)
+		DisplayStringHead(Myself,62033)
+		Wait(1)
+		SetGlobalTimer("castspell","LOCALS",ONE_ROUND)
+		ForceSpell(Player1,PSIONIC_EGOWHIP)
+		ForceSpell(Player2,PSIONIC_EGOWHIP)
+		ForceSpell(Player3,PSIONIC_EGOWHIP)
+		ForceSpell(Player4,PSIONIC_EGOWHIP)
+		ForceSpell(Player5,PSIONIC_EGOWHIP)
+		ForceSpell(Player6,PSIONIC_EGOWHIP)
+		SetInterrupt(TRUE)
+		SetGlobal("doOnce","LOCALS",1)
+END

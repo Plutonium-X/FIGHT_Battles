@@ -1,0 +1,84 @@
+// Enemy
+
+IF
+  Delay(18)
+  Allegiance(Myself,ENEMY)
+THEN
+  RESPONSE #25
+    ReallyForceSpell(Myself,CHROMATIC_DEMON_RED)
+    Polymorph(TANARRI)
+    DisplayStringHead(Myself,@140)
+    ReallyForceSpell(NearestEnemyOf(Myself),WIZARD_SUN_FIRE)
+    CreateVisualEffect("spportal",[2195.1530])
+    CreateVisualEffect("spportal",[1955.1670])
+    CreateCreature("b#chrfir",[2195.1530],3)
+    CreateCreature("b#chrfir",[1955.1670],11)
+  RESPONSE #25
+    ReallyForceSpell(Myself,CHROMATIC_DEMON_YELLOW)
+    Polymorph(ELEMENTAL_AIR)
+    DisplayStringHead(Myself,@141)
+    ReallyForceSpell(NearestEnemyOf(Myself),WIZARD_CHAIN_LIGHTNING)
+    CreateVisualEffect("spportal",[2195.1530])
+    CreateVisualEffect("spportal",[1955.1670])
+    CreateCreature("b#chrair",[2195.1530],3)
+    CreateCreature("b#chrair",[1955.1670],11)
+  RESPONSE #25
+    ReallyForceSpell(Myself,CHROMATIC_DEMON_WHITE)
+    Polymorph(IC_ICE_GOLEM)
+    DisplayStringHead(Myself,@142)
+    ReallyForceSpell(NearestEnemyOf(Myself),WIZARD_CONE_OF_COLD)
+    CreateVisualEffect("spportal",[2195.1670])
+    CreateVisualEffect("spportal",[1955.1530])
+    CreateCreature("b#chrice",[2195.1670],5)
+    CreateCreature("b#chrice",[1955.1530],13)
+  RESPONSE #25
+    ReallyForceSpell(Myself,CHROMATIC_DEMON_GREEN)
+    Polymorph(SHAMBLING_MOUND)
+    DisplayStringHead(Myself,@143)
+    ReallyForceSpell(NearestEnemyOf(Myself),WIZARD_FLESH_TO_STONE)
+    CreateVisualEffect("spportal",[2195.1670])
+    CreateVisualEffect("spportal",[1955.1530])
+    CreateCreature("b#chrear",[2195.1670],5)
+    CreateCreature("b#chrear",[1955.1530],13)
+END
+
+////////////////////////////////////////
+// Attack Script
+////////////////////////////////////////
+
+// Hear Anyone
+
+IF
+  Heard([ANYONE],111)
+THEN
+  RESPONSE #100
+    MoveToObject(NearestEnemyOf(Myself))
+END
+
+// Hit By PC or Summons
+
+IF
+  AttackedBy([GOODCUTOFF],DEFAULT)
+  !Allegiance(Myself,ENEMY)
+THEN
+  RESPONSE #100
+    Enemy()
+END
+
+// Hit By Anyone Attack
+
+IF
+    AttackedBy([ANYONE],DEFAULT)
+THEN
+    RESPONSE #100
+        Attack(LastAttackerOf(Myself))
+END
+
+// See Enemy & Attack
+
+IF
+  See(NearestEnemyOf(Myself))
+THEN
+  RESPONSE #100
+    AttackReevaluate(NearestEnemyOf(Myself),30)
+END

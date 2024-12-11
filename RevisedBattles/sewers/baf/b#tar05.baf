@@ -1,0 +1,71 @@
+IF
+  Allegiance(Myself,NEUTRAL)
+  Allegiance("tarnor",ENEMY)
+THEN
+  RESPONSE #100
+    Enemy()
+    Continue()
+END
+
+////////////////////////////////////////
+// Detect & Attack Enemy
+////////////////////////////////////////
+
+IF
+  Heard([ANYONE],111)
+THEN
+  RESPONSE #100
+    MoveToObject(NearestEnemyOf(Myself))
+END
+
+IF
+  Detect([PC])
+  OR(6)
+    !See(LastSeenBy(Myself))
+    StateCheck([PC],STATE_INVISIBLE)
+    StateCheck([PC],STATE_IMPROVEDINVISIBILITY)
+THEN
+  RESPONSE #100
+    DisplayStringHead(Myself,26703)
+    MoveToObject(LastSeenBy(Myself))
+END
+
+IF
+  See(NearestEnemyOf(Myself))
+  !GlobalTimerNotExpired("UseStun","LOCALS")
+  HaveSpell(MONK_STUNNING_BLOW)
+THEN
+  RESPONSE #100
+    SetGlobalTimer("UseStun","LOCALS",18)
+    SetGlobalTimer("UseQuiver","LOCALS",6)
+    Spell(Myself,MONK_STUNNING_BLOW)
+    Attack(LastSeenBy(Myself))
+    SetGlobal("b#quiver","LOCAL",1)
+    Continue()
+END
+
+IF
+  See(NearestEnemyOf(Myself))
+  !GlobalTimerNotExpired("UseQuiver","LOCALS")
+  HaveSpell(MONK_QUIVERING_PALM)
+THEN
+  RESPONSE #100
+    Spell(Myself,MONK_QUIVERING_PALM)
+    Attack(LastSeenBy(Myself))
+    Continue()
+END
+
+////////////////////////////////////////
+// Use Items
+////////////////////////////////////////
+
+IF
+  HPPercentLT(Myself,50)
+  HasItem("potn52",Myself)
+  GlobalTimerExpired("Cast","LOCALS")
+THEN
+  RESPONSE #100
+    SetGlobalTimer("Cast","LOCALS",6)
+    DisplayStringHead(Myself,46150)
+    UseItem("potn52",Myself)
+END
