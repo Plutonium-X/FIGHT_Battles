@@ -10,5 +10,4 @@ le mod propose aussi l'installation de 4 kits dont 3 très chouettes (le dernier
  
 Notes :
  - Ce mods ajoute des armes puissantes aux ennemis, qu'ils vont dropper. C'est l'un des principaux reproches fait à ce mod : profusion d'armes magiques.
- - Comme ce mod améliore les ennemis en boostant leur niveau, les rééquipant ou leur ajoutant des suivants, il est recommandé de l'installer avant SCS, BP ou tout autre mods qui améliore l'IA / les ennemis.- 
- -La communauté française en parle <a href=www.baldursgateworld.fr/viewtopic.php?t=9260&start=60>ici</a>.
+ - Comme ce mod améliore les ennemis en boostant leur niveau, les rééquipant ou leur ajoutant des suivants, il est recommandé de l'installer avant SCS, BP ou tout autre mods qui améliore l'IA / les ennemis.
