@@ -1,7 +1,7 @@
 # Revised Battles
 Revised Battle est un mod qui améliore beaucoup de combats, soit en boostant les ennemis, soit en en ajoutant. Ainsi, certains combat pathétiques deviennent sanglants ou de vrais boucheries. Tous les composants sont optionnels, sauf le premier (detectable spell) et le dernier (patch de tous les fichiers installés par le mod).
 
-le mod propose aussi l'installation de 4 kits dont 3 très chouettes (le dernier est une sorte de blague) :
+le mod propose aussi l'installation de 4 kits de guerrier dont 3 très chouettes (le dernier est une sorte de blague) :
  - Vengeur des arcanes
  - Maitre d'armes
  - Seigneur Démon
