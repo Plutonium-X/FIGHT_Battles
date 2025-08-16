@@ -6,8 +6,8 @@ IF
     See(ThirdNearestEnemyOf([PC]))
     See(SecondNearestEnemyOf([PC]))
     See(NearestEnemyOf([PC]))
-    See(ThirdNearestEnemyOf([Pc]))
-    See(SecondNearestEnemyOf([Pc]))
+    See(ThirdNearestEnemyOf([PC]))
+    See(SecondNearestEnemyOf([PC]))
     See(NearestEnemyOf([PC]))
     Global("Prep","LOCALS",0)
 THEN
@@ -24,8 +24,8 @@ IF
     See(ThirdNearestEnemyOf([PC]))
     See(SecondNearestEnemyOf([PC]))
     See(NearestEnemyOf([PC]))
-    See(ThirdNearestEnemyOf([Pc]))
-    See(SecondNearestEnemyOf([Pc]))
+    See(ThirdNearestEnemyOf([PC]))
+    See(SecondNearestEnemyOf([PC]))
     See(NearestEnemyOf([PC]))
 THEN
     RESPONSE #70
@@ -44,8 +44,8 @@ IF
     See(ThirdNearestEnemyOf([PC]))
     See(SecondNearestEnemyOf([PC]))
     See(NearestEnemyOf([PC]))
-    See(ThirdNearestEnemyOf([Pc]))
-    See(SecondNearestEnemyOf([Pc]))
+    See(ThirdNearestEnemyOf([PC]))
+    See(SecondNearestEnemyOf([PC]))
     See(NearestEnemyOf([PC]))
     Global("Prep","LOCALS",0)
 THEN
