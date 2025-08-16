@@ -24,6 +24,8 @@ THEN
         AttackOneRound(LastSeenBy(Myself))
 END
 
+// FIXME: these blocks will never be executed
+
 IF
   Global("Prep","LOCALS",0)
   OR(3)
