@@ -45,7 +45,7 @@ IF
 THEN
   RESPONSE #100
     EquipRanged()
-    AttackReevaluate(NearestEnemyOf(Myself),15)
+    AttackReevaluate(LastSeenBy(Myself),15)
 END
 
 IF
@@ -63,7 +63,7 @@ IF
 THEN
   RESPONSE #100
     EquipMostDamagingMelee()
-    AttackReevaluate(NearestEnemyOf(Myself),30)
+    AttackReevaluate(LastSeenBy(Myself),30)
 END
 
 ////////////////////////////////////////
