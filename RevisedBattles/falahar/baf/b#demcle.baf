@@ -144,7 +144,7 @@ IF
     HaveSpell(CLERIC_HEAL)
 THEN
     RESPONSE #100
-        Spell(Myself,0)
+        Spell(Myself,CLERIC_HEAL)
 END
 
 IF
