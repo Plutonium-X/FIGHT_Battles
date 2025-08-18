@@ -74,6 +74,7 @@ THEN
 END
 
 // Give Back Cloak of Mirroring
+// FIXME: pas sûr de l'impact de EquipItem sur les versions originales. Pour les versions EE, c'est pas adapté pour Player1, il faudrait utiliser XEquipItem
 
 IF
   !HasItem("clck26",Player1)
