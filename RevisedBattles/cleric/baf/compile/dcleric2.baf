@@ -29,7 +29,7 @@ END
 ////////////////////////////////////////
 
 IF
-  See([])
+  See([ANYONE])
   Allegiance(Myself,ENEMY)
   !Allegiance(LastSeenBy(Myself),PC)
   ActionListEmpty()
