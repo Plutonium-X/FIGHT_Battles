@@ -6,7 +6,8 @@ IF
   Die()
 THEN
   RESPONSE #100
-    IncrementGlobal("b#roen","GLOBAL",1)
+    IncrementGlobal("b#roen","GLOBAL",1)
+
 END
 
 ////////////////////////////////////////
@@ -649,6 +650,7 @@ END
 
 IF
   !CheckStat(NearestEnemyOfType([GOODCUTOFF.0.0.BARD]),0,STONESKINS)
+  !StateCheck(NearestEnemyOfType([GOODCUTOFF.0.0.BARD]),STATE_IMPROVEDINVISIBILITY)
   CheckStat(NearestEnemyOfType([GOODCUTOFF.0.0.BARD]),0,SANCTUARY)
   See(NearestEnemyOfType([GOODCUTOFF.0.0.BARD]))
   False()
