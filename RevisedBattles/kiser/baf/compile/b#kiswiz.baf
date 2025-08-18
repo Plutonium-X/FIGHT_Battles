@@ -373,15 +373,10 @@ END
 IF
     CheckStatGT(Myself,17,LEVEL)
     Global("Chain","LOCALS",0)
-    OR(8)
+    OR(3)
       See(NearestEnemyOf(Myself))
       HPPercentLT(Myself,100)
       SpellCastOnMe([GOODCUTOFF],0)
-      SpellCastOnMe([PC],0)
-      SpellCastOnMe([FAMILIAR],0)
-      SpellCastOnMe([ALLY],0)
-      SpellCastOnMe([CONTROLLED],0)
-      SpellCastOnMe([CHARMED],0)
     !HP(Myself,0)
 THEN
     RESPONSE #100
