@@ -1293,8 +1293,8 @@ IF
 THEN
   RESPONSE #100
     SetGlobalTimer("Cast","LOCALS",6)
-    Spell(LastSeenBy,WIZARD_SYMBOL_FEAR)
-    Spell(LastSeenBy,WIZARD_NPC_SYMBOL_FEAR)
+    Spell(LastSeenBy(Myself),WIZARD_SYMBOL_FEAR)
+    Spell(LastSeenBy(Myself),WIZARD_NPC_SYMBOL_FEAR)
 END
 
 IF
