@@ -1728,7 +1728,7 @@ END
 IF
   GlobalTimerExpired("Cast","LOCALS")
   HaveSpell(WIZARD_CLOUDKILL)
-  HasItem("LICH",Myself) // No such index
+  HasItemEquiped("LICH",Myself) // No such index
   CheckStatLT(LastSeenBy(Myself),50,MAGICDAMAGERESISTANCE)
   !RandomNum(20,0)
 THEN

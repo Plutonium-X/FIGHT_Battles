@@ -2162,7 +2162,7 @@ END
 IF
 	GlobalTimerExpired("Cast","LOCALS")
         HaveSpell(WIZARD_CLOUDKILL)
-        HasItem("LICH",Myself)  // immune to spell level 5!
+        HasItemEquiped("LICH",Myself)  // immune to spell level 5!
         CheckStatLT(LastSeenBy(Myself),50,MAGICDAMAGERESISTANCE)
     !RandomNum(20,0)
 THEN
