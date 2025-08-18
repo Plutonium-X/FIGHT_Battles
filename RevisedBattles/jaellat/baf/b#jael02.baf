@@ -20,11 +20,9 @@ THEN
   RESPONSE #100
     SetGlobalTimer("Cast","LOCALS",1)
     ReallyForceSpell("jael04",CLERIC_CHAOTIC_COMMANDS)
-    ReallyForceSpell("jael04",CLERIC_CHAOTIC_COMMANDS)
     ReallyForceSpell(Myself,CLERIC_CHAOTIC_COMMANDS)
     ReallyForceSpell(Myself,CLERIC_PROTECTION_FROM_EVIL_10_FOOT)
     ReallyForceSpell(Myself,CLERIC_REMOVE_FEAR)
-    ReallyForceSpell("jael04",CLERIC_REMOVE_FEAR)
     ReallyForceSpell("jael04",CLERIC_REMOVE_FEAR)
     ReallyForceSpell(Myself,CLERIC_SHIELD_OF_THE_ARCHONS)
     ReallyForceSpell(Myself,CLERIC_TRUE_SIGHT)

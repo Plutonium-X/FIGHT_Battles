@@ -66,17 +66,6 @@ END
 IF
   See(NearestEnemyOf(Myself))
   CheckStatLT(Myself,18,STR)
-  HasItem("potn04",Myself) // Potion of Frost Giant Strength
-THEN
-  RESPONSE #100
-    DisplayStringHead(Myself,46150) // quaffs a potion
-    UseItem("potn03",Myself) // Potion of Hill Giant Strength
-    Continue()
-END
-
-IF
-  See(NearestEnemyOf(Myself))
-  CheckStatLT(Myself,18,STR)
   HasItem("potn12",Myself) // Potion of Stone Giant Strength
 THEN
   RESPONSE #100
@@ -90,7 +79,7 @@ IF
     Class(Myself,MAGE_ALL)
     Class(Myself,BARD_ALL)
   See(NearestEnemyOf(Myself))
-  !Dead("astSeenBy(Myself))")
+  !StateCheck(LastSeenBy(Myself),STATE_DEAD)
   !StateCheck(LastSeenBy(Myself),STATE_PANIC)
   !HasBounceEffects(LastSeenBy(Myself))
   !LevelGT(LastSeenBy(Myself),10)
@@ -107,7 +96,7 @@ IF
     Class(Myself,MAGE_ALL)
     Class(Myself,BARD_ALL)
   See(NearestEnemyOf(Myself))
-  !Dead("astSeenBy(Myself))")
+  !StateCheck(LastSeenBy(Myself),STATE_DEAD)
   !HasBounceEffects(LastSeenBy(Myself))
   !StateCheck(LastSeenBy(Myself),STATE_STUNNED)
   HasItem("wand04",Myself) // Wand of Paralyzation 
@@ -123,7 +112,7 @@ IF
     Class(Myself,MAGE_ALL)
     Class(Myself,BARD_ALL)
   See(NearestEnemyOf(Myself))
-  !Dead("astSeenBy(Myself))")
+  !StateCheck(LastSeenBy(Myself),STATE_DEAD)
   !HasBounceEffects(LastSeenBy(Myself))
   HasItem("wand06",Myself) // Wand of Frost
 THEN
@@ -138,7 +127,7 @@ IF
     Class(Myself,MAGE_ALL)
     Class(Myself,BARD_ALL)
   See(NearestEnemyOf(Myself))
-  !Dead("astSeenBy(Myself))")
+  !StateCheck(LastSeenBy(Myself),STATE_DEAD)
   !StateCheck(LastSeenBy(Myself),STATE_SLEEPING)
   !HasBounceEffects(LastSeenBy(Myself))
   !LevelGT(LastSeenBy(Myself),10)
@@ -155,7 +144,7 @@ IF
     Class(Myself,MAGE_ALL)
     Class(Myself,BARD_ALL)
   See(NearestEnemyOf(Myself))
-  !Dead("astSeenBy(Myself))")
+  !StateCheck(LastSeenBy(Myself),STATE_DEAD)
   !LevelGT(LastSeenBy(Myself),10)
   !HasBounceEffects(LastSeenBy(Myself))
   HasItem("wand09",Myself) // Wand of Polymorphing
@@ -171,7 +160,7 @@ IF
     Class(Myself,MAGE_ALL)
     Class(Myself,BARD_ALL)
   See(NearestEnemyOf(Myself))
-  !Dead("astSeenBy(Myself))")
+  !StateCheck(LastSeenBy(Myself),STATE_DEAD)
   HasItem("wand10",Myself) // Wand of Monster Summoning
 THEN
   RESPONSE #100
@@ -183,7 +172,7 @@ END
 IF
   Class(Myself,CLERIC_ALL)
   See(NearestEnemyOf(Myself))
-  !Dead("astSeenBy(Myself))")
+  !StateCheck(LastSeenBy(Myself),STATE_DEAD)
   OR(2)
     !CheckStatGT(LastSeenBy(Myself),50,RESISTMAGICFIRE)
     !HasImmunityEffects(LastSeenBy(Myself))

@@ -99,7 +99,7 @@ END
 IF
     See(NearestEnemyOf(Myself))
     Global("Prep","LOCALS",1)
-    !Dead("yself)")
+    !StateCheck(Myself,STATE_DEAD)
 THEN
     RESPONSE #100
         Spell(Myself,WIZARD_SPELL_TURNING)
@@ -135,7 +135,7 @@ IF
     See(NearestEnemyOf(Myself))
     TookDamage()
     Global("Prep2","LOCALS",1)
-    !Dead("yself)")
+    !StateCheck(Myself,STATE_DEAD)
 THEN
     RESPONSE #100
         DisplayString(Myself,40252) // Contingency - Protection from Magical Weapons
@@ -156,7 +156,7 @@ END
 IF
     See(NearestEnemyOf(Myself))
     Global("SpellTrigger","LOCALS",0)
-    !Dead("yself)")
+    !StateCheck(Myself,STATE_DEAD)
 THEN
     RESPONSE #100
         DisplayString(Myself,39969) // Spell Sequencer - Fired

@@ -17,7 +17,7 @@ IF
   Detect([PC])
   Allegiance(Myself,ENEMY)
   !Allegiance(LastSeenBy(Myself),ENEMY)
-  OR(6)
+  OR(3)
     !See(LastSeenBy(Myself))
     StateCheck([PC],STATE_INVISIBLE)
     StateCheck([PC],STATE_IMPROVEDINVISIBILITY)

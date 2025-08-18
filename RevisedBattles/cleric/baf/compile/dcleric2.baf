@@ -29,7 +29,7 @@ END
 ////////////////////////////////////////
 
 IF
-  See([])
+  See([ANYONE])
   Allegiance(Myself,ENEMY)
   !Allegiance(LastSeenBy(Myself),PC)
   ActionListEmpty()
@@ -67,19 +67,21 @@ END
 ///////////////////////////////////////////////////////////////////////
 IF
     !Allegiance(Myself,ENEMY)
-    OR(12)
+    OR(14)
       AttackedBy([GOODCUTOFF.0.0.0.0.SUMMONED],DEFAULT)
       AttackedBy([PC],DEFAULT)
       AttackedBy([FAMILIAR],DEFAULT)
       AttackedBy([ALLY],DEFAULT)
       AttackedBy([CONTROLLED],DEFAULT)
       AttackedBy([CHARMED],DEFAULT)
+      AttackedBy([7],DEFAULT)
       SpellCastOnMe([GOODCUTOFF.0.0.0.0.SUMMONED],0)
       SpellCastOnMe([PC],0)
       SpellCastOnMe([FAMILIAR],0)
       SpellCastOnMe([ALLY],0)
       SpellCastOnMe([CONTROLLED],0)
       SpellCastOnMe([CHARMED],0)
+      SpellCastOnMe([7],0)
 THEN
   RESPONSE #100
       Enemy()
@@ -891,6 +893,7 @@ END
 // Nearest Bard.
 IF
     !CheckStat(NearestEnemyOfType([GOODCUTOFF.0.0.BARD]),0,STONESKINS)
+    !StateCheck(NearestEnemyOfType([GOODCUTOFF.0.0.BARD]),STATE_IMPROVEDINVISIBILITY)
     CheckStat(NearestEnemyOfType([GOODCUTOFF.0.0.BARD]),0,SANCTUARY)
     See(NearestEnemyOfType([GOODCUTOFF.0.0.BARD]))
     False()
@@ -909,7 +912,7 @@ THEN
 END
 // SecondNearest CLERIC_ALL.
 IF
-    !CheckStat(NearestEnemyOfType([GOODCUTOFF.0.0.CLERIC_ALL]),0,STONESKINS)
+    !CheckStat(SecondNearestEnemyOfType([GOODCUTOFF.0.0.CLERIC_ALL]),0,STONESKINS)
     !StateCheck(SecondNearestEnemyOfType([GOODCUTOFF.0.0.CLERIC_ALL]),STATE_IMPROVEDINVISIBILITY)
     CheckStat(SecondNearestEnemyOfType([GOODCUTOFF.0.0.CLERIC_ALL]),0,SANCTUARY)
     See(SecondNearestEnemyOfType([GOODCUTOFF.0.0.CLERIC_ALL]))
@@ -929,7 +932,7 @@ THEN
 END
 // SecondNearest MAGE_ALL.
 IF
-    !CheckStat(NearestEnemyOfType([GOODCUTOFF.0.0.MAGE_ALL]),0,STONESKINS)
+    !CheckStat(SecondNearestEnemyOfType([GOODCUTOFF.0.0.MAGE_ALL]),0,STONESKINS)
     !StateCheck(SecondNearestEnemyOfType([GOODCUTOFF.0.0.MAGE_ALL]),STATE_IMPROVEDINVISIBILITY)
     CheckStat(SecondNearestEnemyOfType([GOODCUTOFF.0.0.MAGE_ALL]),0,SANCTUARY)
     See(SecondNearestEnemyOfType([GOODCUTOFF.0.0.MAGE_ALL]))
@@ -1423,6 +1426,7 @@ END
 IF
     !HasBounceEffects(NearestEnemyOfType([GOODCUTOFF.0.0.MAGE_ALL]))
     !HasImmunityEffects(NearestEnemyOfType([GOODCUTOFF.0.0.MAGE_ALL]))
+    CheckStatLT(NearestEnemyOfType([GOODCUTOFF.0.0.MAGE_ALL]),50,RESISTMAGIC)
     //!StateCheck(NearestEnemyOfType([GOODCUTOFF.0.0.MAGE_ALL])),STATE_OUT_OF_ACTION)
     !StateCheck(NearestEnemyOfType([GOODCUTOFF.0.0.MAGE_ALL]),STATE_IMPROVEDINVISIBILITY)
     CheckStat(NearestEnemyOfType([GOODCUTOFF.0.0.MAGE_ALL]),0,SANCTUARY)
@@ -1649,8 +1653,8 @@ IF
 THEN
     RESPONSE #100
         SetGlobalTimer("Cast","LOCALS",6)
-        Spell(LastSeenBy,WIZARD_SYMBOL_FEAR)
-        Spell(LastSeenBy,WIZARD_NPC_SYMBOL_FEAR)
+        Spell(LastSeenBy(Myself),WIZARD_SYMBOL_FEAR)
+        Spell(LastSeenBy(Myself),WIZARD_NPC_SYMBOL_FEAR)
 END
 
 /////////////////////////////////////////////////////////////////////
@@ -1767,7 +1771,8 @@ IF
         !HasItemEquiped("NPCHAN",LastSeenBy(Myself)) // Corthala Family Armor
         !HasItemEquiped("REAVER",LastSeenBy(Myself)) // Unholy Reaver
         !HasItemEquiped("SHLD25",LastSeenBy(Myself)) // Shield of Harmony +2
-        !HasItemEquipedReal("SPER07",LastSeenBy(Myself)) // Spear of the Unicorn +2           !HasItemEquipedReal("STAF11",LastSeenBy(Myself)) // Staff of the Magi
+        !HasItemEquipedReal("SPER07",LastSeenBy(Myself)) // Spear of the Unicorn +2
+        !HasItemEquipedReal("STAF11",LastSeenBy(Myself)) // Staff of the Magi
         !HasItemEquipedReal("SW1H35",LastSeenBy(Myself)) // Adjatha the Drinker +2
         !HasItemEquipedReal("SW1H54",LastSeenBy(Myself)) // The Equalizer
         !HasItemEquipedReal("SW2H14",LastSeenBy(Myself)) // Lilarcor
@@ -2170,6 +2175,7 @@ END
 /////////////////////////////////////////////////////////////////////
 // Stinking Cloud
 /////////////////////////////////////////////////////////////////////
+// FIXME: conditions seems to be incorrect here
 IF
     GlobalTimerExpired("Cast","LOCALS")
     HaveSpell(WIZARD_STINKING_CLOUD)
@@ -2194,7 +2200,7 @@ END
 IF
 	GlobalTimerExpired("Cast","LOCALS")
         HaveSpell(WIZARD_CLOUDKILL)
-        HasItem("LICH",Myself)  // immune to spell level 5!
+        HasItemEquiped("LICH",Myself)  // immune to spell level 5!
         CheckStatLT(LastSeenBy(Myself),50,MAGICDAMAGERESISTANCE)
     !RandomNum(20,0)
 THEN

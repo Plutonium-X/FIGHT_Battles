@@ -41,12 +41,13 @@ THEN
 END
 
 IF
-  OR(5)
+  OR(6)
     AttackedBy([PC],DEFAULT)
     AttackedBy([FAMILIAR],DEFAULT)
     AttackedBy([ALLY],DEFAULT)
     AttackedBy([CONTROLLED],DEFAULT)
     AttackedBy([CHARMED],DEFAULT)
+    AttackedBy([7],DEFAULT)
   Allegiance(Myself,ENEMY)
   ActionListEmpty()
 THEN

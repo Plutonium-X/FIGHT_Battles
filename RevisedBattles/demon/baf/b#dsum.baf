@@ -1,15 +1,9 @@
 IF
-  OR(9)
+  Global("Prep","LOCALS",0)
+  OR(3)
     See(ThirdNearestEnemyOf([PC]))
     See(SecondNearestEnemyOf([PC]))
     See(NearestEnemyOf([PC]))
-    See(ThirdNearestEnemyOf([PC]))
-    See(SecondNearestEnemyOf([PC]))
-    See(NearestEnemyOf([PC]))
-    See(ThirdNearestEnemyOf([Pc]))
-    See(SecondNearestEnemyOf([Pc]))
-    See(NearestEnemyOf([PC]))
-    Global("Prep","LOCALS",0)
 THEN
     RESPONSE #100
         ForceSpell(LastSeenBy(Myself),WIZARD_DISPEL_MAGIC)
@@ -17,15 +11,9 @@ THEN
 END
 
 IF
-  OR(9)
+  OR(3)
     See(ThirdNearestEnemyOf([PC]))
     See(SecondNearestEnemyOf([PC]))
-    See(NearestEnemyOf([PC]))
-    See(ThirdNearestEnemyOf([PC]))
-    See(SecondNearestEnemyOf([PC]))
-    See(NearestEnemyOf([PC]))
-    See(ThirdNearestEnemyOf([Pc]))
-    See(SecondNearestEnemyOf([Pc]))
     See(NearestEnemyOf([PC]))
 THEN
     RESPONSE #70
@@ -36,18 +24,14 @@ THEN
         AttackOneRound(LastSeenBy(Myself))
 END
 
+// FIXME: these blocks will never be executed
+
 IF
-  OR(9)
+  Global("Prep","LOCALS",0)
+  OR(3)
     See(ThirdNearestEnemyOf([PC]))
     See(SecondNearestEnemyOf([PC]))
     See(NearestEnemyOf([PC]))
-    See(ThirdNearestEnemyOf([PC]))
-    See(SecondNearestEnemyOf([PC]))
-    See(NearestEnemyOf([PC]))
-    See(ThirdNearestEnemyOf([Pc]))
-    See(SecondNearestEnemyOf([Pc]))
-    See(NearestEnemyOf([PC]))
-    Global("Prep","LOCALS",0)
 THEN
     RESPONSE #100
         ForceSpell(LastSeenBy(Myself),WIZARD_DISPEL_MAGIC)
@@ -55,17 +39,11 @@ THEN
 END
 
 IF
-  OR(9)
+  Global("Prep","LOCALS",1)
+  OR(3)
     See(ThirdNearestEnemyOf([PC]))
     See(SecondNearestEnemyOf([PC]))
     See(NearestEnemyOf([PC]))
-    See(ThirdNearestEnemyOf([PC]))
-    See(SecondNearestEnemyOf([PC]))
-    See(NearestEnemyOf([PC]))
-    See(ThirdNearestEnemyOf([PC]))
-    See(SecondNearestEnemyOf([PC]))
-    See(NearestEnemyOf([PC]))
-    Global("Prep","LOCALS",1)
 THEN
     RESPONSE #75
         AttackReevaluate(LastSeenBy(Myself),30)
