@@ -26,19 +26,21 @@ END
 
 IF
     !Allegiance(Myself,ENEMY)
-    OR(12)
+    OR(14)
         AttackedBy([GOODCUTOFF.0.0.0.0.SUMMONED],DEFAULT)
         AttackedBy([PC],DEFAULT)
         AttackedBy([FAMILIAR],DEFAULT)
         AttackedBy([ALLY],DEFAULT)
         AttackedBy([CONTROLLED],DEFAULT)
         AttackedBy([CHARMED],DEFAULT)
+        AttackedBy([7],DEFAULT)
         SpellCastOnMe([GOODCUTOFF.0.0.0.0.SUMMONED],0)
         SpellCastOnMe([PC],0)
         SpellCastOnMe([FAMILIAR],0)
         SpellCastOnMe([ALLY],0)
         SpellCastOnMe([CONTROLLED],0)
         SpellCastOnMe([CHARMED],0)
+        SpellCastOnMe([7],0)
 THEN
     RESPONSE #100
         Enemy()
