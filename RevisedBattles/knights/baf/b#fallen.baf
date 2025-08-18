@@ -3,6 +3,10 @@
 ////////////////////////////////////////
 
 // Paladin
+// FIXME: l'indentation de Global("b#SamilMove","GLOBAL",2) laisse penser qu'il fait parti du OR(2) mais en étant sur la troisième ligne
+// Il faudrait investiguer pour connaître l'intention de l'auteur
+// est-ce une condition nécessaire et dans ce cas il faut réduire l'indentation
+// ou le OR(2) devrait être un OR(3) ? dans ce cas, c'est impactant
 
 IF
   Class(Player1,PALADIN_ALL)
