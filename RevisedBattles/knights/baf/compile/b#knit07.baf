@@ -906,7 +906,7 @@ THEN
 END
 // SecondNearest CLERIC_ALL.
 IF
-    !CheckStat(NearestEnemyOfType([GOODCUTOFF.0.0.CLERIC_ALL]),0,STONESKINS)
+    !CheckStat(SecondNearestEnemyOfType([GOODCUTOFF.0.0.CLERIC_ALL]),0,STONESKINS)
     !StateCheck(SecondNearestEnemyOfType([GOODCUTOFF.0.0.CLERIC_ALL]),STATE_IMPROVEDINVISIBILITY)
     CheckStat(SecondNearestEnemyOfType([GOODCUTOFF.0.0.CLERIC_ALL]),0,SANCTUARY)
     See(SecondNearestEnemyOfType([GOODCUTOFF.0.0.CLERIC_ALL]))
