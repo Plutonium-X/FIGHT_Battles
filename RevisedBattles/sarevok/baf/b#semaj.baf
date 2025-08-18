@@ -1734,7 +1734,8 @@ IF
         !HasItemEquiped("NPCHAN",LastSeenBy(Myself)) // Corthala Family Armor
         !HasItemEquiped("REAVER",LastSeenBy(Myself)) // Unholy Reaver
         !HasItemEquiped("SHLD25",LastSeenBy(Myself)) // Shield of Harmony +2
-        !HasItemEquipedReal("SPER07",LastSeenBy(Myself)) // Spear of the Unicorn +2           !HasItemEquipedReal("STAF11",LastSeenBy(Myself)) // Staff of the Magi
+        !HasItemEquipedReal("SPER07",LastSeenBy(Myself)) // Spear of the Unicorn +2
+        !HasItemEquipedReal("STAF11",LastSeenBy(Myself)) // Staff of the Magi
         !HasItemEquipedReal("SW1H35",LastSeenBy(Myself)) // Adjatha the Drinker +2
         !HasItemEquipedReal("SW1H54",LastSeenBy(Myself)) // The Equalizer
         !HasItemEquipedReal("SW2H14",LastSeenBy(Myself)) // Lilarcor
