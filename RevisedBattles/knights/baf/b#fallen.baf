@@ -3,18 +3,21 @@
 ////////////////////////////////////////
 
 // Paladin
+// SamilWarned vaut 2 si on a accepté de se taire ou on a tué Samil de suite
+// SamilChellenged vaut 2 si on lui accorde la vie en refusant le duel
+// SamilMove vaut 2 si on laisse les autorités le poursuivre, dans ce cas il s'enfuit
 
 IF
   Class(Player1,PALADIN_ALL)
   !FallenPaladin(Player1)
-  OR(2)
+  OR(3)
     Global("b#SamilWarned","GLOBAL",2)
     Global("b#SamilChellenged","GLOBAL",2)
     Global("b#SamilMove","GLOBAL",2)
   Global("b#LostHood","GLOBAL",0)
 THEN
   RESPONSE #100
-    SetGlobal("b#LostHood","GLOBAL",0)
+    SetGlobal("b#LostHood","GLOBAL",1)
     RemovePaladinHood()
 END
 
@@ -23,13 +26,13 @@ END
 IF
   Class(Player1,RANGER_ALL)
   !FallenPaladin(Player1)
-  OR(2)
+  OR(3)
     Global("b#SamilWarned","GLOBAL",2)
     Global("b#SamilChellenged","GLOBAL",2)
     Global("b#SamilMove","GLOBAL",2)
   Global("b#LostHood","GLOBAL",0)
 THEN
   RESPONSE #100
-    SetGlobal("b#LostHood","GLOBAL",0)
+    SetGlobal("b#LostHood","GLOBAL",1)
     RemoveRangerHood()
 END

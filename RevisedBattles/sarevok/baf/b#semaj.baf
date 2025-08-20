@@ -369,15 +369,10 @@ END
 IF
     CheckStatGT(Myself,17,LEVEL)
     Global("Chain","LOCALS",0)
-    OR(8)
+    OR(3)
       See(NearestEnemyOf(Myself))
       HPPercentLT(Myself,100)
       SpellCastOnMe([GOODCUTOFF],0)
-      SpellCastOnMe([PC],0)
-      SpellCastOnMe([FAMILIAR],0)
-      SpellCastOnMe([ALLY],0)
-      SpellCastOnMe([CONTROLLED],0)
-      SpellCastOnMe([CHARMED],0)
     !HP(Myself,0)
 THEN
     RESPONSE #100
@@ -1379,7 +1374,7 @@ IF
     !HasBounceEffects(NearestEnemyOfType([GOODCUTOFF.0.0.CLERIC_ALL]))
     !HasImmunityEffects(NearestEnemyOfType([GOODCUTOFF.0.0.CLERIC_ALL]))
     CheckStatLT(NearestEnemyOfType([GOODCUTOFF.0.0.CLERIC_ALL]),50,RESISTMAGIC)
-    //!StateCheck(NearestEnemyOfType([GOODCUTOFF.0.0.CLERIC_ALL])),STATE_OUT_OF_ACTION)
+    //!StateCheck(NearestEnemyOfType([GOODCUTOFF.0.0.CLERIC_ALL]),STATE_OUT_OF_ACTION)
     !StateCheck(NearestEnemyOfType([GOODCUTOFF.0.0.CLERIC_ALL]),STATE_IMPROVEDINVISIBILITY)
     CheckStat(NearestEnemyOfType([GOODCUTOFF.0.0.CLERIC_ALL]),0,SANCTUARY)
     See(NearestEnemyOfType([GOODCUTOFF.0.0.CLERIC_ALL]))
@@ -1392,7 +1387,7 @@ IF
     !HasBounceEffects(NearestEnemyOfType([GOODCUTOFF.0.0.MAGE_ALL]))
     !HasImmunityEffects(NearestEnemyOfType([GOODCUTOFF.0.0.MAGE_ALL]))
     CheckStatLT(NearestEnemyOfType([GOODCUTOFF.0.0.MAGE_ALL]),50,RESISTMAGIC)
-    //!StateCheck(NearestEnemyOfType([GOODCUTOFF.0.0.MAGE_ALL])),STATE_OUT_OF_ACTION)
+    //!StateCheck(NearestEnemyOfType([GOODCUTOFF.0.0.MAGE_ALL]),STATE_OUT_OF_ACTION)
     !StateCheck(NearestEnemyOfType([GOODCUTOFF.0.0.MAGE_ALL]),STATE_IMPROVEDINVISIBILITY)
     CheckStat(NearestEnemyOfType([GOODCUTOFF.0.0.MAGE_ALL]),0,SANCTUARY)
     See(NearestEnemyOfType([GOODCUTOFF.0.0.MAGE_ALL]))
@@ -2143,13 +2138,8 @@ END
 IF
     GlobalTimerExpired("Cast","LOCALS")
     HaveSpell(WIZARD_STINKING_CLOUD)
-    CheckStatGT(LastSeenBy(Myself),1,SAVEVSSPELL)
-    !Kit(LastSeenBy(Myself),INQUISITOR)
-    !HasItemEquiped("ANTIWEB",LastSeenBy(Myself)) // is a spider
-    !HasItemEquiped("FREERING",LastSeenBy(Myself)) // Ring of Free Action
-    !HasItemEquiped("ROSSRING",LastSeenBy(Myself)) // Ring of Free Action
-    !HasItemEquiped("RING09",LastSeenBy(Myself)) // Ring of Free Action
-    !HasItemEquiped("NPSW01",LastSeenBy(Myself)) // Sword of Avoreen
+    CheckStatGT(LastSeenBy(Myself),2,SAVEVSDEATH)
+    !HasItemEquiped("AMUL17",LastSeenBy(Myself)) // greenstone
     //!StateCheck(LastSeenBy(Myself),STATE_OUT_OF_ACTION)
     !RandomNum(20,0)
 THEN

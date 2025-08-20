@@ -74,6 +74,8 @@ THEN
 END
 
 // Give Back Cloak of Mirroring
+// FIXME: pas sûr de l'impact de EquipItem sur les versions originales
+// Pour les versions EE, on pourrait proprement utiliser EquipItemEx pour l'enlever et ensuite l'ajouter
 
 IF
   !HasItem("clck26",Player1)

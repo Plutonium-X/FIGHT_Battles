@@ -295,15 +295,10 @@ END
 IF
   CheckStatGT(Myself,17,LEVEL)
   Global("Chain","LOCALS",0)
-  OR(8)
+  OR(3)
     See(NearestEnemyOf(Myself))
     HPPercentLT(Myself,100)
     SpellCastOnMe([GOODCUTOFF],0)
-    SpellCastOnMe([PC],0)
-    SpellCastOnMe([FAMILIAR],0)
-    SpellCastOnMe([ALLY],0)
-    SpellCastOnMe([CONTROLLED],0)
-    SpellCastOnMe([CHARMED],0)
   !HP(Myself,0)
 THEN
   RESPONSE #100
@@ -1700,13 +1695,8 @@ END
 IF
   GlobalTimerExpired("Cast","LOCALS")
   HaveSpell(WIZARD_STINKING_CLOUD)
-  CheckStatGT(LastSeenBy(Myself),1,SAVEVSSPELL)
-  !Kit(LastSeenBy(Myself),INQUISITOR)
-  !HasItemEquiped("ANTIWEB",LastSeenBy(Myself)) // No such index
-  !HasItemEquiped("FREERING",LastSeenBy(Myself)) // Ring of Free Action
-  !HasItemEquiped("ROSSRING",LastSeenBy(Myself)) // Ring of Free Action
-  !HasItemEquiped("RING09",LastSeenBy(Myself)) // Ring of Free Action
-  !HasItemEquiped("NPSW01",LastSeenBy(Myself)) // Sword of Arvoreen
+  CheckStatGT(LastSeenBy(Myself),2,SAVEVSDEATH)
+  !HasItemEquiped("AMUL17",LastSeenBy(Myself)) // greenstone
   !RandomNum(20,0)
 THEN
   RESPONSE #100
