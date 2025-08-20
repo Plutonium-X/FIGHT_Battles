@@ -2138,13 +2138,8 @@ END
 IF
     GlobalTimerExpired("Cast","LOCALS")
     HaveSpell(WIZARD_STINKING_CLOUD)
-    CheckStatGT(LastSeenBy(Myself),1,SAVEVSSPELL)
-    !Kit(LastSeenBy(Myself),INQUISITOR)
-    !HasItemEquiped("ANTIWEB",LastSeenBy(Myself)) // is a spider
-    !HasItemEquiped("FREERING",LastSeenBy(Myself)) // Ring of Free Action
-    !HasItemEquiped("ROSSRING",LastSeenBy(Myself)) // Ring of Free Action
-    !HasItemEquiped("RING09",LastSeenBy(Myself)) // Ring of Free Action
-    !HasItemEquiped("NPSW01",LastSeenBy(Myself)) // Sword of Avoreen
+    CheckStatGT(LastSeenBy(Myself),2,SAVEVSDEATH)
+    !HasItemEquiped("AMUL17",LastSeenBy(Myself)) // greenstone
     //!StateCheck(LastSeenBy(Myself),STATE_OUT_OF_ACTION)
     !RandomNum(20,0)
 THEN
