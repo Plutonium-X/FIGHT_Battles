@@ -24,7 +24,7 @@ THEN
     CreateCreature("b#chrair",[1955.1670],11)
   RESPONSE #25
     ReallyForceSpell(Myself,CHROMATIC_DEMON_WHITE)
-    Polymorph(IC_ICE_GOLEM)
+    Polymorph(GOLEM_ICE)
     DisplayStringHead(Myself,@142)
     ReallyForceSpell(NearestEnemyOf(Myself),WIZARD_CONE_OF_COLD)
     CreateVisualEffect("spportal",[2195.1670])

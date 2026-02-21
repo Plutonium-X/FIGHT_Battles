@@ -21,7 +21,7 @@ ALWAYS  //Patch for BG2EE and EET
 		"hideid.tra"
 		"sthideid.tra"
 		END
-		ACTION_DEFINE_ARRAY px_noconvert BEGIN END
+		ACTION_DEFINE_ARRAY px_noconvert BEGIN install END
 		LAF HANDLE_CHARSETS
 			INT_VAR
 			infer_charsets = 1
@@ -100,7 +100,20 @@ LANGUAGE	~Spanish (translation by Lord Psion)~
 		~RevisedBattles/Language/Spanish/b#knight.tra~
 		~RevisedBattles/Language/Spanish/b#spl.tra~
 		~RevisedBattles/Language/Spanish/hideid.tra~
-		~RevisedBattles/Language/Spanish/sthideid.tra~
+		~RevisedBattles/Language/Spanish/sthideid.tra~		
+		
+LANGUAGE	~Schinese (translation by barkingdog & Piedelo)~
+		~schinese~
+		~RevisedBattles/Language/Schinese/titles.tra~
+		~RevisedBattles/Language/Schinese/install.tra~
+		~RevisedBattles/Language/Schinese/b#cre.tra~
+		~RevisedBattles/Language/Schinese/b#dlg.tra~
+		~RevisedBattles/Language/Schinese/b#itm.tra~
+		~RevisedBattles/Language/Schinese/b#kit.tra~
+		~RevisedBattles/Language/Schinese/b#knight.tra~
+		~RevisedBattles/Language/Schinese/b#spl.tra~
+		~RevisedBattles/Language/Schinese/hideid.tra~
+		~RevisedBattles/Language/Schinese/sthideid.tra~		
 
 ////////////////////////////////////////////////////////////////////////////////////////////////////
 // Modified STATS.IDS
