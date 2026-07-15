@@ -25,6 +25,3 @@ The mod also offers the installation of four warrior kits, three of which are re
 Notes:
  - This mod adds powerful weapons to enemies, which they will drop. This is one of the main criticisms of this mod: an overabundance of magical weapons.
  - Since this mod enhances enemies by boosting their level, re-equipping them, or adding followers to them, it is recommended to install it before SCS, BP, or any other mods that enhance AI or enemies.
-
-
-Translated with DeepL.com (free version)
